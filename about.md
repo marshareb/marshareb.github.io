@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a first year graduate student at Ohio State University in Mathematics. While my passion is in studying pure math, I also enjoy teaching and mentoring other students. I've been a tutor for the past five years and I've been a TA for the past two years, with responsibilities ranging from grading to teaching a class. Currently, I am on a fellowship and am not teaching. I also dabble in programming, having developed a variety of programs to automate things in my life. I also enjoy sushi and board games in my free time.
 
-### More Information
+### Research Interests
 
-A place to include any other types of information that you'd like to include about yourself.
+My interests as of now are in Geometric Group Theory and Dynamics, though this is subject to me learning more.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jamesmarshallreber@gmail.com](mailto:jamesmarshallreber@gmail.com)
