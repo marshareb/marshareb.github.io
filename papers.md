@@ -12,7 +12,7 @@ Here are a collection of papers and presentations I've done over the years.
 <h3> <a class = "link-style" href="https://drive.google.com/file/d/0B7xRmSk2iyhedWp6ZmxzdTRDZHM/view?usp=sharing">Benford's Law and Voter Fraud </a> </h3>
 <p>A short article I worked on my sophomore year on Benford's law and voter fraud. I did most of the work on the code.</p>
 
-<h3> <a class = "link-style"href="files/writeup.pdf"</a> Mixing Times of Random Walks on Various Combinatorial Objects</a> </h3>
+<h3> <a class = "link-style"href="files/writeup.pdf"> Mixing Times of Random Walks on Various Combinatorial Objects</a> </h3>
 <p>A write up for my REU during the summer of 2018.</p>
 
 ## Presentations
