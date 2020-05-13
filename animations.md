@@ -8,7 +8,12 @@ permalink: /animations/
 
 ### Animation of Jacob Bernoulli's Solution to the Harpsichord Problem 
 
-Plot of $$u(x,t)$$ with initial condition $$u(x,0) = f(x),$$ $$\frac{\partial u}{\partial t} \bigg|_{t = 0} = 0,$$ and initial condition $$f(x) = \begin{cases} x \text{ for } 0 \leq x \leq \frac{\pi}{2} \\ \pi - x \text{ for } \frac{\pi}{2} \leq x \leq \pi \end{cases}$$
+Plot of $$u(x,t)$$ with initial condition 
+$$u(x,0) = f(x),$$ 
+$$\frac{\partial u}{\partial t} \bigg|_{t = 0} = 0,$$ 
+
+and initial condition 
+$$f(x) = \begin{cases} x \text{ for } 0 \leq x \leq \frac{\pi}{2} \\ \pi - x \text{ for } \frac{\pi}{2} \leq x \leq \pi \end{cases}$$
 
 ![Wave](/images/wave.gif)
 
@@ -23,7 +28,7 @@ $$ |f_{n+1}(x) - f_n(x)| < 2^{-n} \ \forall x \in [0,1]$$
 and so we have f_n uniformly converges to a function f called the Cantor-Lebesgue function. It is animated below for 
 $$ 0 \leq n < 10.$$
 
-<center><img src ="images/cantor.gif"></center>
+<center><img src ="/images/cantor.gif"></center>
 
 Code can be found <a href="https://gist.github.com/marshareb/9e3e2196bcf4c0847429b49b4365b953">here</a>.
 
@@ -35,7 +40,7 @@ We define a simple function f to be a function which takes a finite number of (f
  
 The target function is shown below.
 
-<center> <img src="images/plot1.png"></center>
+<center> <img src="/images/plot1.png"></center>
   
 Created using Maple.
 	
