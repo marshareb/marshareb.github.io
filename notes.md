@@ -14,7 +14,7 @@ A summary of different probability concepts. See MA/STAT 416 at Purdue for more 
 <h3> <a class = "link-style" href="files/statisticaltheory.pdf">Statistical Theory </a> </h3>
 <p>Notes on statistical theory. See MA 417 at Purdue for more information.</p>
 
-<h3> <a class = "link-style" href="files/notes.pdf"</a> Markov Chains and Mixing Times</a> </h3>
+<h3> <a class = "link-style" href="files/notes.pdf"> Markov Chains and Mixing Times</a> </h3>
 <p>Some brief notes on Markov Chains and Mixing Times. Preliminary work for my REU paper.</p>
         
 ## Real Analysis/Calculus
@@ -32,7 +32,7 @@ A summary of different probability concepts. See MA/STAT 416 at Purdue for more 
 <p>Notes to Fourier applications to PDEs lectures. </p>
         
 <h3> <a class="link-style" href="files/MA_6212.pdf">Math 6212 Problems</a> </h3>
-				<p>Solutions to problems in Folland/homeworks from my analysis course at OSU (I do not guarantee the completeness of any solution).</p>
+<p>Solutions to problems in Folland/homeworks from my analysis course at OSU (I do not guarantee the completeness of any solution).</p>
         
 ## Algebra
 
