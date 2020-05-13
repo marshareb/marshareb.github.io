@@ -9,7 +9,7 @@ name: James
 description: Second year graduate student at Ohio State University.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/james.jpg
+avatar: /images/james.jpg
 
 #
 # Flags below are optional
