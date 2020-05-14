@@ -8,7 +8,7 @@ I am a second year graduate student at Ohio State University in Mathematics. Whi
 
 ### Research Interests
 
-My interests as of now are in Geometric Group Theory and Dynamics, though this is subject to me learning more.
+My interests as of now are in Geometric Group Theory and Dynamics, though this is subject to my learning more.
 
 ### Contact me
 
