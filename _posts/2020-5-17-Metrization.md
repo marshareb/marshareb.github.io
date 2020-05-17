@@ -102,7 +102,7 @@ $$A(r) \subset \alpha_1 V_1 + \cdots + \alpha_{N-1}V_{N-1} + V_{N+1} + V_{N+2} +
 
 $$ \subset \alpha_1 V_1 + \cdots + \alpha_{N-1}V_{N-1} + V_{N+1} + V_{N+1},$$
 
-where here the last subset is due to the construction in Step 3. We have an analogous result for $$A(s)$$, and we see that since $\alpha_n + \beta_n = \gamma_n$$ for $$n < N$$, we get
+where here the last subset is due to the construction in Step 3. We have an analogous result for $$A(s)$$, and we see that since $$\alpha_n + \beta_n = \gamma_n$$ for $$n < N$$, we get
 
 $$A(r) + A(s) \subset \gamma_1 V_1 + \cdots + \gamma_{N-1}V_{N-1} + V_N \subset A(r+s).$$
 
