@@ -33,7 +33,8 @@ is a homeomorphism. So if we have a local base $$ \mathcal{B}(0)$$, we can shift
 
 Now, assuming that $$X$$ is metrizable, we get a metric $$d$$ which is compatible with our topology, meaning that the open balls $$B_\epsilon(0)$$ are a local base. Notice that we can refine this local base to the open balls $$B_{1/n}(0)$$ for $$n$$ a natural number greater than or equal to 1. This is a countable local base, and so we are done.
 
-For the backwards direction, we need to get a little trickier. Note that a set $$U \subset X$$ is said to be *balanced* if we have that, for all $$\alpha \in F$$ our underlying field with $$|\alpha| = 1$$, we get $$\alpha U \subset U$$.
+For the backwards direction, we need to get a little trickier. Note that a set $$U \subset X$$ is said to be *balanced* if we have that, for all $$\alpha \in F$$ our underlying field with
+$$ |\alpha| = 1 $$, we get $$\alpha U \subset U$$.
 
 ## Theorem
 
@@ -51,7 +52,7 @@ $$d(x+z, y+z) = d(x,y).$$
 
 Step 1: Every neighborhood of 0 contains a balanced neighborhood of 0.
 
-Let $$U$$ be a neighborhood of 0 in $$X$$. Scalar multiplication is continuous, so there is a $$\delta > 0$$ and a neighborhood of 0 $$V$$ so that $$\alpha V \subset U$$ whenever $$|\alpha| < \delta$$. Taking the union over all $$\alpha V$$, we have a balanced neighborhood of 0.
+Let $$U$$ be a neighborhood of 0 in $$X$$. Scalar multiplication is continuous, so there is a $$\delta > 0$$ and a neighborhood of 0 $$V$$ so that $$\alpha V \subset U$$ whenever $$ |\alpha| < \delta $$. Taking the union over all $$\alpha V$$, we have a balanced neighborhood of 0.
 
 As a consequence of this, for every local base we can find a local balanced base.
 
