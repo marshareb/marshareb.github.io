@@ -5,13 +5,15 @@ tag: functional-analysis dynamics
 categories: ["Weekly Update", "Dynamics"]
 ---
 
+In this post, we discuss a little on Katok and Hasselblatt's chapter 0, as well as Rudin chapter 1.
+
 # Personal Life
 
 This week was mostly focused on getting back into the flow of things (pun intended). I'll break this post up into a dynamical part and a functional analysis part.
 
 ## Dynamics
 
-The past few weeks I've read some of Katok's "Modern Dynamics," book casually, but this week was centered on applying things that I've learned. Of particular interest
+The past few weeks I've read some of Katok & Hasselblatt's "Modern Dynamics," book casually, but this week was centered on applying things that I've learned. Of particular interest
 was the special flow, suspension flow, and linear flows.
 
 To review briefly, a dynamical system consists of three components:

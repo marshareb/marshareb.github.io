@@ -5,6 +5,8 @@ tag: weekly-update
 categories: ["Weekly Update"]
 ---
 
+In this post, we discuss Katok & Hasselblatt section 1.7 and 1.8, as well as Rudin chapter 2.
+
 # Personal Life
 
 Monday was Memorial day, so consequently I didn't get as much work done as I wanted. I did end up starting Avatar the Last Airbender, which has been enjoyable to rewatch. I've also finished up the base campaign for Grim Dawn and started the DLC. I'm hoping to get to play that more this upcoming week.

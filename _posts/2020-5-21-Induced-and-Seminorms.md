@@ -5,6 +5,8 @@ tag: weekly-update
 categories: ["Weekly Update"]
 ---
 
+In this post, we discuss a problem from dynamical systems that I've been thinking about as well as the end of Rudin chapter 1.
+
 # Personal Life
 
 In real life, my week has mostly been coming back to Columbus Ohio and adjusting to the change.
