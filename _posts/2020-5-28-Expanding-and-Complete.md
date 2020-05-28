@@ -37,7 +37,7 @@ The forward direction is pretty easy and doesn't require locally compact separab
 
 The idea for showing the expanding map is topologically transitive is to convert things to base $$m$$ and look at $$m$$-ary intervals
 
-$$ \Delta_n^k = \left[ \frac{k}{m^n}, \frac{k+1}{m^n}].$$
+$$ \Delta_n^k = \left[ \frac{k}{m^n}, \frac{k+1}{m^n}\right].$$
 
 Note that every open interval contains the interval $$\Delta_n^k$$ for $$n$$ large enough and some $$k$$ in the range $$0 \leq k \leq m^n - 1$$. One notes that the expanding map applied to these intervals blow them up, and after applying the map enough times we get
 
@@ -91,6 +91,7 @@ It might seem like a space should always be of second category in itself based o
 Luckily weird examples are hard to come by, which is the content of Baire's theorem. This says that if your space is either a
 * complete metric space or
 * a locally compact Hausdorff space
+
 then the space is of second category in itself. The actual content of the theorem says that the intersection of every countable collection of dense open subsets of the space is dense, but by taking complements you get that the countable union of nowhere dense subsets can't be the whole space.
 
 To review quickly, a collection of maps $$\Gamma$$ is said to be *equicontinuous* if they are all "simultaneously continuous." In the context of topological vector spaces, this says that for every neighborhood of the origin in $$Y$$, say $$W$$, there exists a neighborhood of the origin $$V \subset X$$ with $$\Lambda(V) \subset W$$ for all $$\Lambda \in \Gamma$$.
@@ -99,7 +100,7 @@ The content of the Banach-Steinhaus theorem is that if we consider a collection 
 
 Using Baire's theorem, we can deduce some nice corollaries if we assume that our space is an $$F$$-space (recall that this means it has an invariant metric compatible with its topology). For example, a nice theorem is the following.
 
-**Theorem:** If $$\{\Lambda_n\}$$ is a sequence of continuous linear mappings from an $$F$$-space to a topological vector space, $$\Lambda_n : X \rightarrow Y$$, and if
+**Theorem:** [Theorem 2.8 Rudin] If $$\{\Lambda_n\}$$ is a sequence of continuous linear mappings from an $$F$$-space to a topological vector space, $$\Lambda_n : X \rightarrow Y$$, and if
 
 $$ \Lambda x = \lim_{n \rightarrow \infty} \Lambda_n x$$
 
