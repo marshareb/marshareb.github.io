@@ -5,6 +5,8 @@ tag: weekly-update
 categories: ["Weekly Update"]
 ---
 
+# Personal Life
+
 In real life, my week has mostly been coming back to Columbus Ohio and adjusting to the change.
 I've decided to pick up a little bit of walking, and have been walking around 3 miles a day (most
 of it in the rain). The rest of my day is essentially devoted to reading Katok and Rudin, and then having meetings discussing what I've read, mixing in a little rewatch of Mr. Robot.
