@@ -5,7 +5,7 @@ tag: weekly-update
 categories: ["Weekly Update"]
 ---
 
-In this post, we discuss a problem from dynamical systems that I've been thinking about as well as the end of Rudin chapter 1.
+In this post, we discuss a problem from dynamical systems that I've been thinking about, as well as the end of Rudin chapter 1.
 
 # Personal Life
 
