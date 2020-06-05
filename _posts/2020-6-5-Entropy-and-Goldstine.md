@@ -5,7 +5,7 @@ tag: functional-analysis dynamics
 categories: ["Weekly Update"]
 ---
 
-
+In this post, we discuss topological entropy and weak topologies.
 
 # Personal Life
 
