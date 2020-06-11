@@ -5,7 +5,7 @@ tag: functional-analysis dynamics
 categories: ["Weekly Update"]
 ---
 
-In this post, we discuss topological entropy and weak topologies.
+In this post, we discuss topological entropy (Katok & Hasselblatt section 3.1) and weak topologies (Rudin chapter 3).
 
 # Personal Life
 

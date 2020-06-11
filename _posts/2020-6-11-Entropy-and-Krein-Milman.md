@@ -5,7 +5,7 @@ tag: functional-analysis dynamics
 categories: ["Weekly Update"]
 ---
 
-In this post, we explore more on topological entropy and discuss the Krein-Milman theorem.
+In this post, we explore more on topological entropy (Katok & Hasselblatt section 3.2) and discuss the Krein-Milman theorem (Rudin chapter 3).
 
 # Personal Life
 
