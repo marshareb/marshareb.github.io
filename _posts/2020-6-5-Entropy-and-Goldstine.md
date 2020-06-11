@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metrization and Flows
+title: Entropy and Goldstine
 tag: functional-analysis dynamics
 categories: ["Weekly Update"]
 ---
