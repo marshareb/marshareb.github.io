@@ -5,7 +5,7 @@ tag: functional-analysis
 categories: ["Functional Analysis"]
 ---
 
-In my last post (found [https://marshareb.github.io/Metrization-and-Flow/](here)) I mentioned going through the metrization theorem. Today, I'll actually go through and prove the result.
+In my last post (found (here)[https://marshareb.github.io/Metrization-and-Flow/]) I mentioned going through the metrization theorem. Today, I'll actually go through and prove the result.
 
 We recall a few definitions ahead of time. A *topological vector space* is a vector space $$X$$ (over a field $$F$$ which is either $$\mathbb{R}$$ or $$\mathbb{C}$$) equipped with a topology $$\tau$$ such that the singletons are closed sets and scalar multiplication $$F \times X \rightarrow X$$, $$(\alpha, x) \mapsto \alpha x$$ and addition $$ X \times X \rightarrow X$$, $$(x,y) \mapsto x+y$$ are continuous.
 
