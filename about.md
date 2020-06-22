@@ -16,4 +16,4 @@ I enjoy cooking, visual art, woodworking, and generally just working with my han
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[By Email:](mailto:christophergregorydillon@gmail.com)
