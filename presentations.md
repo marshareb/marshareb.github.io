@@ -3,7 +3,6 @@ layout: page
 title: Writing/Presentations
 permalink: /presentations/
 ---
-#Writing/Presentations
 
 Here is where you can find my writings that I have finished, and presentations that I have given or find useful or helpful, and you might too. Since I am both ***severely*** dyslexic and a predominantly visual learner, I have always found pictures to be much better at conveying information, and walls of text intimidating and convoluted. I hope you get something out of these!
 
