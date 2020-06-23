@@ -8,7 +8,8 @@ Here is where you can find my writings that I have finished, and presentations t
 
 ## Writing
 
-###
+### Placeholder
+Lorem ipsum dolor sit amet, tota primis copiosae id quo. Melius eligendi elaboraret pri et, eam menandri platonem te. Tollit iudicabit gloriatur per ad. Ad diceret recteque eum, eu commodo petentium qui.
 
 ## Presentations
 
