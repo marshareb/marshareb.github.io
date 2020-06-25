@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Expanding Maps and Baire Category
+title: Expanding Maps and Baire Category (Weekly Update 3)
 tag: weekly-update
 categories: ["Weekly Update"]
 ---

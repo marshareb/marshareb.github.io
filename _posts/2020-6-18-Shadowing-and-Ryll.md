@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shadow Orbits and Ryll-Nardzewski
+title: Shadow Orbits and Ryll-Nardzewski (Weekly Update 6)
 tag: functional-analysis dynamics
 categories: ["Weekly Update"]
 ---

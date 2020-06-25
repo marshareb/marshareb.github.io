@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Entropy and Krein-Milman
+title: Entropy and Krein-Milman (Weekly Update 5)
 tag: functional-analysis dynamics
 categories: ["Weekly Update"]
 ---

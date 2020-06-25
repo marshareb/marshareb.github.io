@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Moduli and Duality
+title: Moduli and Duality (Weekly Update 7)
 tag: functional-analysis dynamics
 categories: ["Weekly Update"]
 ---

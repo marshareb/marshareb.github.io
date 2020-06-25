@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Induced Dynamical Systems and Seminorms
+title: Induced Dynamical Systems and Seminorms (Weekly Update 2)
 tag: weekly-update
 categories: ["Weekly Update"]
 ---

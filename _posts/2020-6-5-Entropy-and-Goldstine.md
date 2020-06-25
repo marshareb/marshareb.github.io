@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Entropy and Goldstine
+title: Entropy and Goldstine (Weekly Update 4)
 tag: functional-analysis dynamics
 categories: ["Weekly Update"]
 ---
