@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metrization Theorem
+title: Moduli and Duality
 tag: functional-analysis dynamics
 categories: ["Weekly Update"]
 ---
