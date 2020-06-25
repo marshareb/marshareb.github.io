@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Metrization and Flows
-tag: functional-analysis dynamics
+tag: functional-analysis dynamics 
 categories: ["Weekly Update", "Dynamics"]
 ---
 
