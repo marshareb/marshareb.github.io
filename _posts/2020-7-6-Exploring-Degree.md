@@ -6,7 +6,7 @@ categories: ["Algebraic Topology"]
 ---
 
 In this post, we explore the notion of degree for circles. This will mostly come from Hatcher and
-Katok & Hasselblatt (A Panaroma of Dynamical Systems).
+Katok & Hasselblatt (A First Course in Dynamical System).
 
 # Covering Space
 
