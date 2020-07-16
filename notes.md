@@ -34,15 +34,15 @@ A summary of different probability concepts. See MA/STAT 416 at Purdue for more 
 <h3> <a class="link-style" href="/files/MA_6212.pdf">Math 6212 Problems</a> </h3>
 <p>Solutions to problems in Folland/homeworks from my analysis course at OSU (I do not guarantee the completeness of any solution).</p><h3> 
 
-<h3><a class = "link-style" href="/files/fixedpoint.pdf">Ryll-Nardzewski Notes</a></h3>
+<h3> <a class = "link-style" href="/files/fixedpoint.pdf">Ryll-Nardzewski Notes</a> </h3>
 <p>Notes on Ryll-Nardzewski's fixed point theorem an applications.</p>
 
-<h3><a class = "link-style" href="/files/Functional_Analysis.pdf">Functional Analysis Problems</a></h3>
+<h3> <a class = "link-style" href="/files/Functional_Analysis.pdf">Functional Analysis Problems</a> </h3>
 <p>Solutions to various functional analysis problems.</p>
 
 ## Dynamics
 
-<h3><a class = "link-style" href="/files/Dynamics.pdf">Dynamics Problems</a></h3>
+<h3> <a class = "link-style" href="/files/Dynamics.pdf">Dynamics Problems</a> </h3>
 <p>Solutions to various dynamical systems problems.</p>
 
 ## Algebra
