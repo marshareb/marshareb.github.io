@@ -2,7 +2,7 @@
 layout: post
 title: Metrization and Flows (Weekly Update 1)
 tag: functional-analysis dynamics
-categories: ["Weekly Update", "Dynamics"]
+categories: ["Weekly Update"]
 ---
 
 In this post, we discuss a little on Katok and Hasselblatt's chapter 0, as well as Rudin chapter 1.
