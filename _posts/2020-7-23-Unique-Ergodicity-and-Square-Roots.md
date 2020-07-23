@@ -42,7 +42,7 @@ $$\begin{split} \left| \frac{1}{n} \sum_{j=0}^{n-1} f(T^j(x)) - f(\infty)\right|
 = \left|\frac{1}{n} \sum_{j=0}^{N-1} f(T^j(x)) + \frac{1}{n}\sum_{j=N}^{n-1}f(T^j(x)) - \frac{1}{n}[ (N)f(\infty) + (n-1-N) f(\infty)]\right| \\
 = \left|\frac{1}{n} \sum_{j=0}^{N-1} f(T^j(x)) + \frac{1}{n}\sum_{j=N}^{n-1}[f(x+j) - f(\infty)] - \frac{N}{n} f(\infty) \right|. \end{split}$$
 
-Now let's use the fact that $$f$$ bounded, so $$|f| \leq M < \infty$$. Invoking this and the triangle inequality, we get an upper bound of
+Now let's use the fact that $$f$$ is bounded, so $$\mid f \mid  \leq M < \infty$$. Invoking this and the triangle inequality, we get an upper bound of
 
 $$ \frac{MN}{n} + \frac{1}{n} \sum_{j=N}^{n-1} |f(x+j) - f(\infty)| + \frac{N}{n}f(\infty).$$
 
