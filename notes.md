@@ -76,7 +76,9 @@ A summary of different probability concepts. See MA/STAT 416 at Purdue for more 
 <h3> <a class="link-style" href="/files/tikzcd.pdf">Tikz CD</a> </h3>
 <p>Some notes I wrote for a friend on Tikz CD, a package in LaTeX.  </p>
 
-## German
+## German Translations
+
+## German Exercises
 
 This section is dedicated to notes/solutions to exercises from "German for Reading Knowledge" (sixth edition).
 
