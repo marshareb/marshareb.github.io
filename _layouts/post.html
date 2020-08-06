@@ -24,7 +24,10 @@ layout: default
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div> -->
-{{page.categories | capitalize | join: ', '}}
+
+  <div>
+    {{page.categories | capitalize | join: ', '}}
+  </div>
 
   {% include disqus.html %}
 </article>
