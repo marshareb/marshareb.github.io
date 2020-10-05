@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Poincare Recurrence
+title: Ergodic Theorems
 tag: dynamics
 categories: ["Dynamics"]
 ---
