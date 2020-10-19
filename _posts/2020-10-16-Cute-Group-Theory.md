@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Cute Group Theory Problem
-tag: algbera
+tag: algebra
 categories: ["Algebra"]
 ---
 
