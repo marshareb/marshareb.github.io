@@ -15,7 +15,7 @@ A summary of different probability concepts. See MA/STAT 416 at Purdue for more 
 <p>Notes on statistical theory. See MA 417 at Purdue for more information.</p>
 
 <h3> <a class = "link-style" href="/files/binandnegbin.pdf"> Mean/Variance of Binomial and Negative Binomial Random Variables</a> </h3>
-<p>A reference for the proof of the mean/variance of binomial and negative binomial random variables.</p>
+<p>A reference for the proof of the mean/variance of binomial and negative binomial random variables. </p>
 
 <h3> <a class = "link-style" href="/files/notes.pdf"> Markov Chains and Mixing Times</a> </h3>
 <p>Some brief notes on Markov Chains and Mixing Times. Preliminary work for my REU paper.</p>
