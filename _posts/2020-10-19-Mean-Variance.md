@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Cute Group Theory Problem
+title: Mean and Variance of Negative Binomial Distribution
 tag: probability
 categories: ["Probability"]
 ---
