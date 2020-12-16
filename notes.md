@@ -45,8 +45,14 @@ A summary of different probability concepts. See MA/STAT 416 at Purdue for more 
 
 ## Dynamics
 
+<h3> <a class = "link-style" href="/files/cohomologicalequations.pdf">Cohomological Equations</a> </h3>
+<p>Notes on cohomologogical equations (warning: lots of typos and mistakes).</p>
+
 <h3> <a class = "link-style" href="/files/Dynamics.pdf">Dynamics Problems</a> </h3>
 <p>Solutions to various dynamical systems problems (I do not guarantee the completeness of any solution).</p>
+
+<h3> <a class = "link-style" href="/files/MA_7211.pdf">MA 7211 Problems</a> </h3>
+<p>Solutions to problems in Petersen/Walters from my Ergodic theory course at OSU (I do not guarantee the completeness of any solution).</p>
 
 ## Algebra
 
