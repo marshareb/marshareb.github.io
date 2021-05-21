@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fall 2020 Semester
+title: Spring 2021 Semester
 tag: ergodic
 categories: ["Dynamics"]
 ---
