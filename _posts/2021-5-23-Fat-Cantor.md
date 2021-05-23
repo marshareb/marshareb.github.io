@@ -191,7 +191,7 @@ So by the same logic as above, we have
 
 $$\lambda(C_n) = (3/4)^n \implies \lambda(C) = 0.$$
 
-In fact, let's assume we're removing a varying amount each time. Take a sequence $$(a_n)$$ with $$a_n \in (0,1)$$ (I can't remove it all and I can't remove none of it). Then after removing $$a_n$$ at stage $$n$$, I'm left with abstract description, we can calculate
+In fact, let's assume we're removing a varying amount each time. Take a sequence $$(a_n)$$ with $$a_n \in (0,1)$$ (I can't remove it all and I can't remove none of it). Then after removing $$a_n$$ at stage $$n$$, and using with abstract description, we can calculate
 
 $$\lambda(C_n) = \lambda(C_{n-1})(1-a_n).$$
 
@@ -203,15 +203,15 @@ Taking the log of both sides, we're left with
 
 $$\lambda(C) = \exp\left(\sum_{j=1}^\infty \log(1-a_j)\right)$$
 
-when this is defined. So, for example, let's say we want a Cantor set of size $$1/4.$$ How are we going to get it based on this? We'll, we solve
+when this is defined. So, for example, let's say we want a Cantor set of size $$1/4.$$ How are we going to get it based on this? Well, we solve
 
 $$ e^z = 1/4 \implies z = -\log(4).$$
 
-Abstractly, let's try to find a sequence so that
+Without reference to the rest of the problem, let's try to find a sequence $$(b_j)$$ such that
 
 $$ \sum_{j=1}^\infty b_j = - \log(4).$$
 
-Well, a contender might be $$b_j = -\log(4) 2^{-j}.$$ To test if this is even possible, let's try solving
+A contender might be $$b_j = -\log(4) 2^{-j}.$$ To test if this is even possible, let's try solving
 
 $$ -\log(4) 2^{-j} = \log(1-a_j).$$
 
@@ -219,7 +219,7 @@ Doing so gives us
 
 $$ a_j = -4^{-2^{-j}}+1,$$
 
-which works! Let's now fix any $$\beta \in (0,1)$$. Does the above process work for finding a Cantor set with measure of that size? Well, there is some $$z$$ so that $$e^z = \beta.$$ If we set $$b_j = z 2^{-j},$$ then the series certainly works. Now can we solve
+which is valid given our constraints on $$a_j$$! Let's now fix any $$\beta \in (0,1)$$. Does the above process work for finding a Cantor set with measure of that size? Well, there is some $$z$$ so that $$e^z = \beta.$$ If we set $$b_j = z 2^{-j},$$ then the series certainly works. Now can we solve
 
 $$z 2^{-j} = \log(1-a_j)?$$
 
