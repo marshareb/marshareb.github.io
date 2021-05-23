@@ -31,7 +31,7 @@ and we then repeat the process.
 
 One observation to make is that we can calculate exactly what $$m_{n-1}$$ should be in the $$C_{n-1}$$ definition. By removing the middle from each interval, we're essentially adding two intervals, so by induction we get $$m_n = 2^n.$$
 
-Another easy observation to make is that the intervals $$\{I_j^n\}_{j=1}^{2^n}$$ are all disjoint for every $$n$$. I won't bother wrapping this in a claim, since this follows by noting we're taking disjoint intervals and removing things from them, and this has no chance of accidentally making intervals overlap. An illustration of this process is seen below:
+Another easy observation to make is that the intervals $$\{I_j^n\}_{j=1}^{2^n}$$ are all disjoint for every $$n$$. This follows by noting we're taking disjoint intervals and removing things from them, and this has no chance of accidentally making intervals overlap. An illustration of this process is seen below:
 
 ![here](/images/cantor.png).
 
@@ -123,9 +123,9 @@ Thus every $$x \in C$$ has ternary expansion
 
 $$ x = \sum_{j=1}^\infty a_j 3^{-j},$$
 
-where $$a_j \in \{0,2\}$$. We can take $$(a_j/2)$$ a binary sequence, and we see that $$f((a_j/2)) = x.$$ This gives us surjectivity. This is also an alternative way of defining the Cantor set.
+where $$a_j \in \{0,2\}$$. We can take $$(a_j/2)$$ a binary sequence, and we see that $$f((a_j/2)) = x.$$ This gives us surjectivity.
 
-Observe that $$\Omega_2$$ is uncountable by Cantor's argument, so we get that $$C$$ must also be uncountable. To see that $$C$$ is compact, observe that it is an intersection of closed sets, which is closed. To see that it is nowhere dense, we need to show that the interior of $$C$$ is empty. Fix $$\epsilon > 0$$, and examine
+So another way to think of the Cantor set is as the image of $$\Omega_2$$ under the map above. Observe that $$\Omega_2$$ is uncountable by Cantor's argument, so we get that $$C$$ must also be uncountable. To see that $$C$$ is compact, observe that it is an intersection of closed sets, which is closed. To see that it is nowhere dense, we need to show that the interior of $$C$$ is empty. Fix $$\epsilon > 0$$, and examine
 
 $$B_\epsilon(x) = \{y \in [0,1] : |x-y| < \epsilon\}.$$
 
