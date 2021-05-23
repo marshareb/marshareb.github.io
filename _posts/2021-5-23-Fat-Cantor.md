@@ -15,13 +15,13 @@ There are two ways I know of how to make the Cantor set, and both are important 
 
 $$ C_0 := [0,1],$$
 
-and assuming up until $$n-1$$ we have $$C_{n-1}$ is a bunch of intervals, as so,
+and assuming up until $$n-1$$ we have $$C_{n-1}$$ is a bunch of intervals, as so,
 
 $$ C_{n-1} := \bigcup_{j=1}^{m_{n-1}} I_j^{n-1},$$
 
 then we can write
 
-$$C_n := \bigcup_{j=1}^{m_{n-1}} [(1/3) I_j^{n-1} \cup (1-(1/3) + (1/3)I_j^{n-1}].$$
+$$C_n := \bigcup_{j=1}^{m_{n-1}} [(1/3) I_j^{n-1} \cup (2/3 + (1/3)I_j^{n-1}].$$
 
 After relabeling, we can then write
 
@@ -29,11 +29,7 @@ $$C_n := \bigcup_{j=1}^{m_n} I_j^{n}$$
 
 and we then repeat the process.
 
-One observation to make is that we can calculate exactly what $$m_{n-1}$$ should be in the $$C_{n-1}$$ definition.
-
-**Claim:** In the above construction, we have $$m_n = 2^n.$$
-
-**Proof:** By removing the middle from each interval, we're essentially adding two intervals, so by induction the result follows.
+One observation to make is that we can calculate exactly what $$m_{n-1}$$ should be in the $$C_{n-1}$$ definition. By removing the middle from each interval, we're essentially adding two intervals, so by induction we get $$m_n = 2^n.$$
 
 Another easy observation to make is that the intervals $$\{I_j^n\}_{j=1}^{2^n}$$ are all disjoint for every $$n$$. I won't bother wrapping this in a claim, since this follows by noting we're taking disjoint intervals and removing things from them, and this has no chance of accidentally making intervals overlap. An illustration of this process is seen below:
 
@@ -79,7 +75,7 @@ $$ \sum_{j=1}^\infty 2 (b_j - a_j) 3^{-j} = 0,$$
 
 Now suppose $$(a_j) \neq (b_j).$$ This implies there is some smallest $$n$$ so that $$a_j = b_j$$ for all $$1 \leq j \leq n-1$$ and $$a_n \neq b_n.$$ Notice that either $$a_n = 1, b_n = 0$$ or $$a_n = 0, b_n = 1$$. Let's assume $$a_n = 1, b_n = 0$$ for the moment (the other one will lead to the same argument). Then we may write
 
-$$ \sum_{j=1}^\infty 2 (a_j - b_j) 3^{-j} = \sum_{j=1}^{n-1} 2 (a_j - b_j) 3^{-j} + 2 \cdot 3^{-n} + \sum_{j=n+1}^\infty 2(a_j - b_j) 3^{-j} = 2 \cdot 3^{-n} + \sum_{j=n+1}^\infty 2(a_j - b_j) 3^{-j} = 0.$$
+$$ \sum_{j=1}^\infty 2 (a_j - b_j) 3^{-j} = \sum_{j=1}^{n-1} 2 (a_j - b_j) 3^{-j} + 2 \cdot 3^{-n} + \sum_{j=n+1}^\infty 2(a_j - b_j) 3^{-j} \\ = 2 \cdot 3^{-n} + \sum_{j=n+1}^\infty 2(a_j - b_j) 3^{-j} = 0.$$
 
 Now observe that the smallest I can make the sum is by having $$a_j = 0$$ for all $$j \geq n+1$$ and $$b_j = 1$$ for all $$j \geq n+1$$. Let's check what happens:
 
@@ -127,7 +123,7 @@ Thus every $$x \in C$$ has ternary expansion
 
 $$ x = \sum_{j=1}^\infty a_j 3^{-j},$$
 
-where $$a_j \in \{0,2\}$. We can take $$(a_j/2)$$ a binary sequence, and we see that $$f((a_j/2)) = x.$$ This gives us surjectivity. This is also sometimes a way of defining the Cantor set.
+where $$a_j \in \{0,2\}$$. We can take $$(a_j/2)$$ a binary sequence, and we see that $$f((a_j/2)) = x.$$ This gives us surjectivity. This is also an alternative way of defining the Cantor set.
 
 Observe that $$\Omega_2$$ is uncountable by Cantor's argument, so we get that $$C$$ must also be uncountable. To see that $$C$$ is compact, observe that it is an intersection of closed sets, which is closed. To see that it is nowhere dense, we need to show that the interior of $$C$$ is empty. Fix $$\epsilon > 0$$, and examine
 
@@ -141,7 +137,7 @@ and define $$y$$ by
 
 $$y = \sum_{j=1}^\infty b_j 3^{-j},$$
 
-where for some $$n$$ large we have $$a_j = b_j$$ for $$1 \leq j \leq n-1$$, $b_j = 1$$ for $$j \geq 1.$$ Then $$|a_j - b_j| \leq 1$$, so
+where for some $$n$$ large we have $$a_j = b_j$$ for $$1 \leq j \leq n-1$$, $$b_j = 1$$ for $$j \geq 1.$$ Then $$|a_j - b_j| \leq 1$$, so
 
 $$|x-y| \leq \sum_{j=n}^\infty 3^{-j} = \frac{3^{1-n}}{2}.$$
 
