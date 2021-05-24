@@ -155,7 +155,7 @@ $$\lambda \left( \bigcup_{j=1}^\infty A_j \right) = \sum_{j=1}^\infty \lambda(A_
 
 $$\lambda \left( \bigcap_{j=1}^\infty A_j \right) = \lim_{j \rightarrow \infty} \lambda(A_j).$$
 
-(4) If $$A$$ measurable and $$c$$ a constant, we have $$ \lambda(A + c) = \lambda(A)$$ and $$\lambda(cA) = |c| \lambda(A).$$
+(4) If $$A$$ measurable and $$c$$ a constant, we have $$ \lambda(A + c) = \lambda(A)$$ and $$\lambda(cA) = \mid c \mid \lambda(A).$$
 
 Now (3) is clearly useful, since in the construction of $$C$$ I made decreasing sets. Let's calculate $$\lambda(C_n)$$ using (1). We have
 
