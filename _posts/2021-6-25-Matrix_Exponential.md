@@ -108,7 +108,9 @@ $$ = I + Y + Y^2/2 + X + XY + XY^2/2 + X^2/2 + X^2/2Y + (XY)^2/2.$$
 
 Rewriting this last sum,
 
-$$\left( \sum_{k=0}^2 \frac{X^k}{k!} \right) \left( \sum_{j=0}^2 \frac{Y^j}{j!}\right) = (I + X + X^2/2)(I + Y + Y^2/2) = I + Y + Y^2/2 + X + XY + XY^2/2 + X^2/2 + X^2/2Y + (XY)^2/2 = I + (X + Y) + (Y^2/2 + XY + X^2/2) + (XY^2/2 + YX^2/2) + (XY)^2/2,$$
+$$\left( \sum_{k=0}^2 \frac{X^k}{k!} \right) \left( \sum_{j=0}^2 \frac{Y^j}{j!}\right) $$
+$$= (I + X + X^2/2)(I + Y + Y^2/2) = I + Y + Y^2/2 + X + XY + XY^2/2 + X^2/2 + X^2/2Y + (XY)^2/2 $$
+$$ = I + (X + Y) + (Y^2/2 + XY + X^2/2) + (XY^2/2 + YX^2/2) + (XY)^2/2,$$
 
 where here we collected terms based on the total degree. By inducting and then taking a limit, we have
 
