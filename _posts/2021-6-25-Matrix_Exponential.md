@@ -99,9 +99,12 @@ Let's work with finite sums. We have
 
 $$\left( \sum_{k=0}^0 \frac{X^k}{k!} \right) \left( \sum_{j=0}^0 \frac{Y^j}{j!}\right) = I,$$
 
-$$\left( \sum_{k=0}^1 \frac{X^k}{k!} \right) \left( \sum_{j=0}^1 \frac{Y^j}{j!}\right) = (I + X)(I + Y) = I + X + Y + XY,$$
+$$\left( \sum_{k=0}^1 \frac{X^k}{k!} \right) \left( \sum_{j=0}^1 \frac{Y^j}{j!}\right) $$
+$$ = (I + X)(I + Y) = I + X + Y + XY,$$
 
-$$\left( \sum_{k=0}^2 \frac{X^k}{k!} \right) \left( \sum_{j=0}^2 \frac{Y^j}{j!}\right) = (I + X + X^2/2)(I + Y + Y^2/2) = I + Y + Y^2/2 + X + XY + XY^2/2 + X^2/2 + X^2/2Y + (XY)^2/2.$$
+$$ \left( \sum_{k=0}^2 \frac{X^k}{k!} \right) \left( \sum_{j=0}^2 \frac{Y^j}{j!}\right) $$
+$$ = (I + X + X^2/2)(I + Y + Y^2/2) $$
+$$ = I + Y + Y^2/2 + X + XY + XY^2/2 + X^2/2 + X^2/2Y + (XY)^2/2.$$
 
 Rewriting this last sum,
 
@@ -152,7 +155,7 @@ $$ \frac{d}{dt} \exp(tX) \bigg|_{t = t_0} = \exp(t_0 X) \left( \frac{d}{dt} \exp
 
 So it's just a matter of figuring out what the derivative is at $$0$$. Expanding using the definition, we have
 
-$$ \lim_{h \rightarrow 0} \frac{\exp(hX) - 1}{h}$$ = $$\lim_{h \rightarrow 0} \frac{1}{h} \left( \sum_{k=1}^\infty \frac{h^kX^k}{k!} \right).$$
+$$\lim_{h \rightarrow 0} \frac{\exp(hX) - 1}{h}$$ = $$\lim_{h \rightarrow 0} \frac{1}{h} \left( \sum_{k=1}^\infty \frac{h^kX^k}{k!} \right).$$
 
 Since the sum is convergent, for each fixed $$h$$ we can bring in $$1/h$$ under the sum and we are left with
 
@@ -180,4 +183,4 @@ So this function is constant, and we know $$y(0) = x(0) = x_0$$, so
 
 $$x_0 = e^{-tA} x(t) \implies e^{tA} x_0 = x(t).$$
 
-There are other interesting properties of the matrix exponential I'd like to explore, but this at least covers the ODE I've forgotten. 
+There are other interesting properties of the matrix exponential I'd like to explore, but this at least covers the ODE I've forgotten.

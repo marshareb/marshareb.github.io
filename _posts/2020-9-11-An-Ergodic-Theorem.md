@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ergodic Theorems
+title: An Ergodic Theorem
 tag: dynamics
 categories: ["Dynamics"]
 ---

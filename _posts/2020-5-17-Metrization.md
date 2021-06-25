@@ -15,7 +15,7 @@ is a base for the topology. This should be sufficient to get us started for the 
 
 # Metrization theorem statement
 
-Let $$(X, \tau)$$ be a topological vector space. Then $$X$$ is metrizable if and only if $$X$ has a countable local base.
+Let $$(X, \tau)$$ be a topological vector space. Then $$X$$ is metrizable if and only if $$X$$ has a countable local base.
 
 To prove this, we will actually break it up into two parts. There is a very trivial direction (the forward direction) and a not so trivial direction (the backwards direction, or the converse). However, while we prove the converse, we'll actually get a lot more for free.
 
