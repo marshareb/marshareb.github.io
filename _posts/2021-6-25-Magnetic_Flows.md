@@ -5,7 +5,7 @@ tag: dynamics
 categories: ["Dynamics"]
 ---
 
-In this post, I discuss magnetic flows.
+In this post, I discuss the definition for magnetic flows.
 
 # Introduction
 
@@ -31,7 +31,7 @@ Then taking the [symplectic gradient](https://ncatlab.org/nlab/show/symplectic+g
 
 $$ \frac{d}{dt} H(\phi^t(x)) = dH(\phi^t(x)) (\dot{\phi}^t(x)) = \omega(F(\phi^t(x)), \dot{\phi}^t(x)) = 0.$$
 
-Thus we see that we can define flows $$\phi^t : \Sigma_c \rightarrow \Sigma_c$$ for any $$c \in \R$$. The magnetic flow as we'll think about it is a flow on $$SM$$. So given three bits of information, namely $$(M, g, \sigma)$$, we can determine a unique magnetic flow $$\phi^t : SM \rightarrow SM$$. Some authors will just use the tuple to denote the magnetic flow when it's clear.
+Thus we see that we can define flows $$\phi^t : \Sigma_c \rightarrow \Sigma_c$$ for any $$c \in \mathbb{R}$$. The magnetic flow as we'll think about it is a flow on $$SM$$. So given three bits of information, namely $$(M, g, \sigma)$$, we can determine a unique magnetic flow $$\phi^t : SM \rightarrow SM$$. Some authors will just use the tuple to denote the magnetic flow when it's clear.
 
 A first question to explore is the relationship of this metric with the magnetic flow. Some authors like to instead do the following procedure: take the canonical symplectic form $$\omega$$, push it through the musical isomorphism to get $$\omega' := \hat{g}^*(\omega)$$, and then define the magnetic symplectic form on the tangent bundle by
 
@@ -45,7 +45,7 @@ To summarize this section, given the tuple of information $$(M, g, \sigma)$$, on
 
 ## Definition 2
 
-Alternatively, we could restrict ourselves to the framework of the cotangent bundle for as long as possible by pushing the metric from $$TM$$ to $$T^*M$$. So letting $$\omega$$ again denote the canonical symplectic form on $$T^*M$$ and $$\sigma$$ some closed $$2$$-form on $$M$$, we can take the magnetic symplectic form $$\omega_M := \omega + (\pi')^*(\sigma)$$. Using the musical isomorphism again, we can transport the metric from $$TM$$ to $$T^*M$$, so we get a metric $$g'$$ on $$T^*M$$ via $$(\hat{g}^{-1})^*(g) =: g'.$$ We can also denote this new metric by $$\|\cdot\|'$$. With this, we can define the Hamiltonian $$H' : T^*M \rightarrow \R$$ by
+Alternatively, we could restrict ourselves to the framework of the cotangent bundle for as long as possible by pushing the metric from $$TM$$ to $$T^*M$$. So letting $$\omega$$ again denote the canonical symplectic form on $$T^*M$$ and $$\sigma$$ some closed $$2$$-form on $$M$$, we can take the magnetic symplectic form $$\omega_M := \omega + (\pi')^*(\sigma)$$. Using the musical isomorphism again, we can transport the metric from $$TM$$ to $$T^*M$$, so we get a metric $$g'$$ on $$T^*M$$ via $$(\hat{g}^{-1})^*(g) =: g'.$$ We can also denote this new metric by $$\|\cdot\|'$$. With this, we can define the Hamiltonian $$H' : T^*M \rightarrow \mathbb{R}$$ by
 
 $$H'(x,\xi) := (\|\xi\|'_x)^2.$$
 
@@ -134,7 +134,7 @@ and applying the Legendre inverse gives
 
 $$ \hat{H}(x, \xi) = \|\xi\|_x^2.$$
 
-This leads us to a really nice observation on magnetic flows. While this only works when the form is exact, we have that a closed form is *locally* exact. So locally we can do a procedure like this, and since this Hamiltonian above preserves volume on the cotangent bundle, it must preserve volume on $$S*M$$ (or at the very least locally in $$S*M$$). But this is sufficient for us to deduce that magnetic flows are volume preserving, with respect to the Liouville measure.
+This leads us to a really nice observation on magnetic flows. While this only works when the form is exact, we have that a closed form is *locally* exact. So locally we can do a procedure like this, and since this Hamiltonian above preserves volume on the cotangent bundle, it must preserve volume on $$S^*M$$ (or at the very least locally in $$S^*M$$). But this is sufficient for us to deduce that magnetic flows are volume preserving, with respect to the Liouville measure.
 
 ## Definition 5
 
@@ -150,7 +150,7 @@ sometimes also written as
 
 $$\nabla_{\dot{\gamma}}\dot{\gamma} = E(\dot{\gamma}).$$
 
-Observe in the case of a closed, orientable surface, we can use our $$\lambda$$-geodesic definition to recover the equivalence. This, in fact, holds in general. The trick is to identify $$T_{(x,v)}TM \cong T_xM \oplus T_xM$$ (see, for example, [this](https://marshareb.github.io/Sasaki/)). If $$(x,v)$$ is parameterized by some curve $$(s(t), r(t))$$, then take the tangent vector $$(\xi, \eta) \in TM$$ satisfying
+Observe in the case of a closed, orientable surface, we can use our $$\lambda$$-geodesic definition to recover the equivalence. This, in fact, holds in general. The trick is to identify $$T_{(x,v)}TM \cong T_xM \oplus T_xM$$ (see, for example, [this](https://marshareb.github.io/Sasaki/)), where vectors on the left are vertical and the vectors on the right are horizontal. If $$(x,v)$$ is parameterized by some curve $$(s(t), r(t))$$, then take the tangent vector $$(\xi, \eta) \in TM$$ satisfying
 
 $$ \xi = \frac{ds}{dt}, \ \ \eta = \frac{dr}{dt}.$$
 
