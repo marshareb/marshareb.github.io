@@ -25,3 +25,7 @@ Here are a collection of papers and presentations I've done over the years.
 
 <h3> <a class = "link-style" href="/files/NCPresentation.pdf">Markov Chains, Mixing Times, and Couplings (2) [2018]</a></h3>
 <p>My presentation for <a class = "link-style" href="https://www.niss.org/news/international-conference-advances-interdisciplinary-statistics-and-combinatorics-aisc"> AISC </a> at UNC Greensboro.</p>
+
+
+<h3> <a class = "link-style" href="https://www.youtube.com/watch?v=NVOxRGiCevM">Geodesic Flow and the Hopf Argument</a></h3>
+<p>My presentation for the <a class = "link-style" href="https://www.youtube.com/channel/UC0z8KwHkXp-5gA1996UnTyQ"> OSU Ergodic Theory and Combinatorial Number Theory seminar </a>. The presentation follows [Einsidler and Ward](https://www.springer.com/gp/book/9780857290205) </p>
