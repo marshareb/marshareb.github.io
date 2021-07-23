@@ -5,9 +5,9 @@ tag: algebra
 categories: ["Algebra"]
 ---
 
-In this post, I outline a solution for a cute problem someone sent me.
+In this post, I outline a solution for a problem someone sent me.
 
-## The problem and solution
+# The problem and solution
 
 This is the first time that a complete stranger messaged me a problem for whatever reason. I'm not sure how they got a hold of my information, but I decided to try working out the problem and I thought it was fun enough to include it as a blog post. Maybe someone else will get a kick out of it. I think my use of abelian is implicit, but I didn't want to do all of the work for you (so exercise: figure out why we had to use our group is abelian).
 

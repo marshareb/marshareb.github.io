@@ -7,7 +7,7 @@ categories: ["Set Theory"]
 
 In this post, we discuss a basic set theory problem.
 
-## Bijection between half open interval and closed interval
+# Bijection between half open interval and closed interval
 
 One day I'll get back to writing blog posts about my research, however another fun set theory problem was brought to my attention. I have never actually seen the solution to this before, although I think I've implicitly used it without thinking about it. The questions asks whether there is a bijection between $$[0,1]$$ and $$[0,1)$$ and asks how to construct it.
 
