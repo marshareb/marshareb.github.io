@@ -39,7 +39,7 @@ A **vector field** in this context is a map $$s : S^n \rightarrow TS^n$$ which s
 
 # Parallelizability
 
-Bott and Milnor along with Kervaire were able to prove that $$r(n) = n$$ if and only if $$n = 0,1,3,$$ or $$7$$. If $$r(n) = n$$ we call $$S^n$$ **parallelizable**, so the only time the sphere is parallelizable is if we have the above conditions. It turns out the question of being parallelizable is related to another question, namely whether or not there exists a bilinear multiplication on $$\mathbb{R}^n$$ without zero divisors. Let's check the connection now by establishing that if $$R^{n+1}$$ admits a multiplication without zero divisors then $$S^n$$ is parallelizable.
+[Bott](https://en.wikipedia.org/wiki/Raoul_Bott) and [Milnor](https://en.wikipedia.org/wiki/John_Milnor) along with [Kervaire](https://en.wikipedia.org/wiki/Michel_Kervaire) were able to prove that $$r(n) = n$$ if and only if $$n = 0,1,3,$$ or $$7$$. If $$r(n) = n$$ we call $$S^n$$ **parallelizable**, so the only time the sphere is parallelizable is if we have the above conditions. It turns out the question of being parallelizable is related to another question, namely whether or not there exists a bilinear multiplication on $$\mathbb{R}^n$$ without zero divisors. Let's check the connection now by establishing that if $$R^{n+1}$$ admits a multiplication without zero divisors then $$S^n$$ is parallelizable.
 
 The case $$n=1$$ is illuminative (the case $$n=0$$ is trivial) so we start there. Let $$\mu : \mathbb{R}^2 \times \mathbb{R}^2 \rightarrow \mathbb{R}^2$$ be a bilinear multiplication without zero divisors. This implies there is an identity element, say $$e \in \mathbb{R}^2$$. Let $$v = \frac{e}{\|e\|}$$ and let $$\{e_1, e_2\}$$ be a basis for $$\ker(v^*)$$. We can define a map $$l : S^1 \rightarrow \mathbb{R}^2$$ by $$l(w) = \mu(w, e_1)$$. We can then set $$F : S^1 \rightarrow \mathbb{R}^2$$ to be
 
@@ -102,9 +102,9 @@ $$a_i = 0 , 0 \leq i \leq n.$$
 
 Furthermore, as before, each of the $$F_i$$ are continuous, so we can construct continuous maps $$\hat{F}_i : S^n \rightarrow TS^n$$ defined by $$\hat{F}_i(w) = (w, F_i(w))$$ which satisfy $$\pi \circ \hat{F}_i = \text{Id}$$. This gives us $$n$$ linearly independent vector fields. Thus the existence of a bilinear multiplication without zero divisors on $$\mathbb{R}^{n+1}$$ implies that $$S^n$$ is parallelizable. Assuming the result by Bott, Milnor, and Kervaire as well as the [result on existence of bilinear multiplications without zero divisors on $$\mathbb{R}^n$$](https://www.math.csusb.edu/faculty/pmclough/CP.pdf) we get the other direction as well. So $$S^n$$ is parallelizable if and only if there exists a bilinear multiplication on $$\mathbb{R}^{n+1}$$ without zero divisors.
 
-# Adams theorem
+# Adams' theorem
 
-Frank Adams gave a full solution to the problem of the number of maximal linearly independent vector fields on the $$n$$-sphere. Define the function $$\rho(n)$$ for $$n \geq 1$$ to be such that $$S^{n-1}$$ admits $$\rho(n)-1$$ linearly independent vector fields but not $$\rho(n)$$ (so this is the maximal number of linearly independent vector fields). Using the division algorithm modulo $$4$$, we're able to write each number uniquely as
+[Frank Adams](https://en.wikipedia.org/wiki/Frank_Adams) gave a full solution to the problem of the number of maximal linearly independent vector fields on the $$n$$-sphere. Define the function $$\rho(n)$$ for $$n \geq 1$$ to be such that $$S^{n-1}$$ admits $$\rho(n)-1$$ linearly independent vector fields but not $$\rho(n)$$ (so this is the maximal number of linearly independent vector fields). Using the division algorithm modulo $$4$$, we're able to write each number uniquely as
 
 $$ n = (2r+1) 2^{c+4d},$$
 
@@ -156,4 +156,4 @@ Thus for equality we must have $$d = 0$$, which means
 
 $$ (2r+1) = 1 \implies r = 0.$$
 
-So we essentially have the same result as before -- we must have $$r = d = 0$$ and $$c = 3,$$ so $$n = 8$$. This exhausts all possible cases, so these are the only times this can happen.
+So we essentially have the same result as before -- we must have $$r = d = 0$$ and $$c = 3,$$ so $$n = 8$$. This exhausts all possible cases and the result follows.
