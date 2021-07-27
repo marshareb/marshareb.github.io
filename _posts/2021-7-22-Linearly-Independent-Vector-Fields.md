@@ -156,4 +156,4 @@ Thus for equality we must have $$d = 0$$, which means
 
 $$ (2r+1) = 1 \implies r = 0.$$
 
-So we essentially have the same result as before -- we must have $$r = d = 0$$ and $$c = 3,$$ so $$n = 8$$. This exhausts all possible cases and the result follows.
+So we essentially have the same result as before -- we must have $$r = d = 0$$ and $$c = 3,$$ so $$n = 8$$. This exhausts all possible cases and the result follows.  
