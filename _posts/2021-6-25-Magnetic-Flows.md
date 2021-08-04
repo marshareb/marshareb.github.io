@@ -19,7 +19,7 @@ We'll be restricting ourselves to the case of a closed, orientable surface. In t
 
 Let $$M$$ be a smooth manifold. Let $$\sigma$$ be a closed $$2$$-form on $$M$$, and let $$\pi : T^*M \rightarrow M$$ be the footprint map. Recall from symplectic geometry (see for example [here](https://www.asc.ohio-state.edu/terekcouto.1/teaching/SG_su21) or [here](https://arxiv.org/pdf/math/0505366.pdf)) that $$T^*M$$ comes equipped with a standard symplectic form, denote it $$\omega$$. Then the **magnetic symplectic form** is defined by
 
-$$ \omega_M := \omega + \pi^*(\omega).$$
+$$ \omega_M := \omega + \pi^*(\sigma).$$
 
 Note that this is a magnetic form on the *cotangent bundle*. If we suppose there is a Riemannian metric $$g$$ (also sometimes denoted by $$\|\cdot\|$$) on $$M$$, then we can use the so called [musical isomorphism](https://en.wikipedia.org/wiki/Musical_isomorphism) $$\hat{g} : TM \rightarrow T^*M$$ and thus define the **magnetic symplectic form** on the tangent bundle by setting $$\hat{g}^*(\omega_M) = \omega_M^T$$ (where the $$T$$ stands for tangent). We'll be a little sloppy and just write $$\omega_M$$ for the magnetic symplectic form on whatever bundle we're looking at. Take the standard energy Hamiltonian $$H : TM \rightarrow \mathbb{R}$$ defined by
 
