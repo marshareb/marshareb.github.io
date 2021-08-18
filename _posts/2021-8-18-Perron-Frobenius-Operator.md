@@ -71,15 +71,15 @@ Now any measurable set can be written as an open set minus a set of measure zero
 
 ## Condition 2)
 
-Fix $$f \in L^1$$ throughout. Notice that we've shown the property on a dense set; that is, we have shown it on the simple functions, since if we take $$\chi_E$$ then
+Fix $$f \in L^1$$ throughout. Notice that we've shown the property on a dense set of $$L^\infty$$. Namely, we have shown it on the simple functions. To see this, take $$\chi_E$$ and observe that
 
 $$ \int P_Tf(x) \chi_E(x) dx = \int_E P_Tf (x) dx = \int_{T^{-1}(E)} f(x) dx = \int \chi_E(T(x)) f(x) dx.$$
 
-Simple functions follow by linear combinations. Now take $$\phi \in L^\infty$$ and fix $$\epsilon > 0$$. We can find a simple function $$ \psi$$ so that $$\|\phi - \psi\|_\infty < \epsilon$$. Hence
+We get that it holds on simple functions by observing the above property holds over linear combinations. Now take $$\phi \in L^\infty$$ and fix $$\epsilon > 0$$. We can find a simple function $$ \psi$$ so that $$\|\phi - \psi\|_\infty < \epsilon$$. Hence
 
 $$
 \begin{split}
-\abs \left( \int_0^1 [\phi(x) P_Tf(x) - \phi(T(x)) f(x) ] dx  \right) = \abs \left( \int_0^1 [\phi(x) P_Tf(x) - \psi(x) P_Tf(x) + \psi(T(x)) f(x) - \phi(T(x)) f(x) ] dx  \right) \\
+\text{abs} \left( \int_0^1 [\phi(x) P_Tf(x) - \phi(T(x)) f(x) ] dx  \right) = \text{abs} \left( \int_0^1 [\phi(x) P_Tf(x) - \psi(x) P_Tf(x) + \psi(T(x)) f(x) - \phi(T(x)) f(x) ] dx  \right) \\
 \leq \int_0^1 \|\phi - \psi\|_\infty \mid P_T f(x) \mid dx + \int_0^1 \|\psi - \phi\|_\infty \mid f (x) \mid dx < 2 \epsilon \|f\|_1.$$
 \end{split}
 $$
