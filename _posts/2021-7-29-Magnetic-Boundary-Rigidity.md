@@ -88,7 +88,7 @@ The goal is to integrate $$u$$ over all of $$SM.$$ Since we have some singularit
 
 With $$u$$ defined directly, we now want to show that $$\beta$$ is potential. In order to do that we need to show that $$u$$ is a $$1$$-form (i.e. a function on $$SM$$). This amounts to a clever application of Pestov's identity, which I'll omit. This can be seen in Theorem 12.4 of [Merry and Paternain's notes](https://www.dpmms.cam.ac.uk/~gpp24/ipgd(3).pdf). The result follows nicely at this point.
 
-The moral of the story is that at this point, we are able to deduce the result once we know that $$I[\beta] \equiv 0.$$ The goal, then, is to find some other functional which, as long as it remains constant along smooth perturbations of our dynamical system, tells us that $$I[\beta] \equv 0.$$ This leads us to the concept of the **free time action functional**. Given a magnetic system $$(M, \partial M, g, \alpha)$$ (where $$\alpha$$ is a $$1$$-form) and a curve $$\gamma : [0,T] \rightarrow M$$ we have
+The moral of the story is that at this point, we are able to deduce the result once we know that $$I[\beta] \equiv 0.$$ The goal, then, is to find some other functional which, as long as it remains constant along smooth perturbations of our dynamical system, tells us that $$I[\beta] \equiv 0.$$ This leads us to the concept of the **free time action functional**. Given a magnetic system $$(M, \partial M, g, \alpha)$$ (where $$\alpha$$ is a $$1$$-form) and a curve $$\gamma : [0,T] \rightarrow M$$ we have
 
 $$ A(\gamma) := \int_0^T \| \dot{\gamma}(t)\|^2 dt - \int_\gamma \alpha.$$
 
@@ -136,6 +136,6 @@ then we have
 
 $$ \frac{\partial }{\partial s} A_s(\gamma_s) \mid_{s=0} = \int_0^T [\beta_{\gamma(t)}(\dot{\gamma}(t), \dot{\gamma}(t)) - \dot{\alpha}(\gamma(t), \dot{\gamma}(t))]dt.$$
 
-Thus we have $$I[\beta - \dot{\alpha}] \equiv 0$$, and we're in a similar set up to before. The issue here is that we don't have a similar lemma to before -- i.e. we don't have a way of just deducing that $$\beta$$ or $$\dot{\alpha}$$ are trivial. Thus we'll need to invoke a little more work before we're done.
+Thus we have $$I[\beta - \dot{\alpha}] \equiv 0$$, and we're in a similar set up to before. The issue here is that we don't have a similar lemma to before -- i.e. we don't have a way of just deducing that $$\beta$$ or $$\dot{\alpha}$$ are trivial. Thus we will need to do a little more work before we're done. For now, we'll leave this result where it's at.
 
 A quick remark is that this type of Guillemin-Kazhdan argument actually works in the general magnetic case, as seen in [Theorem C in this paper by Daiberkov and Paternain](https://arxiv.org/abs/math/0501172), although a little more effort is needed to actually define the action functional in this case.
