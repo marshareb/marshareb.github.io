@@ -80,7 +80,7 @@ We get that it holds on simple functions by observing the above property holds o
 $$
 \begin{split}
 \text{abs} \left( \int_0^1 [\phi(x) P_Tf(x) - \phi(T(x)) f(x) ] dx  \right) = \text{abs} \left( \int_0^1 [\phi(x) P_Tf(x) - \psi(x) P_Tf(x) + \psi(T(x)) f(x) - \phi(T(x)) f(x) ] dx  \right) \\
-\leq \int_0^1 \|\phi - \psi\|_\infty \mid P_T f(x) \mid dx + \int_0^1 \|\psi - \phi\|_\infty \mid f (x) \mid dx < 2 \epsilon \|f\|_1.$$
+\leq \int_0^1 \|\phi - \psi\|_\infty \mid P_T f(x) \mid dx + \int_0^1 \|\psi - \phi\|_\infty \mid f (x) \mid dx < 2 \epsilon \|f\|_1.
 \end{split}
 $$
 
