@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Transfer Operator
+title: Perron-Frobenius Operator
 tag: dynamics
 categories: ["Dynamics"]
 ---
