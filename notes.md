@@ -48,6 +48,9 @@ A summary of different probability concepts. See MA/STAT 416 at Purdue for more 
 <h3> <a class = "link-style" href="/files/cohomologicalequations.pdf">Cohomological Equations</a> </h3>
 <p>Notes on cohomologogical equations (warning: lots of typos and mistakes).</p>
 
+<h3> <a class = "link-style" href="/files/dossier_finaldraft.pdf">A Survey of the Livschitz Theorem</a> </h3>
+<p>Notes on Livschitz's theorem.</p>
+
 <h3> <a class = "link-style" href="/files/Dynamics.pdf">Dynamics Problems</a> </h3>
 <p>Solutions to various dynamical systems problems (I do not guarantee the completeness of any solution).</p>
 
