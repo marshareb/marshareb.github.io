@@ -112,11 +112,13 @@ and constants $$0 < \mu_1 < \lambda_2 \leq \mu_2 < \lambda_3$$ with $$\mu_1 < 1 
 
 With this, we have the ingredients to establish our result. Since our original system is partially hyperbolic, we already have all of the cones for said system. The idea is to lift them to the fiber bundle in a coherent way. A natural guess is to try something like
 
-$$ \tilde{C}^\sigma(x,t, \alpha) := \{ (v,w) \in T_{x,t}E : \theta(v, E^\sigma) < \alpha\}, \ \ \sigma \in \{s, u, cs, cu\}.$$
+$$ \tilde{C}^\sigma(x,t, \alpha) := \{ (v,0) \in T_{x,t}E : \theta(v, E^\sigma) < \alpha\}, \ \ \sigma \in \{s, u\},$$
+
+$$ \tilde{C}^\sigma(x,t, \alpha) := \{ (v,w) \in T_{x,t}E : \theta(v, E^\sigma) < \alpha\}, \ \ \sigma \in \{cs, cu\}.$$
 
 Here $$\theta$$ is with respect to the space downstairs and viewing $$v$$ as living in $$T_xM$$. We're also assuming a nice metric on $$E$$ already, which is we're assuming a box metric with whatever metric was given on $$F$$ and with the metric from $$M$$. This assumption is fine to make, since partial hyperbolicity is independent of the choice of metric and so it suffices to just find one that works.
 
-### Checking Stable
+### Checking the Stable Cone
 
 Take $$(v,w) \in \tilde{C}^s(x,\alpha)$$. Observe that
 
@@ -136,7 +138,7 @@ $$ \|D_{(x,t)} F(v,0)\| = \|D_xf(v)\| + \|D_t F_x(0)\| \leq \mu_1 < 1.$$
 
 
 
-### Checking Unstable
+### Checking the Unstable Cone
 
 
 Take $$(v,0) \in \tilde{C}^u(x,\alpha)$$. Observe that
@@ -160,7 +162,7 @@ Thus we see that
 $$m(D_xF \mid_{\tilde{C}^s(x,\alpha)}) \geq \lambda_3 > 1.$$
 
 
-### Checking Center-Stable
+### Checking the Center-Stable Cone
 
 Now take $$(v,w) \in \tilde{C}^{cs}(x,\alpha)$$. Observe that since the angle only cares about the first component anyways we have
 
@@ -179,7 +181,7 @@ In particular, on unit vectors, we get
 $$ \|D_{(x,t)} F(v,w)\| \leq \|D_tF_x\|.$$
 
 
-### Checking Center-Unstable
+### Checking the Center-Unstable Cone
 
 Now take $$(v,w) \in \tilde{C}^{cu}(x,\alpha)$$. Observe that since the angle only cares about the first component anyways we have
 
@@ -197,7 +199,7 @@ In particular, on unit vectors, we get
 
 $$ \|D_{(x,t)} F(v,w)\| \leq m(D_tF_x).$$
 
-### Putting it all together
+### Putting it All Together
 
 We've checked all of the necessary conditions for our families of cones except for the relationship of constants. Notice that we have $$\mu_1 < 1 < \lambda_3$$ still. By shrinking $$\alpha$$ as necessary, we can get $$\mu_1$$ arbitrarily close to
 
