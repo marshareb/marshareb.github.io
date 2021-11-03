@@ -9,7 +9,7 @@ In this post, I discuss a variety of definitions for the magnetic flow.
 
 # Introduction
 
-I've been learning a lot about magnetic flows recently in the hopes of starting a project on them. The issue is that a lot of the data is spread out in papers, so I'm hoping to collect a lot of it into one place. This will probably be the start to be a series of posts covering some of the major jumps in magnetic flows to date.
+I've been learning a lot about magnetic flows in the hopes of starting a project on them. The issue is that a lot of the data is spread out in different papers, so I'm hoping to collect a lot of it into one place. This will probably be the start to be a series of posts covering some of the major jumps in magnetic flows to date.
 
 # Definitions
 
