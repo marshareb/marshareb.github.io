@@ -191,7 +191,7 @@ $$\psi(f^{-1}(y)) - \lambda \psi(y)  =\left(1 - \frac{k-1}{n} \right) \lambda^{-
 
 Wrapping this in an absolute value sign gives us
 
-$$\| \psi \circ f^{-1} - \lambda \psi\| \leq \frac{1}{n}.
+$$\| \psi \circ f^{-1} - \lambda \psi\| \leq \frac{1}{n}.$$
 
 There are some other extraneous cases to consider, but all of them lead to a similar situation. Thus we have
 
@@ -202,3 +202,5 @@ Let $$w := \eta/\|\eta\|$$. Then $$w$$ is such that
 $$\|(T_f - \lambda \mu)(w)\| \leq \epsilon.$$
 
 Since we can do this for any $$\epsilon$$, we conclude that $$\lambda \mu \in \text{sp}(T_f)$$, as desired. $$\blacksquare$$
+
+We'll pick up next time with proving the theorem.
