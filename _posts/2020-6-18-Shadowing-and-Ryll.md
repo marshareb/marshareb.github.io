@@ -7,12 +7,6 @@ categories: ["Weekly Update"]
 
 In this post, we'll explore shadow orbits and Ryll-Nardzewski.
 
-# Personal Life
-
-I've decided I should stop playing the ignorance card when it comes to race and to start reading. The plan is to start following Noname's book club (found [here](https://www.nonamebooks.com/)) as well as try to find a group of people to discuss the readings with. The first book I'll be starting with is [Blood in My Eye](https://en.wikipedia.org/wiki/George_Jackson_(activist)). Maybe this section will be replaced with writing about my thoughts on that.
-
-Otherwise, personally nothing is really new. A lot of running, reading, and trying to balance life with work and not doing a great job of it. There were interesting problems in the dynamics reading course but I spent a lot of time trying to figure them out (and I think I have). I'm hoping this next week will be slower paced.
-
 # Dynamics
 
 The exercise of most interest to me this week is the following:
