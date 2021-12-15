@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mather Spectrum (Part 1)
+title: Mather Spectrum Part 1
 tag: dynamics
 categories: ["Dynamics"]
 ---
