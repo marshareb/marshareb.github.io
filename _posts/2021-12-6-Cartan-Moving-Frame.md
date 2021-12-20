@@ -194,7 +194,7 @@ We have the following claim.
 **Proof:** There are two conditions to check for a connection. We need to check that it is complementary to the vertical subspace and that it respects the rotation map. Technically the rotation map is only defined for $$TSM$$, so we'll make a note here that everything we've done above translates to the unit tangent bundle in an analogous fashion and go from there. For the complementary part we can work with just the tangent bundle, so we'll give the more general argument.
 
 
-We now check that we have $$K(x,v)$$ is complementary to $$\mathbb{V}(x,v)$$. Here we follow [https://www.dpmms.cam.ac.uk/~gpp24/ipgd(3).pdf](Merry and Paternain). The trick is to define a "complementary" map $$\mathcal{L} : TM \rightarrow TTM$$ in the following fashion. Given $$(x,v), (x,w) \in TM$$ we can define a curve $$\gamma : (-\epsilon, \epsilon) \rightarrow M$$ which is adapted to the vector $$(x,w)$$. We can then take the parallel transport of the vector $$v$$ along this curve $$\gamma$$ and this defines a vector field $$Z(t)$$. We then look at the curve
+We now check that we have $$K(x,v)$$ is complementary to $$\mathbb{V}(x,v)$$. Here we follow [Merry and Paternain](https://www.dpmms.cam.ac.uk/~gpp24/ipgd(3).pdf). The trick is to define a "complementary" map $$\mathcal{L} : TM \rightarrow TTM$$ in the following fashion. Given $$(x,v), (x,w) \in TM$$ we can define a curve $$\gamma : (-\epsilon, \epsilon) \rightarrow M$$ which is adapted to the vector $$(x,w)$$. We can then take the parallel transport of the vector $$v$$ along this curve $$\gamma$$ and this defines a vector field $$Z(t)$$. We then look at the curve
 
 $$c(t) := (\gamma(t), Z(t)) : (-\epsilon, \epsilon) \rightarrow TM$$
 
@@ -486,4 +486,16 @@ $$\phi = \phi_1 + f_1 \alpha + f_2 \beta$$
 
 and hence
 
-$$ d\alpha = \phi_1 \wedge \beta + (f_1 + r) \alpha \wedge \beta, \ \ d\beta = \phi_1 \wedge \alpha + (f_2 + s) \alpha \wedge \beta.$$
+$$ d\alpha = \phi_1 \wedge \beta + (f_1 + r) \alpha \wedge \beta, \ \ d\beta = -\phi_1 \wedge \alpha + (f_2 + s) \alpha \wedge \beta.$$
+
+Now it's relatively clear that a connection is defined by the functions $$f_1, f_2$$, so an existence and uniqueness argument gives us that there is a *unique* connection $$\phi_1$$ which satisfies the conditions that
+
+$$d\alpha = \phi_1 \wedge \beta, \ \ d\beta = -\phi_1 \wedge \alpha.$$
+
+It remains to show that the connection we defined earlier satisfies these conditions. One does this with [isothermal coordinates](https://www.dpmms.cam.ac.uk/~gpp24/ipgd(3).pdf) per Merry and Paternain (the calculations get extremely tedious so we'll skip over it). $$\blacksquare$$
+
+______
+
+**Remark:** If one doesn't want to play with isothermal coordinates, one can just take the unique connection form we've found in our proof and use this. We then have to redefine $$V$$ via duality, but for the most part we only are using these coordinates for the structural equations so it's sufficient to play with this frame specifically.
+
+______
