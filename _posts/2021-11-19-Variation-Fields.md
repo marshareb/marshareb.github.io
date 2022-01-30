@@ -117,5 +117,3 @@ With this, we can define the **variational vector field** by
 $$ S := Y \mid_{s=0}.$$
 
 This is a vector field defined along the curve $$\gamma$$.
-
-**Remark:** I'll be sloppy and sort of interchangeably use $$\gamma'$$ and $$T$$. Hopefully it'll be clear from context that these are really playing the same role.

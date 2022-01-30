@@ -29,7 +29,7 @@ We also observe that we can define the **unoriented geodesics** by
 
 $$OG(M) := G(M)/\{ \pm\}.$$
 
-It is not too hard to see that $$\lambda_g$$ defined is independent of the orientation of the geodesic, so descends to a measure $$\lambda_g$$ on $OG(M)$$ (which is invariant under the action of $$\pi_1(M)$$). We call said measure the **Liouville current**.
+It is not too hard to see that $$\lambda_g$$ defined is independent of the orientation of the geodesic, so descends to a measure $$\lambda_g$$ on $$OG(M)$$ (which is invariant under the action of $$\pi_1(M)$$). We call said measure the **Liouville current**.
 
 We can define a **geodesic current** of $$M$$ to be a locally finite Borel measure on $$OG(M)$$ invariant under the action of $$\pi_1(M)$$. The space of geodesic currents is given by $$C(M)$$, and this is endowed with the weak* topology. That is, $$\mu_n \rightarrow \mu$$ if for every function $$\phi$$ we have
 
@@ -37,7 +37,7 @@ $$\int \phi d\mu_n \rightarrow \int \phi d\mu.$$
 
 Thus our first example of a geodesic current is the Liouville current. We now want to give a bunch of examples of geodesic currents arising from geodesics.
 
-Let $$[\gamma]$$ be a free homotopy class on $$M$$. Suppose it is a prime class, meaning there is not another class $$[\delta]$$ so that $$[\delta]^k = \[\gamma]$$ for some integer $$k$$. Since everything is hyperbolic, there is a unique closed geodesic $$\gamma$$ in this free homotopy class. We can lift this geodesic to a family of geodesics in $$\tilde{M}$$ and define a measure $$j([\gamma])$$ which is simply the Dirac measure of this lift.
+Let $$[\gamma]$$ be a free homotopy class on $$M$$. Suppose it is a prime class, meaning there is not another class $$[\delta]$$ so that $$[\delta]^k = [\gamma]$$ for some integer $$k$$. Since everything is hyperbolic, there is a unique closed geodesic $$\gamma$$ in this free homotopy class. We can lift this geodesic to a family of geodesics in $$\tilde{M}$$ and define a measure $$j([\gamma])$$ which is simply the Dirac measure of this lift.
 
 **Claim:** $$j([\gamma])$$ is a geodesic current.
 
@@ -45,7 +45,7 @@ Let $$[\gamma]$$ be a free homotopy class on $$M$$. Suppose it is a prime class,
 
 Now we extend $$j$$ by homogeneity to all classes -- that is, $$j([\gamma]^p) = p j([\gamma])$$. If we label the collection of all free homotopy classes $$\mathcal{C}(M)$$ this gives us a map $$j : \mathcal{C}(M) \rightarrow C(M)$$. Since closed geodesics are dense, we get that the span of the image of $$j$$ is dense inside of $$C(M)$$. Thus (up to approximation) we have identified essentially all geodesic currents.
 
-Since the Liouville current $$\lambda_g$$ is so dependent on the metric, one might ask to what extend does it determine the metric? That is, does the Liouville current somehow *uniquely* determine what the metric is (up to isometry)? Recall that the marked length spectrum is a map $\ell_g : \mathcal{C}(M) \rightarrow \mathbb{R}_{> 0}$$ which takes free homotopy classes to the lengths of the unique geodesic inside of the free homotopy class. We have  that Otal-Croke's theorem says that the marked length spectrum determines the metric up to isometry -- in other words, if $$g_1, g_2$$ are two metrics on $$M$$ so that $$\ell_{g_1} = \ell_{g_2}$$ then $$g_1 \simeq g_2$$. It turns out we can extend this to the Liouville current as well with the following observation.
+Since the Liouville current $$\lambda_g$$ is so dependent on the metric, one might ask to what extend does it determine the metric? That is, does the Liouville current somehow *uniquely* determine what the metric is (up to isometry)? Recall that the marked length spectrum is a map $$\ell_g : \mathcal{C}(M) \rightarrow \mathbb{R}_{> 0}$$ which takes free homotopy classes to the lengths of the unique geodesic inside of the free homotopy class. We have  that Otal-Croke's theorem says that the marked length spectrum determines the metric up to isometry -- in other words, if $$g_1, g_2$$ are two metrics on $$M$$ so that $$\ell_{g_1} = \ell_{g_2}$$ then $$g_1 \simeq g_2$$. It turns out we can extend this to the Liouville current as well with the following observation.
 
 **Observation:** If $$\lambda_{g_1} = \lambda_{g_2}$$ then $$\ell_{g_1} = \ell_{g_2}$$.
 
@@ -81,7 +81,7 @@ We make the following observation which justifies the name.
 
 $$i(\alpha, \beta) = \int_{I_1 \tilde{M}} d\alpha \times d\beta = \int_{x \in \tilde{M}}\int_{(\pm v, \pm w) \in (I_1)_x \tilde{M}} d\alpha(x, \pm v) d\beta(x, \pm w).$$.
 
-Consequently $$d\alpha(x, \pm v) = 1$$ iff $$(x, v)$$ or $$(x,-v)$$ lies on the geodesic $$\alpha$$. Thus $$d\alpha(x, \pm v) d\beta x, \pm w) = 1$$ iff $$\alpha$$ and $$\beta$$ intersect transversely at $$x$$. We sum over all such points and this gives us the desired result. $$\blacksquare$$
+Consequently $$d\alpha(x, \pm v) = 1$$ iff $$(x, v)$$ or $$(x,-v)$$ lies on the geodesic $$\alpha$$. Thus $$d\alpha(x, \pm v) d\beta (x, \pm w) = 1$$ iff $$\alpha$$ and $$\beta$$ intersect transversely at $$x$$. We sum over all such points and this gives us the desired result. $$\blacksquare$$
 
 There's also an interesting connection to the Liouville current.
 
@@ -108,3 +108,18 @@ We also wish to study $$i(\lambda_g, \lambda_g)$$. There's an interesting proper
 **Observation:** We have that $$i(\lambda_g, \lambda_g) = \frac{\pi}{2} A(g)$$, where $$A(g)$$ is the area.
 
 We omit the proof here and refer the reader to [this article](https://people.math.harvard.edu/~ctm/home/text/class/harvard/275/05/html/home/course/course.pdf) instead (the calculation isn't hard, it's just tedious to write out).
+
+
+# References
+
+In no particular order.
+
+(i) [Lengths and volumes in Riemannian manifolds](https://www2.math.upenn.edu/~ccroke/dvi-papers/lengtharea10-31.pdf) by Croke and Dairbekov.
+
+(ii) [Length Spectral Rigidity of Non-Positively Curved Surfaces](https://arxiv.org/pdf/1207.6157.pdf) by Frazier.
+
+(iii) [Teichmuller Theory Notes](https://people.math.harvard.edu/~ctm/home/text/class/harvard/275/05/html/home/course/course.pdf) by Curtis McMullen.
+
+(iv) [What's a Geodesic Current](https://www.noellesawyer.com/post/what-s-a-geodesic-current) by Noelle Sawyer.
+
+(v) [Partial Marked Length Spectrum Rigidity of Negatively Curved Surfaces](https://digitalcollections.wesleyan.edu/object/ir-2839) by Noelle Sawyer.
