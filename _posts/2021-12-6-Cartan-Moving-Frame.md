@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Cartan's Moving Frame
-tag: dynamics
-categories: ["Dynamics"]
+tag: geometry
+categories: ["Geometry"]
 ---
 
 In this post I discuss Cartan's moving frame on a surface.
 
 # Set Up
 
-**EDIT (12/15):** This is an unfinished article.
+**EDIT (1/30):** This is mostly finished, although someday I would like to do the isothermal calculation.
 
 Throughout let $$M$$ be an oriented surface equipped with a metric $$g$$. The goal of this article is to construct Cartan's moving frame and prove Cartan's structure equations, following Section 7.2 of [Singer and Thorpe](https://www.amazon.com/Elementary-Topology-Geometry-Undergraduate-Mathematics/dp/0387902023).
 

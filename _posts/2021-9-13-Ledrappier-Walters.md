@@ -9,6 +9,8 @@ In this post I discuss the [Ledrappier-Walters formula](https://www.researchgate
 
 # Set Up
 
+**EDIT: This post is still unfinished**
+
 Throughout, let $$(X,d)$$ be a compact metric space and $$T : X \rightarrow X$$ a continuous map (which is our dynamical system). For $$\delta > 0$$ and $$n \in \mathbb{N}$$ we say a set $$E \subseteq X$$ is **delta separated** if for any $$x \neq y \in E$$ we have
 
 $$ \max_{0 \leq i < n} d(T^i(x), T^i(y)) \geq \delta.$$
@@ -187,7 +189,7 @@ $$ P(T^m, f_m, K) = m P(T,f,K).$$
 
 **Sketch of Proof:** It's mostly just a matter of running through definitions. Suppose $$E$$ is $$(n,\delta)$$ separated for $$T^m$$. This means that for $$x \neq y$$ in $$E$$ we have
 
-$$\max_{0 \leq i < nm} d(T^i(x), T^i(y)) \geq \max_{0 \leq k < n\} d(T^{km}(x), T^{km}(y)) \geq \delta.$$
+$$\max_{0 \leq i < nm} d(T^i(x), T^i(y)) \geq \max_{0 \leq k < n} d(T^{km}(x), T^{km}(y)) \geq \delta.$$
 
 Thus $$E$$ is an $$(mn,\delta)$$ separated set for $$T$$. Now
 

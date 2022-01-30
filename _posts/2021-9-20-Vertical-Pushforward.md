@@ -11,7 +11,7 @@ In this post I discuss a way of pushing forward forms assuming a vertical condit
 
 This can be found as Problem 14-9 in [Lee's Smooth Manifolds](https://www.springer.com/gp/book/9781441999818).
 
-Let $$M$$ and $$N$$ be two smooth manifolds with $$\pi : M \rightarow N$$ a surjective submersion with connected fibers. Recall that a tangent vector $$v \in T_pM$$ is said to be **vertical** if $$d\pi_p(v) = 0$$.
+Let $$M$$ and $$N$$ be two smooth manifolds with $$\pi : M \rightarrow N$$ a surjective submersion with connected fibers. Recall that a tangent vector $$v \in T_pM$$ is said to be **vertical** if $$d\pi_p(v) = 0$$.
 
 The goal is to show that if $$\omega \in \Omega^k(M)$$, then there exists $$\eta \in \Omega^k(N)$$ so that $$\pi^*(\eta) = \omega$$ if and only if the following two conditions are satisfied for every $$p \in M$$, $$v \in \ker(d\pi_p)$$:
 
@@ -29,7 +29,7 @@ Similarly,
 
 $$i_v(d\omega_p) = \pi^*(d\eta)_p(v, \cdot) = \pi^*(d\eta)_p(v, \cdot) = d\eta_{\pi(p)} (d\pi_p(v), \cdot) = 0.$$
 
-Now suppose that we have the following two conditions. First assume we're working with $$\pi : \mathbb{R}^{n+m} \rightarrow \mathbb{R}^n$$ the projection map (this is actually okay to do locally by the [local submersion theorem](https://math.stackexchange.com/questions/1320102/local-submersion-theorem-differential-topology-of-guillemin-and-pollack)). The goal is to define $$\eta$$ with $\pi^*(\eta) = \omega$$. Since we're working over $$\mathbb{R}^n$$, let's just assume that we're dealing with nice coordinates. In other words, our form $$\omega$$ looks like the sum of forms $$\omega_\alpha$$ with
+Now suppose that we have the following two conditions. First assume we're working with $$\pi : \mathbb{R}^{n+m} \rightarrow \mathbb{R}^n$$ the projection map (this is actually okay to do locally by the [local submersion theorem](https://math.stackexchange.com/questions/1320102/local-submersion-theorem-differential-topology-of-guillemin-and-pollack)). The goal is to define $$\eta$$ with $$\pi^*(\eta) = \omega$$. Since we're working over $$\mathbb{R}^n$$, let's just assume that we're dealing with nice coordinates. In other words, our form $$\omega$$ looks like the sum of forms $$\omega_\alpha$$ with
 
 $$\omega_\alpha = f_{\alpha_{1} \cdots \alpha_{k}} dx_{\alpha_{1}} \wedge \cdots \wedge dx_{\alpha_{k}},$$
 
