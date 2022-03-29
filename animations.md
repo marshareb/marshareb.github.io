@@ -48,6 +48,6 @@ Created using Maple.
 
 Here is the animation of the convergence of left Riemann sums for the function $$f(x) = x^2$$ on the interval $$[0,1]$$.
 
-<center><img src ="/images/leftriemann.mp4"></center>
+<center><img src ="/images/leftriemann.gif"></center>
 
 Code can be found <a href="https://gist.github.com/marshareb/b63a82956f71c907c8b128f6c74c9842">here</a>.
