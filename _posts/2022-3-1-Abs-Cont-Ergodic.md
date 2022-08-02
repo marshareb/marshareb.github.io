@@ -71,7 +71,7 @@ has strictly positive measure. Now we integrate
 
 $$ 0 = \int_A |f| > \int_A c = \mu(A) c > 0.$$
 
-This is a contradiction, so we must have that $f$ is zero almost everywhere. $$\blacksquare$$
+This is a contradiction, so we must have that $$f$$ is zero almost everywhere. $$\blacksquare$$
 
 # Proof of Result
 
