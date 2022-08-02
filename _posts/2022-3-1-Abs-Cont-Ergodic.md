@@ -49,7 +49,11 @@ We will also need the following exercise from measure theory.
 
 **Observation:** Let $$\mu$$ be a probability measure on $$X$$. Suppose that $$f, g$$ are integrable. If $$\int_A fd\mu = \int_A g d\mu$$ for every measurable set $$A$$, then $$f = g$$ almost everywhere.
 
-**Proof:** It suffices to show that if $$\int_A f d\mu = 0$$ for every measurable set, then $$f =0$$ almost everywhere. Observe first that this implies that $$\int_A |f| d\mu = 0$$ for every measurable set $$A$$. To see why, let $$A_0 = \{f > 0\}$$ and $$A_1 = \{f \leq 0\}$$. Then we have
+**Proof:** It suffices to show that if $$ \int_A f d\mu = 0 $$ for every measurable set, then $$f =0$$ almost everywhere. Observe first that this implies that
+
+$$\int_A | f | d\mu = 0$$
+
+for every measurable set $$A$$. To see why, let $$A_0 = \{f > 0\}$$ and $$A_1 = \{f \leq 0\}$$. Then we have
 
 $$ 0 = \int_{A \cap A_0} f d\mu = \int_{A \cap A_0} |f| d\mu,$$
 
@@ -59,7 +63,11 @@ hence
 
 $$ \int_A |f| d\mu = \int_{A \cap A_0} |f| d\mu + \int_{A \cap A_1} |f| d\mu = 0.$$
 
-Now suppose that $$f$$ is not zero almost everywhere. There is a constant $$c > 0$$ so that $$A := \{|f| > c\}$$ has strictly positive measure. Now we integrate
+Now suppose that $$f$$ is not zero almost everywhere. There is a constant $$c > 0$$ so that
+
+$$A := \{|f| > c\}$$
+
+has strictly positive measure. Now we integrate
 
 $$ 0 = \int_A |f| > \int_A c = \mu(A) c > 0.$$
 
