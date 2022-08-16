@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a third year mathematics graduate student at Ohio State University. My advisor is [Andrey Gogolev](https://people.math.osu.edu/gogolyev.1/).
+I am a fourth year mathematics graduate student at Ohio State University. My advisor is [Andrey Gogolev](https://people.math.osu.edu/gogolyev.1/).
 
 ### Research Interests
 
