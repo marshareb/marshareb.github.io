@@ -81,7 +81,7 @@ This concludes the proof. $$\blacksquare$$
 
 **Remark:** The set of cocycles forms a vector space over $$\mathbb{R}$$, so another proof of this claim is to use this.
 
-**Claim 3:** Suppose $$f^t, g^t : M \rightarrow M$$ are flows, $$f^t$$ a time change of $$g^t$, $$\alpha$$ a cocycle over $$f^t$$ such that
+**Claim 3:** Suppose $$f^t, g^t : M \rightarrow M$$ are flows, $$f^t$$ a time change of $$g^t$$, $$\alpha$$ a cocycle over $$f^t$$ such that
 
 $$ f^t(x) = g^{\alpha(x,t)}(x).$$
 
@@ -167,7 +167,7 @@ Hence we see that there is a $$\beta : N \rightarrow \mathbb{R}$$ such that
 
 $$ \alpha(x,t) - t = -\beta(\psi^t(x)) + \beta(x).$$
 
-Here, we're using the Livsic theorem and replacing the result we get from the Livsic theorem with its negative. Now we use Claim 2 to get a homeomorphism $$r : N \rightarrow N$$ so that
+Here, we're using the Livsic theorem and replacing the result we get from the Livsic theorem with its negative. Now we use Claim 3 to get a homeomorphism $$r : N \rightarrow N$$ so that
 
 $$ r^{-1} \circ \psi^t \circ r = g^t.$$
 
