@@ -61,7 +61,8 @@ $$ \alpha(x,0) = \beta(f^0(x)) - \beta(x) = \beta(x) - \beta(x) = 0.$$
 
 The second condition is also fairly easy to see:
 
-$$\alpha(x, t+s) = \beta(f^{t+s}(x)) - \beta(x) = \beta(f^{t+s}(x)) - \beta(f^t(x)) + \beta(f^t(x)) - \beta(x) = \beta(f^{s}(f^t(x))) - \beta(f^t(x)) + \beta(f^t(x)) - \beta(x) = \alpha(f^t(x), s) + \alpha(x,t).$$
+$$\alpha(x, t+s) = \beta(f^{t+s}(x)) - \beta(x) = \beta(f^{t+s}(x)) - \beta(f^t(x)) + \beta(f^t(x)) - \beta(x) \\
+= \beta(f^{s}(f^t(x))) - \beta(f^t(x)) + \beta(f^t(x)) - \beta(x) = \alpha(f^t(x), s) + \alpha(x,t).$$
 
 This concludes the proof. $$\blacksquare$$
 
@@ -75,7 +76,7 @@ $$\gamma(x,0) = \alpha(x,0) - 0 = 0.$$
 
 The second condition follows:
 
-$$ \gamma(x, t+s) = \alpha(x, t+s) - (t+s) = \alpha(f^t(x), s) + \alpha(x,t) - t - s = [\alpha(f^t(x), s) - s] + [\alpha(x,t) - t] = \gamma(f^t(x), s) + \gamma(x,t).$$
+$$ \gamma(x, t+s) = \alpha(x, t+s) - (t+s) = \alpha(f^t(x), s) + \alpha(x,t) - t - s \\ = [\alpha(f^t(x), s) - s] + [\alpha(x,t) - t] = \gamma(f^t(x), s) + \gamma(x,t).$$
 
 This concludes the proof. $$\blacksquare$$
 
