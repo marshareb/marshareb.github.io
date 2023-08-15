@@ -50,7 +50,7 @@ $$ H : S^1 \times [0,T] \rightarrow M, \ \ H(\theta, t) := \exp_p( t \cdot (\the
 
 where $$v$$ is some reference vector that is fixed and $$\theta v$$ is that vector rotated by $$\theta$$. Let $$B_T := H(S^1 \times [0,T])$$ be the geodesic disk in $$M$$. Notice this is fine to do as long as the radius of the geodesic ball is sufficiently small (in particular, as long as it is contained in a normal neighborhood). For simplicity, just assume that the curvature is negative so that we can get rid of this criteria.
 
-Consider the variational vector field $$H_*(d/d\theta) = J(\theta, t).$$ Clearly $$J(\theta, 0) = 0$$. Using the same argument as in DoCarmo Chapter 10 Proposition 2.5, we also see that $J'(\theta, 0) = 1.$$ We claim that $$J$$ is a Jacobi field along the geodesic $$\gamma_{\theta v}$$. Recall that this means that
+Consider the variational vector field $$H_*(d/d\theta) = J(\theta, t).$$ Clearly $$J(\theta, 0) = 0$$. Using the same argument as in DoCarmo Chapter 10 Proposition 2.5, we also see that $$J'(\theta, 0) = 1.$$ We claim that $$J$$ is a Jacobi field along the geodesic $$\gamma_{\theta v}$$. Recall that this means that
 
 $$ J''(\theta, t) + K^g(\gamma_{\theta v}(t)) J(\theta, t) = 0,$$
 
@@ -62,13 +62,13 @@ Now, notice that
 
 $$ \int_0^{2\pi} j'(\theta, T) d\theta = \int_0^{2\pi} \int_0^T j''(\theta, t) dt d\theta + \int_0^{2\pi} j'(\theta, 0)d\theta.$$
 
-Using the fact that $j(\theta, t)$$ satisfies the Jacobi equation, we can rewrite this as
+Using the fact that $$j(\theta, t)$$ satisfies the Jacobi equation, we can rewrite this as
 
 $$ \int_0^{2\pi} j'(\theta, T) d\theta = -\int_0^{2\pi} \int_0^T K^g(\gamma_\theta(t)) j(\theta, t) dt d\theta +  \int_0^{2\pi} j'(\theta, 0)d\theta.$$
 
 We now set up notation:
 - Let $$\sigma(\theta) := H(\theta, T)$$ be a curve which parameterizes the boundary. Notice that $$\sigma'(\theta) = J(\theta, T)$$.
-- Let $$T(\theta) := \sigma'(\theta)/|\sigma'(\theta)|$$ be the unit tangent vector field of $$\sigma$$.
+- Let $$T(\theta)$$ be the unit tangent vector field of $$\sigma$$.
 - Let $$N(\theta) := \dot{\gamma}_{\theta v}(T)$$. This is a unit tangent vector field, and by the Gauss lemma this is normal to $$T$$.
 
 Notice that
