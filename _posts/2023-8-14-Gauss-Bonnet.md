@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Gauss-Bonnet
+title: Gauss-Bonnet for disks
 tag: geometry
 categories: ["Geometry"]
 ---
 
-In this post, we talk about the Gauss-Bonnet theorem in a certain setting.
+In this post, we talk about the Gauss-Bonnet theorem for disks.
 
 # Introduction
 
@@ -44,11 +44,11 @@ There are essentially two kinds of proofs of the Gauss-Bonnet theorem, which aft
 
 # Gauss-Bonnet for disks
 
-Recall that the geodesic exponential map is given by $$\exp_p(v) \coloneqq \gamma_v(1).$$ We can define a smooth parameterization of a geodesic disk on the surface using this exponential map:
+Recall that the geodesic exponential map is given by $$\exp_p(v) := \gamma_v(1).$$ We can define a smooth parameterization of a geodesic disk on the surface using this exponential map:
 
-$$ H : S^1 \times [0,T] \rightarrow M, \ \ H(\theta, t) \coloneqq \exp_p( t \cdot (\theta v)),$$
+$$ H : S^1 \times [0,T] \rightarrow M, \ \ H(\theta, t) := \exp_p( t \cdot (\theta v)),$$
 
-where $$v$$ is some reference vector that is fixed and $$\theta v$$ is that vector rotated by $$\theta$$. Let $$B_T \coloneqq H(S^1 \times [0,T])$$ be the geodesic disk in $$M$$. Notice this is fine to do as long as the radius of the geodesic ball is sufficiently small (in particular, as long as it is contained in a normal neighborhood). For simplicity, just assume that the curvature is negative so that we can get rid of this criteria.
+where $$v$$ is some reference vector that is fixed and $$\theta v$$ is that vector rotated by $$\theta$$. Let $$B_T := H(S^1 \times [0,T])$$ be the geodesic disk in $$M$$. Notice this is fine to do as long as the radius of the geodesic ball is sufficiently small (in particular, as long as it is contained in a normal neighborhood). For simplicity, just assume that the curvature is negative so that we can get rid of this criteria.
 
 Consider the variational vector field $$H_*(d/d\theta) = J(\theta, t).$$ Clearly $$J(\theta, 0) = 0$$. Using the same argument as in DoCarmo Chapter 10 Proposition 2.5, we also see that $J'(\theta, 0) = 1.$$ We claim that $$J$$ is a Jacobi field along the geodesic $$\gamma_{\theta v}$$. Recall that this means that
 
@@ -67,9 +67,9 @@ Using the fact that $j(\theta, t)$$ satisfies the Jacobi equation, we can rewrit
 $$ \int_0^{2\pi} j'(\theta, T) d\theta = -\int_0^{2\pi} \int_0^T K^g(\gamma_\theta(t)) j(\theta, t) dt d\theta +  \int_0^{2\pi} j'(\theta, 0)d\theta.$$
 
 We now set up notation:
-- Let $$\sigma(\theta) \coloneqq H(\theta, T)$$ be a curve which parameterizes the boundary. Notice that $$\sigma'(\theta) = J(\theta, T)$$.
-- Let $$T(\theta) \coloneqq \sigma'(\theta)/|\sigma'(\theta)|$$ be the unit tangent vector field of $$\sigma$$.
-- Let $$N(\theta) \coloneqq \dot{\gamma}_{\theta v}(T)$$. This is a unit tangent vector field, and by the Gauss lemma this is normal to $$T$$.
+- Let $$\sigma(\theta) := H(\theta, T)$$ be a curve which parameterizes the boundary. Notice that $$\sigma'(\theta) = J(\theta, T)$$.
+- Let $$T(\theta) := \sigma'(\theta)/|\sigma'(\theta)|$$ be the unit tangent vector field of $$\sigma$$.
+- Let $$N(\theta) := \dot{\gamma}_{\theta v}(T)$$. This is a unit tangent vector field, and by the Gauss lemma this is normal to $$T$$.
 
 Notice that
 $$ J'(\theta, T) = \nabla_{\dot{\gamma}_{\theta v}(T)} J(\theta, T) = \nabla_{\sigma'(\theta)} \dot{\gamma}_{\theta v}(T) = |\sigma'(\theta)| \nabla_T N = - k_g(\theta) |\sigma'(\theta)| T(\theta),$$
@@ -80,7 +80,7 @@ $$ \int_0^{2\pi} j'(\theta, T) d\theta = \int_{\partial B_T} k_g ds.$$
 
 On the other hand, recall that the area form on $$M$$ is given by
 
-$$ dA(v,w) \coloneqq \langle w, v^\perp \rangle.$$
+$$ dA(v,w) := \langle w, v^\perp \rangle.$$
 
 We see that
 
