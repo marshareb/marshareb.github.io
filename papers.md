@@ -45,7 +45,7 @@ Here are a collection of papers and presentations I've done over the years.
 <p> Given at the IUPUI ergodic theory seminar. </p>
 
 <h3> <a class = "link-style" href="https://www.youtube.com/watch?v=NVOxRGiCevM">Geodesic Flow and the Hopf Argument</a></h3>
-<p>My presentation for the <a class = "link-style" href="https://www.springer.com/gp/book/9780857290205"> OSU Ergodic Theory and Combinatorial Number Theory seminar </a>. The presentation follows <a class = "link-style" href="https://github.com/marshareb/ramsey/blob/master/Other%20Files/ramseyppt.pdf">Einsiedler and Ward</a> </p>
+<p>My presentation for the <a class = "link-style" href="https://www.youtube.com/channel/UC0z8KwHkXp-5gA1996UnTyQ/videos"> OSU Ergodic Theory and Combinatorial Number Theory seminar </a>. The presentation follows <a class = "link-style" href="https://www.springer.com/gp/book/9780857290205">Einsiedler and Ward</a> </p>
 
 <h3> <a class = "link-style" href="/files/NCPresentation.pdf">Markov Chains, Mixing Times, and Couplings (2) [2018]</a></h3>
 <p>My presentation for <a class = "link-style" href="https://www.niss.org/news/international-conference-advances-interdisciplinary-statistics-and-combinatorics-aisc"> AISC </a> at UNC Greensboro.</p>
