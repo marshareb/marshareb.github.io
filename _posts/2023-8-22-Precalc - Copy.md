@@ -1,0 +1,10 @@
+---
+layout: post
+title: MA 1172 - Recitation One - Precalculus and Calculus Review
+---
+
+In this post, we briefly review some precalculus and calculus that will be important for the course.
+
+# Precalculus
+
+Test one
