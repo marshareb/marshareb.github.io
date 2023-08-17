@@ -4,6 +4,8 @@ permalink: /blog/
 title: Blog
 ---
 
+<p>Here is my secret blog. This is a collection of various things I'm thinking about at the time. There are definitely mistakes, so take most of it with a grain of salt. </p>
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
