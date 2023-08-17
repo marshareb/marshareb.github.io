@@ -5,6 +5,8 @@ layout: default
 <div class="post-categories">
   {% if post %}
     {% assign categories = post.categories %}
+  {% if teachingpost %}
+      {% assign categories = post.categories %}
   {% else %}
     {% assign categories = page.categories %}
   {% endif %}
