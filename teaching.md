@@ -20,5 +20,6 @@ title: Teaching
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
+    {% endfor %}
   {% endfor %}
 </div>
