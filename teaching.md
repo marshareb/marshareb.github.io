@@ -8,7 +8,8 @@ title: Teaching
 
 <div class="posts">
   {% for tag in site.tags %}
-  {% if tag == "MA1172" %}
+  {% if tag[0] == "MA1172" %}
+  {% for post in tag[1] %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
