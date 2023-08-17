@@ -32,17 +32,17 @@ Here are a collection of papers and presentations I've done over the years.
 
 ## Presentations
 
-<h3><a class = "link-style" href=""> TBD </a> </h3>
-<p>Given at Purdue University on 9/25/23.</p>
+<h3><a class = "link-style" href=""> TBD [2023]</a> </h3>
+<p>Given at Purdue University.</p>
 
-<h3><a class = "link-style" href="https://sites.northwestern.edu/dynamicsrtg/summer-school-2023/"> A positive proportion Livshits theorem</a></h3>
-<p> Given at the Northwestern summer school on 6/26/23. </p>
+<h3> <a class = "link-style" href="/files/Positive_Proportion_Livshits-northwestern.pdf"> A positive proportion Livshits theorem [2023]</a></h3>
+<p> Given at the <a class = "link-style" href="https://sites.northwestern.edu/dynamicsrtg/summer-school-2023/">Northwestern summer school on dynamical systems</a>. </p>
 
-<h3><a class = "link-style" href="https://brinmrc.umd.edu/programs/schools/summer23/summer23-school-hyperbolicity.html"> A positive proportion Livshits theorem</a></h3>
-<p> Given at the Maryland summer school on partially hyperbolic systems on 6/1/23 </p>
+<h3><a class = "link-style" href="/files/Positive_Proportion_Livshits-maryland.pdf"> A positive proportion Livshits theorem [2023]</a></h3>
+<p> Given at the <a class = "link-style" href="https://brinmrc.umd.edu/programs/schools/summer23/summer23-school-hyperbolicity.html">Maryland summer school on partially hyperbolic systems</a>. </p>
 
-<h3>Deformative Magnetic Marked Length Spectrum Rigidity </h3>
-<p> Given at the IUPUI ergodic theory seminar on 9/7/22. </p>
+<h3>Deformative Magnetic Marked Length Spectrum Rigidity [2022] </h3>
+<p> Given at the IUPUI ergodic theory seminar. </p>
 
 <h3> <a class = "link-style" href="https://www.youtube.com/watch?v=NVOxRGiCevM">Geodesic Flow and the Hopf Argument</a></h3>
 <p>My presentation for the <a class = "link-style" href="https://www.springer.com/gp/book/9780857290205"> OSU Ergodic Theory and Combinatorial Number Theory seminar </a>. The presentation follows <a class = "link-style" href="https://github.com/marshareb/ramsey/blob/master/Other%20Files/ramseyppt.pdf">Einsiedler and Ward</a> </p>
