@@ -9,7 +9,7 @@ name: James Marshall Reber
 description: Fifth year graduate student at Ohio State University.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://pbs.twimg.com/profile_images/1236268524970160128/8eIS1YEe_400x400.jpg
+avatar: https://opic.osu.edu/marshallreber.1?aspect=p&width=300
 
 #
 # Flags below are optional
@@ -19,7 +19,7 @@ avatar: https://pbs.twimg.com/profile_images/1236268524970160128/8eIS1YEe_400x40
 footer-links:
   dribbble:
   email: jamesmarshallreber@gmail.com
-  facebook: JamesMarshallreb
+  facebook:
   flickr:
   github: marshareb
   instagram: j.marsha
