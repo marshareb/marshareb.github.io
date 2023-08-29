@@ -96,7 +96,11 @@ $$ \int (x^2-1)dx = \frac{x^3}{3} - x + C.$$
 
 So one antiderivative of $$f(x)$$ is $$F(x) = \frac{x^3}{3} - x.$$ The fundamental theorem of calculus then tells us
 
-$$ \int_{-2}^{-1} f(x)dx - \int_{-1}^1 f(x)dx + \int_1^2 f(x)dx = F(-1) - F(-2) - F(1) + F(-1) + F(2) - F(1) = 2 F(-1) + F(2) - 2F(1) - F(-2).$$
+$$ \int_{-2}^{-1} f(x)dx - \int_{-1}^1 f(x)dx + \int_1^2 f(x)dx = F(-1) - F(-2) - F(1) + F(-1) + F(2) - F(1)$$
+
+which simplifies to
+
+$$ \text{Area} = 2 F(-1) + F(2) - 2F(1) - F(-2).$$
 
 Going to our favorite calculator, we find
 
@@ -114,7 +118,9 @@ In general, this will involve us breaking up integrals into smaller integrals, e
 
 **Problem:** Consider the region given by
 
-![](https://ximera.osu.edu/mooculus/areasBetweenCurves/exercises/exerciseList/areasBetweenCurves/exercises/setUpAreaBothWays2-figure0.svg)
+<p align="center">
+  <img src="https://ximera.osu.edu/mooculus/areasBetweenCurves/exercises/exerciseList/areasBetweenCurves/exercises/setUpAreaBothWays2-figure0.svg" />
+</p>
 
 Set up the integral for the area of the region with respect to $$x$$.
 
