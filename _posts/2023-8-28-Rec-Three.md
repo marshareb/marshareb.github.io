@@ -58,7 +58,7 @@ Notice the minus that pops up since $$0 \leq t \leq 1$$. Let's simplify a bit:
 
 $$ \int_0^1 \frac{2dt}{3t^2 + 3 - t^2 + 1} = \int_0^1 \frac{2dt}{2t^2 + 4} = \int_0^1 \frac{dt}{t^2 + 2} = \frac{1}{2} \int_0^1 \frac{dt}{(t/\sqrt{2})^2 + 1}.$$
 
-Let $$u = t/\sqrt{2}$$, so $$dt = $$\sqrt{2} du$$. If $$t = 0$$, then $$u=0$$, and if $$t = 1$$ then $$u = 1/\sqrt{2}$$. We get
+Let $$u = t/\sqrt{2}$$, so $$dt = \sqrt{2} du$$. If $$t = 0$$, then $$u=0$$, and if $$t = 1$$ then $$u = 1/\sqrt{2}$$. We get
 
 $$ \frac{1}{\sqrt{2}} \int_0^{1/\sqrt{2}} \frac{du}{u^2 + 1} = \frac{1}{\sqrt{2}} \arctan(u) \bigg|_{u=0}^{1/\sqrt{2}} = \frac{\arctan(1/\sqrt{2})}{\sqrt{2}}.$$
 
