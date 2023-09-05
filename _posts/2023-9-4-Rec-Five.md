@@ -48,7 +48,7 @@ Similar to the washer method, we're going to calculate the volume by calculating
 
 Now, we'll need to find the surface area at a point. Imagining this like a cylinder, we'll need to find the radius of the cylinder and the height. The height will be given by the purple line (my animation software won't let me add a vertical brace).
 
-![](/teaching_images/SolidsOfRevolutionFive.png)
+![](/teaching_images/SolidsofRevolutionFive.png)
 
 We can calculate this to be
 
