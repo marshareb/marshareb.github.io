@@ -52,7 +52,7 @@ $$h(x) = \frac{1}{3} \ln(x).$$
 
 Next, we'll need to find the radius at a point $$x$$. For the $$x$$-slice defined by the purple line, this will be given by the following.
 
-![](/teaching_images/SolidsOfRevolutionSix.png)
+![](/teaching_images/SolidsofRevolutionSix.png)
 
 We can calculate the radius as
 
