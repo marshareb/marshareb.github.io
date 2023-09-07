@@ -42,15 +42,11 @@ $$V = V_{\text{outside}} - V_{\text{inside}}.$$
 
 ## Shell Method
 
-Similar to the washer method, we're going to calculate the volume by calculating the surface area at each step and then "adding up" (i.e. integrating) the surface areas. This will be done by taking "slices" which are parallel to the axis of rotation. In this case, we fix an $$x$$ and we consider the line segment connecting the two boundaries of the region. This is donated with a purple line.
+Similar to the washer method, we're going to calculate the volume by calculating the surface area at each step and then "adding up" (i.e. integrating) the surface areas. This will be done by taking "slices" which are parallel to the axis of rotation. In this case, we fix an $$x$$ and we consider the line segment connecting the two boundaries of the region. This is denoted with a purple line.
 
 ![](/teaching_images/SolidsOfRevolutionFour.png)
 
-Now, we'll need to find the surface area at a point. Imagining this like a cylinder, we'll need to find the radius of the cylinder and the height. The height will be given by the purple line (my animation software won't let me add a vertical brace).
-
-![](/teaching_images/SolidsofRevolutionFive.png)
-
-We can calculate this to be
+Now, we'll need to find the surface area at a point. Imagining this like a cylinder, we'll need to find the radius of the cylinder and the height. The height will be given by the purple line (my animation software won't let me add a vertical brace). We can calculate this to be
 
 $$h(x) = \frac{1}{3} \ln(x).$$
 
