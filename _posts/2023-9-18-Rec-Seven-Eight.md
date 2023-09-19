@@ -118,7 +118,7 @@ Essentially, what is happening is that we really only know how to deal with cons
 
 If we have constant density, then we know that the mass will be equal to the "volume" times the density (volume here depends on the dimension). If we have variable density, then this does not apply. However, we can use the philosophy of calculus to derive what the mass should be. Suppose the density of a wire is given by a function $$\rho(x)$$ and suppose it's on an interval $$a \leq x \leq b$$. We can copy the same idea as last time. If we break up the interval into $$n$$ smaller intervals, we can take the left endpoint $$x_k^*$$ (or really any point in the interval) and calculate the density on these smaller intervals. These smaller intervals have length $$\Delta x$$, so using the fact that mass is volume times density we get
 
-$$\text{Mass of I_k} = \rho(x_k^*) \Delta x.$$
+$$\text{Mass of } I_k = \rho(x_k^*) \Delta x.$$
 
 Adding these up will give us the approximate mass:
 
