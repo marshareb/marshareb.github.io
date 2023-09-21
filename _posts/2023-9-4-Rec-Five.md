@@ -4,11 +4,9 @@ title: Recitation Five
 tag: [MA1172]
 ---
 
-In this post, we review what was discussed in the fifth recitation.
-
-# Introduction
-
 In this recitation, we covered problems from "Solids of Revolution" and the Ximera homework.
+
+
 
 # Solids of Revolution
 

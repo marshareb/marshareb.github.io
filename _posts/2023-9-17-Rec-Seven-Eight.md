@@ -4,10 +4,6 @@ title: Recitations Seven and Eight
 tag: [MA1172]
 ---
 
-In this post, we review what was discussed in the seventh and eighth recitation.
-
-# Introduction
-
 In the seventh recitation we covered lengths of curves, and in the eights we covered applications.
 
 # Lengths of Curves

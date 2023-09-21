@@ -4,11 +4,8 @@ title: Recitation Three
 tag: [MA1172]
 ---
 
-In this post, we review what was discussed in the third recitation.
-
-# Introduction
-
 In this recitation, we covered all of the problems from the "Area Between Curves" worksheet, along with Ximera problems 13 from "Area between curves" and 24 from "A review of integration."
+
 
 # Weierstrass Substitution
 
