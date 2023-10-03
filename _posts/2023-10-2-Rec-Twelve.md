@@ -18,7 +18,7 @@ $$a_n = 2n+1 \text{ for } n \geq 0.$$
 
 This is just two different ways of writing the same thing, but I figured it's a good idea to include the "definition." We're going to use the second way to denote sequences, but remember they are related by setting
 
-$$ f(n) \coloneqq a_n \text{ or } a_n \coloneqq f(n).$$
+$$ f(n) := a_n \text{ or } a_n := f(n).$$
 
 I'll also write $$(a_n)$$ to denote a sequence. This is just a shorthand for writing
 
