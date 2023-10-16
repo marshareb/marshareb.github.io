@@ -92,11 +92,54 @@ If we want to find the $$n$$th order Taylor polynomial for $$\sin(x)$$ at $$x=0$
 
 $$p_n(x) = \sum_{k=0}^n \frac{(-1)^k}{(2k+1)!} x^{2k+1}.$$
 
-We'll explore soon whether or not
+In the next section, we'll explore whether or not
 
 $$\sin(x) = \sum_{k=0}^\infty  \frac{(-1)^k}{(2k+1)!} x^{2k+1},$$
 
-but if you want to play around with this, try plugging in some values into Wolfram and see if they agree. Notice there's a big question here that I am ignoring -- does the series on the right even converge? We'll also explore this soon.
+but if you want to play around with this, try plugging in some values into Wolfram and see if they agree.
+
+Notice there's a big question I'm skipping over. Does the series on the right even converge? Sadly, this is outside of the scope of the course, but if you are interested, look into the [alternating series test](https://tutorial.math.lamar.edu/classes/calcii/AlternatingSeries.aspx).
+
+# Convergence
+
+This section is optional, and we probably will not get to this in class. But I think it's important to think about this at least once in your life.
+
+Remember one of our favorite theorems from calculus: the [mean value theorem](https://en.wikipedia.org/wiki/Mean_value_theorem). One way of interpreting the theorem is as follows: Suppose $$f(x)$$ is a function that is differentiable on the interval $$(a,b)$$. Then for every $$s$$ and $$t$$ such that $$a <s < t < b$$ we have that there is a $$c$$ such that $$s < c < t$$ and such that
+
+$$ f(t) = f(s) + f'(c)(t-s).$$
+
+Notice you'll get the original mean value theorem if you rearrange this formula and use the fact that differentiable implies continuous. It turns out that this is generalizable as well -- if $$f(x)$$ is a function such that the $$n$$th derivative exists on the interval $$(a,b)$$, then for every $$s$$ and $$t$$ such that $$a < s < t < b$$ we have that there is a $$c$$ such that $$s < c < t$$ and such that
+
+$$ f(t) = \sum_{k=0}^{n-1} \frac{f^{(k)}(s)}{k!} (t-s)^k + \frac{f^{(n)}(c)}{n!} (t-s)^n.$$
+
+If we look carefully at this, we might notice that the sum is a familiar friend. Using the previous section, we can write
+
+$$ f(t) = p_{n-1}^s(t) + \frac{f^{(n)}(c)}{n!} (t-s)^n.$$
+
+In particular, this gives us a way of calculating the error between a function and its $$n$$th Taylor polynomial. Suppose there is an $$M$$ such that $$-M \leq f^{(n)}(x) \leq M$$ for all $$x$$ in the interval $$(a,b)$$. Then we have
+
+$$ \mid f(t) - p_{n-1}^s(t) \mid \leq \frac{M}{n!} \mid t-s \mid^n.$$
+
+For example, let's go back to $$\sin(x)$$. Since $$\sin(x)$$ and $$\cos(x)$$ are bounded by $$1$$, we get
+
+$$ \mid \sin(t) - p_{n-1}^s(t) \mid \leq \frac{\mid t-s \mid^n}{n!},$$
+
+so as long as $$t$$ and $$s$$ are fixed, we can use growth rates to deduce that the error goes to zero as $$n$$ tends to infinity (remember factorials grow faster than exponentials).
+
+In general, there's not a way of *uniformly* choosing an $$n$$ so that the error is small. As the distance between $$t$$ and $$s$$ gets larger, we have to take more derivatives in order for the approximation to be accurate.
+
+Suppose we're designing a calculator. Calculating $$\sin(t)$$ is generally bad news -- outside of some particular values of $$t$$, we are pretty much stuck. However, Taylor polynomials are great. A calculator only needs to be so accurate (say within four decimal places), so we can just use our formula for the Taylor polynomial to approximate $$\sin(t)$$. Polynomials are easy to program, so we're back in business. Except, bad news, if $$t$$ and $$s$$ are far, we don't have a good formula for the polynomial. Is there something we can do to salvage this?
+
+We found out that $$p_n^0(t)$$ is easy to calculate earlier. We have
+
+$$p_n^0(t) = \sum_{k=0}^n \frac{(-1)^k}{(2k+1)!} t^{2k+1}.$$
+
+Since $$\sin(t)$$ and $$\cos(t)$$ are $$2\pi$$ periodic, it turns out we actually have a formula for infinitely many choices of centers: if $$m$$ is an integer, then
+
+$$p_n^{2\pi m}(t) = \sum_{k=0}^n \frac{(-1)^k}{(2k+1)!} (t- 2\pi m)^{2k+1}.$$
+
+So what's the strategy for our calculator? If someone types $$t$$ into our calculator, then we find an $$m$$ so that $$2\pi m \leq t < 2\pi (m+1)$$ (which is unique), and this will guarantee that $$0 \leq (t- 2\pi m)^{2k+1} < (2\pi)^{2k+1}.$$ Now we can find $$k$$ so that $$\frac{(2\pi)^{2k+1}}{(2k+1)!}$$ is as small as our calculator needs, and then we just plug $$t$$ into the corresponding Taylor polynomial. We're back in business, and this is not hard to program (try doing it if you know a programming language).
+
 
 # Mock Series Midterm
 

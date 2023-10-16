@@ -19,7 +19,7 @@ Here are a collection of papers and presentations I've done over the years.
 <p> An extension of results by d'Atri on Codazzi tensors in the setting of reductive homogeneous spaces. </p>
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2309.10882"> A counterexample to marked length spectrum semi-rigidity (with Andrey Gogolev)</a> [2023] </h3>
-<p> Given a closed orientable negatively curved Riemannian surface $$(M,g)$$, we show how to construct a perturbation $$(M,g′)$$ such that each closed geodesic becomes longer, and yet there is no diffeomorphism $$f : (M,g′) \rightarrow (M,g)$$ which contracts every tangent vector. </p>
+<p> Given a closed orientable negatively curved Riemannian surface, we show how to construct a perturbation such that each closed geodesic becomes longer, and yet there is no diffeomorphism which contracts every tangent vector. </p>
 
 ## Unpublished
 
@@ -37,7 +37,7 @@ Here are a collection of papers and presentations I've done over the years.
 <h3><a class = "link-style" href="">  TBD [2023]</a> </h3>
 <p> My presentation for the dynamics seminar at UChicago.</p>
 
-<h3><a class = "link-style" href="/files/Deformative_Magnetic_MLSR-Purdue"> Deformative Magnetic Marked Length Spectrum Rigidity (2) [2023]</a> </h3>
+<h3><a class = "link-style" href="/files/Deformative_Magnetic_MLSR-Purdue.pdf"> Deformative Magnetic Marked Length Spectrum Rigidity (2)</a> [2023] </h3>
 <p>My presentation for the <a class = "link-style" href = "https://sites.google.com/view/purdue-gga">Purdue Geometry and Geometric Analysis seminar</a>.</p>
 
 <h3> <a class = "link-style" href="/files/Positive_Proportion_Livshits-northwestern.pdf"> A positive proportion Livshits theorem (2)</a>[2023]</h3>
