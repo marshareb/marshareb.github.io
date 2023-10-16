@@ -4,7 +4,7 @@ title: Recitation Fifteen
 tag: [MA1172]
 ---
 
-In this recitation, we covered Taylor series.
+In this recitation, we covered Taylor series and some problems from the mock series midterm.
 
 # Approximations
 
@@ -97,3 +97,127 @@ We'll explore soon whether or not
 $$\sin(x) = \sum_{k=0}^\infty  \frac{(-1)^k}{(2k+1)!} x^{2k+1},$$
 
 but if you want to play around with this, try plugging in some values into Wolfram and see if they agree. Notice there's a big question here that I am ignoring -- does the series on the right even converge? We'll also explore this soon.
+
+# Mock Series Midterm
+
+Here are some variations of the harder problems from the mock series midterm.
+
+**Problem:** Taylor is asked to determine if
+
+$$ \sum_{k=1}^\infty [\ln(k+4) - \ln(k+3)]$$
+
+converges. They give the following argument: Since $$\ln(k+4) - \ln(k+3) = \ln \left(\frac{k+4}{k+3} \right)$$, we see that
+
+$$ \lim_{k \rightarrow \infty} [\ln(k+4) - \ln(k+3)] = \ln(1) = 0,$$
+
+so the series converges. We are supposed to evaluate Taylor's argument, and if it is wrong state a correct argument. The idea is that Taylor is trying to use the divergence test to prove convergence, which as we discussed is not useful. What they have shown is that the divergence test fails, but this does not tell us that the series converges. We need to do more in order to prove this.
+
+Let $$a_k = \ln(k+3)$$, then $$a_{k+1} = \ln((k+1) + 3) = \ln(k+4)$$ and
+
+$$ \sum_{k=1}^\infty [\ln(k+4) - \ln(k+3)] = \sum_{k=1}^\infty [a_{k+1} - a_k].$$
+
+The series is telescoping! If we look at the partial sums, we have
+
+$$ s_n := \sum_{k=1}^n [a_{k+1} - a_k] = (a_2 - a_1) + (a_3 - a_2) + \cdots + (a_n - a_{n-1}) + (a_{n+1} - a_n) = a_{n+1} - a_1.$$
+
+ Plugging in numbers,
+
+$$s_n = a_{n+1} - a_1 = \ln(n+4) - \ln(4) = \ln \left( \frac{n+4}{4} \right).$$
+
+Taking the limit, we see that
+
+$$ \sum_{k=1}^\infty  [\ln(k+4) - \ln(k+3)]  = \lim_{n \rightarrow \infty} s_n = \infty,$$
+
+so the series diverges.
+
+**Problem:** Brad needs to determine if the series
+
+$$ \sum_{k=1}^\infty \frac{(2k+4)!}{2^{k^2}}$$
+
+converges and is confused how to start. Observe that growth rates do not apply because it is a degree two polynomial in the exponent instead of a linear term. To determine if it converges, let's try a ratio test. Define
+
+$$a_k = \frac{(2k+4)!}{2^{k^2}},$$
+
+so
+
+$$a_{k+1} = \frac{(2k+6)!}{2^{k^2 + 2k + 1}} = \frac{(2k+6)(2k+5))}{2^{2k+1}} a_k.$$
+
+Rearranging, we get
+
+$$ \frac{a_{k+1}}{a_k} = \frac{(2k+6)(2k+5))}{2 \cdot 4^k}.$$
+
+An exponential grows faster than any polynomial, so we get $$\lim_{k \rightarrow \infty} a_{k+1}/a_k = 0.$$ The ratio test tells us the series converges. Since the series converges, notice that the divergence test tells us that
+
+$$ \lim_{k \rightarrow \infty} \frac{(2k+4)!}{2^{k^2}} = 0.$$
+
+**Problem:** We wish to calculate
+
+$$ \lim_{n \rightarrow \infty} \left(1 - \frac{2}{n+1} \right)^{2n}.$$
+
+Let
+
+$$a_n = \left(1 - \frac{2}{n+1} \right)^{2n}.$$
+
+For $$n$$ large we have that $$a_n > 0,$$ so
+
+$$ a_n = e^{\ln(a_n)}.$$
+
+Next, notice
+
+$$ \ln(a_n) = 2n \ln \left(1 - \frac{2}{n+1} \right) = \frac{\ln \left( \frac{n-1}{n+1} \right)}{\frac{1}{2n}}.$$
+
+This is indeterminate of the form $$0/0$$, so we can apply L'Hopital's rule:
+
+$$ \lim_{n \rightarrow \infty} \ln(a_n) = \lim_{n \rightarrow \infty} -\frac{\frac{2}{n^2-1}}{ \frac{1}{2n^2}} = - \lim_{n \rightarrow \infty} \frac{4n^2}{n^2 - 1} = -4.$$
+
+Here we use growth rates. By continuity of the exponential:
+
+$$ \lim_{n \rightarrow \infty} a_n = e^{\lim_{n \rightarrow \infty} \ln(a_n)} = e^{-4}.$$
+
+**Remark:** The definition of $$e$$ comes from compound interest. If we invest $$P$$ dollars into an account, then the idea behind interest is that we should earn a percentage back for each time interval (the number of times it is "compounded"). So if the interest rate is $$r$$ and it is compounded four times a year, then in two years we should have
+
+$$ P \left(1 + \frac{r}{4} \right)^{2 \cdot 4}.$$
+
+If it is compounded $$n$$ times a year, then after $$t$$ years we should have
+
+$$ P \left(1 + \frac{r}{n} \right)^{nt}.$$
+
+How much would we earn if it was continuously compounded? If we compound it "infinitely" often, then we would earn
+
+$$ \lim_{n \rightarrow \infty} P \left(1 + \frac{r}{n} \right)^{nt}.$$
+
+Dividing by $$P$$ and setting $$t=1$$ tells us the percentage we would earn after one year:
+
+$$ \lim_{n \rightarrow \infty}  \left(1 + \frac{r}{n} \right)^{n}.$$
+
+Just like in the previous problem, we can solve this using logarithms. Let
+
+$$a_n =  \left(1 + \frac{r}{n} \right)^{n}, \text{ so } \ln(a_n) = n \ln \left(1 + \frac{r}{n} \right).$$
+
+We can do the L'Hopital trick again:
+
+$$ \lim_{n \rightarrow \infty} \ln(a_n) = \lim_{n \rightarrow \infty} \frac{\ln \left( \frac{n+r}{n} \right)}{\frac{1}{n}} = \lim_{n \rightarrow \infty} \frac{ \frac{r}{n(n+r)}}{\frac{1}{n^2}} = \lim_{n \rightarrow \infty} \frac{nr}{n+r} = r.$$
+
+So
+
+$$ \lim_{n \rightarrow \infty} a_n = e^{\lim_{n \rightarrow \infty} \ln(a_n)} = e^r.$$
+
+So the percentage of money we've made after one year is $$e^r$$. If $$r=1$$, then we've rederived Euler's constant following in the footsteps of [Jacob Bernoulli](https://en.wikipedia.org/wiki/Jacob_Bernoulli); see also [here](https://en.wikipedia.org/wiki/Compound_interest#Calculation).
+
+**Problem:** Consider
+
+$$a_n = \frac{(4^n + n^5)^2}{2 \cdot 16^n + \ln(n)^1000}.$$
+
+Suppose we wished to calculate $$\lim_{n \rightarrow \infty} a_n$$. Recall that logarithms grow slower than exponentials, so
+
+$$ \lim_{n \rightarrow \infty} a_n = \frac{(4^n + n^5)^2}{2 \cdot 16^n}.$$
+
+Since polynomials grow slower than exponentials:
+
+$$ \lim_{n \rightarrow \infty} a_n = \frac{16^n}{2 \cdot 16^n} = \frac{1}{2}.$$
+
+**Problem:** Consider
+
+$$a_n = 5n^2 + 1.$$
+
+Suppose we wished to calculate $$\lim_{n \rightarrow \infty} a_{n+1}/a_n.$$ Notice that using growth rates, we don't need to do anything -- $$a_{n+1}$$ grows at a rate of $$5n^2$$ and $$a_n$$ grows at a rate of $$5n^2$$, so this limit is one.
