@@ -140,11 +140,11 @@ $$a_k = \frac{(2k+4)!}{2^{k^2}},$$
 
 so
 
-$$a_{k+1} = \frac{(2k+6)!}{2^{k^2 + 2k + 1}} = \frac{(2k+6)(2k+5))}{2^{2k+1}} a_k.$$
+$$a_{k+1} = \frac{(2k+6)!}{2^{k^2 + 2k + 1}} = \frac{(2k+6)(2k+5)}{2^{2k+1}} a_k.$$
 
 Rearranging, we get
 
-$$ \frac{a_{k+1}}{a_k} = \frac{(2k+6)(2k+5))}{2 \cdot 4^k}.$$
+$$ \frac{a_{k+1}}{a_k} = \frac{(2k+6)(2k+5)}{2 \cdot 4^k}.$$
 
 An exponential grows faster than any polynomial, so we get $$\lim_{k \rightarrow \infty} a_{k+1}/a_k = 0.$$ The ratio test tells us the series converges. Since the series converges, notice that the divergence test tells us that
 
