@@ -150,7 +150,9 @@ def factorial(n):
   else:
     return n * factorial(n-1)
 
-# t is the value we want to plug into the polynomial, n is how far out in the series we go, and m determines the center
+# t is the value we want to plug into the polynomial,
+# n is how far out in the series we go,
+# and m determines the center
 def taylor_approximation_sine(t,n,m):
   sum = 0
   for k in range(0,n+1):
