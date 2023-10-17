@@ -165,12 +165,13 @@ def approximate_sine(t,n):
   return taylor_approximation_sine(t,n,m)
 
 # Compare sin(14) and the approximate value
-d = abs( approximate_sine(14, 100) - math.sin(14))
+d = abs( approximate_sine(14, 4) - math.sin(14))
 print(d)
 
 {% endhighlight %}
 
-Notice that the error between our estimate for $$\sin(14)$$ and the actual value is approximately $$2.220446049250313 \cdot 10^{-16}$$.
+Notice that the error between our estimate for $$\sin(14)$$ and the actual value is approximately $$1.3000097202064964 \cdot 10^{-6}$$. In general, if we take $$n = 4$$, then the distance between this approximation of $$\sin(x)$$ and the actual value will be bounded above by $$ (2\pi)^5/(11 !) \approx 0.000245.$$
+
 
 
 # Mock Series Midterm
