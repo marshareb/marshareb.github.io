@@ -138,8 +138,7 @@ Since $$\sin(t)$$ and $$\cos(t)$$ are $$2\pi$$ periodic, it turns out we actuall
 
 $$p_n^{2\pi m}(t) = \sum_{k=0}^n \frac{(-1)^k}{(2k+1)!} (t- 2\pi m)^{2k+1}.$$
 
-So what's the strategy for our calculator? If someone types $$t$$ into our calculator, then we find an $$m$$ so that $$2\pi m \leq t < 2\pi (m+1)$$ (which is unique), and this will guarantee that $$0 \leq (t- 2\pi m)^{2k+1} < (2\pi)^{2k+1}.$$ Now we can find $$k$$ so that $$\frac{(2\pi)^{2k+1}}{(2k+1)!}$$ is as small as our calculator needs, and then we just plug $$t$$ into the corresponding Taylor polynomial. We're back in business, and this is not hard to program (try doing it if you know a programming language).
-
+So what's the strategy for our calculator? If someone types $$t$$ into our calculator, then we find an $$m$$ so that $$2\pi m \leq t < 2\pi (m+1)$$ (which is unique), and this will guarantee that $$0 \leq (t- 2\pi m)^{2k+1} < (2\pi)^{2k+1}.$$ Now we can find $$k$$ so that $$\frac{(2\pi)^{2k+1}}{(2k+1)!}$$ is as small as our calculator needs, and then we just plug $$t$$ into the corresponding Taylor polynomial. We're back in business, and this is not hard to program: try doing it with your favorite programming language.
 
 # Mock Series Midterm
 
@@ -264,3 +263,58 @@ $$ \lim_{n \rightarrow \infty} a_n = \frac{16^n}{2 \cdot 16^n} = \frac{1}{2}.$$
 $$a_n = 5n^2 + 1.$$
 
 Suppose we wished to calculate $$\lim_{n \rightarrow \infty} a_{n+1}/a_n.$$ Notice that using growth rates, we don't need to do anything -- $$a_{n+1}$$ grows at a rate of $$5n^2$$ and $$a_n$$ grows at a rate of $$5n^2$$, so this limit is one.
+
+**Problem:** Consider
+
+$$ \sum_{k=4}^\infty \frac{(2k+2)!}{k^k}.$$
+
+We wish to determine whether this series converges or diverges. The ratio test is probably the right move here. Let
+
+$$a_k := \frac{(k+2)!}{k^k},$$
+
+so
+
+$$ \sum_{k=4}^\infty \frac{(k+2)!}{k^k} = \sum_{k=4}^\infty a_k$$
+
+and
+
+$$a_{k+1} = \frac{(k+3)!}{(k+1)^{k+1}} = \frac{(k+3)(k+2)!}{(k+1)^{k+1}}.$$
+
+Taking the ratio:
+
+$$ \frac{a_{k+1}}{a_k} = \frac{(k+3)(k+2)! k^k}{(k+1)^{k+1} (k+2)!} = \frac{(k+3) k^k}{(k+1)^{k+1}} = \left( \frac{k+3}{k+1} \right) \left( \frac{k}{k+1}\right)^k. $$
+
+Let
+
+$$b_k := \frac{k+3}{k+1}  \text{ and } c_k := \left( \frac{k}{k+1}\right)^k,$$
+
+so we can write
+
+$$ \frac{a_{k+1}}{a_k} = b_k \cdot c_k.$$
+
+[Limit laws](https://people.math.umass.edu/~gunnells/teaching/Sample_Lecture_Notes.pdf) tell us that as long as $$\lim_{k \rightarrow \infty} b_k$$ and $$\lim_{k \rightarrow \infty} c_k$$ exist and are finite, then we have
+
+$$ \lim_{k \rightarrow \infty} \frac{a_{k+1}}{a_k} = \left( \lim_{k \rightarrow \infty} b_k \right) \left( \lim_{k \rightarrow \infty} c_k \right).$$
+
+We need to treat these separately. By growth rates, the dominant term for $$b_k$$ in the numerator and denominator is $$k$$, so
+
+$$ \lim_{k \rightarrow \infty} b_k = 1.$$
+
+The limit for $$c_k$$ is more complicated. Observe that it is [indeterminate](https://www.sfu.ca/math-coursenotes/Math%20157%20Course%20Notes/sec_Hopital.html) of the form $$1^\infty$$. We can write
+
+$$c_k = e^{\ln(c_k)}, \text{ where } \ln(c_k) = k \ln \left( \frac{k}{k+1}\right).$$
+
+Notice $$\lim_{k \rightarrow \infty} \ln(c_k)$$ is also indeterminate of the form $$ \infty \cdot 0$, where we use growth rates for the limit inside of the natural log. This can be rearranged to apply [L'Hopital](https://en.wikipedia.org/wiki/L%27H%C3%B4pital%27s_rule):
+
+$$ \lim_{k \rightarrow \infty} \ln(c_k) = \lim_{k \rightarrow \infty} \frac{\ln \left( \frac{k}{k+1} \right)}{\frac{1}{k}} =
+\lim_{k \rightarrow \infty} \frac{\frac{k+1}{k} \cdot \frac{1}{(k+1)^2} }{-\frac{1}{k^2}} = - \lim_{k \rightarrow \infty} \frac{k^2}{k(k+1)}.$$
+
+Again, we use growth rates to determine this limit is $$-1$$, since the dominant term on top and bottom is $$k^2$$. Thus
+
+$$\lim_{k \rightarrow \infty} c_k = e^{\lim_{k \rightarrow \infty}\ln(c_k)} = e^{-1},$$
+
+and we have
+
+$$ \lim_{k \rightarrow \infty} \frac{a_{k+1}}{a_k} = e^{-1} < 1.$$
+
+By the ratio test, this series converges.
