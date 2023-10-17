@@ -159,7 +159,7 @@ $$i^1 = i, \ i^2 = -1, \ i^3 = -i, \ i^4 = 1, \ i^5 = i, \ldots$$
 
 Recall the remainder function from the previous recitation: $$R(n)$$ represents the remainder of $$n$$ after dividing by $$4$$. We can write
 
-$$i^k = \begin{cases} 1 \text{ if } R(k) = 0 \\ i \text{ if } R(k) = 1 \\ -1 \text{ if } R(k) = 2 \\ -i \text{ if } R(k) = 3. \end{cases}
+$$i^k = \begin{cases} 1 \text{ if } R(k) = 0 \\ i \text{ if } R(k) = 1 \\ -1 \text{ if } R(k) = 2 \\ -i \text{ if } R(k) = 3. \end{cases}$$
 
 Plugging this into the series (and ignoring issues of convergence), we get
 
