@@ -141,32 +141,34 @@ $$p_n^{2\pi m}(t) = \sum_{k=0}^n \frac{(-1)^k}{(2k+1)!} (t- 2\pi m)^{2k+1}.$$
 So what's the strategy for our calculator? If someone types $$t$$ into our calculator, then we find an $$m$$ so that $$2\pi m \leq t < 2\pi (m+1)$$ (which is unique), and this will guarantee that $$0 \leq (t- 2\pi m)^{2k+1} < (2\pi)^{2k+1}.$$ Now we can find $$k$$ so that $$\frac{(2\pi)^{2k+1}}{(2k+1)!}$$ is as small as our calculator needs, and then we just plug $$t$$ into the corresponding Taylor polynomial. We're back in business, and this is not hard to program: try doing it with your favorite programming language. Here is an example in Python.
 
 {% highlight python linenos %}
-	import math
+import math
 
-  # Recursive function for factorial
-  def factorial(n):
-    if n == 0:
-      return 1
-    else:
-      return n * factorial(n-1)
+# Recursive function for factorial
+def factorial(n):
+  if n == 0:
+    return 1
+  else:
+    return n * factorial(n-1)
 
-  # t is the value we want to plug into the polynomial, n is how far out in the series we go, and m determines the center
-  def taylor_approximation_sine(t,n,m):
-    sum = 0
-    for k in range(0,n+1):
-      sum += (-1)**k/factorial(2*k+1) * (t - (2 * math.pi*m))**(2*k+1)
+# t is the value we want to plug into the polynomial, n is how far out in the series we go, and m determines the center
+def taylor_approximation_sine(t,n,m):
+  sum = 0
+  for k in range(0,n+1):
+    sum += (-1)**k/factorial(2*k+1) * (t - (2 * math.pi*m))**(2*k+1)
+  return sum
 
-  # Determine the correct m value and return the approximation.
-  def approximate_sine(t,n):
-    m = math.floor(t/(2*math.pi))
-    return taylor_approximation_sine(t,n,m)
+# Determine the correct m value and return the approximation.
+def approximate_sine(t,n):
+  m = math.floor(t/(2*math.pi))
+  return taylor_approximation_sine(t,n,m)
 
-  # Compare values
-  d = abs( approximate_sine(14, 100) - math.sin(14))
-  print(d)
+# Compare sin(14) and the approximate value
+d = abs( approximate_sine(14, 100) - math.sin(14))
+print(d)
 
 {% endhighlight %}
 
+Notice that the error between our estimate for $$\sin(14)$$ and the actual value is approximately $$2.220446049250313 \cdot 10^{-16}$$.
 
 
 # Mock Series Midterm
