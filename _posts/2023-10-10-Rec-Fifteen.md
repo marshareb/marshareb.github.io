@@ -266,7 +266,7 @@ Suppose we wished to calculate $$\lim_{n \rightarrow \infty} a_{n+1}/a_n.$$ Noti
 
 **Problem:** Consider
 
-$$ \sum_{k=4}^\infty \frac{(2k+2)!}{k^k}.$$
+$$ \sum_{k=4}^\infty \frac{(k+2)!}{k^k}.$$
 
 We wish to determine whether this series converges or diverges. The ratio test is probably the right move here. Let
 
