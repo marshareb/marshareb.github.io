@@ -4,7 +4,7 @@ title: Recitation Seventeen
 tag: [MA1172]
 ---
 
-In this recitation, we covered power series.
+In this recitation, we covered Taylor series and calculus with Taylor series.
 
 # Taylor Series
 
