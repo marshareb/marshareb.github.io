@@ -37,8 +37,11 @@ Here are a collection of papers and presentations I've done over the years.
 <h3><a class = "link-style" href="">  TBD [2023]</a> </h3>
 <p> My presentation for the dynamics seminar at UChicago.</p>
 
-<h3><a class = "link-style" href="/files/Penn_State_Poster-1.pdf">  A counterexample to marked length spectrum semi-rigidity </a> </h3>
+<h3><a class = "link-style" href="/files/Penn_State_Poster-1.pdf">  A counterexample to marked length spectrum semi-rigidity </a> [2023] </h3>
 <p> A poster for the <a class = "link-style" href = "https://science.psu.edu/math/research/dynsys/workshop">semi-annual Workshop in Dynamical Systems and Related Topics</a> at Penn State.</p>
+
+<h3>The Hopf Theorem and Anosov flows [2023] </h3>
+<p> Given at the OSU student dynamics seminar.</p>
 
 <h3><a class = "link-style" href="/files/Deformative_Magnetic_MLSR-Purdue.pdf"> Deformative Magnetic Marked Length Spectrum Rigidity (2)</a> [2023] </h3>
 <p>My presentation for the <a class = "link-style" href = "https://sites.google.com/view/purdue-gga">Purdue Geometry and Geometric Analysis seminar</a>.</p>
