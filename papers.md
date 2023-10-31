@@ -49,7 +49,7 @@ Here are a collection of papers and presentations I've done over the years.
 <h3><a class = "link-style" href="/files/Positive_Proportion_Livshits-maryland.pdf"> A positive proportion Livshits theorem </a>[2023]</h3>
 <p> Given at the <a class = "link-style" href="https://brinmrc.umd.edu/programs/schools/summer23/summer23-school-hyperbolicity.html">Maryland summer school on partially hyperbolic systems</a>. </p>
 
-<h3>Livshits' theorem and its generalizations</h3>
+<h3>Livshits' theorem and its generalizations [2023]</h3>
 <p>Given at the OSU student dynamics seminar. </p>
 
 <h3>Entropy rigidity [2023]</h3>
