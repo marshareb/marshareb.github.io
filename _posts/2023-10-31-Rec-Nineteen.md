@@ -52,6 +52,20 @@ In other words, we're scaling the unit vector $$ \vec{w}/ \mid \vec{w} \mid$$ by
 
 $$ \text{scal}_{\vec{w}}(\vec{v}) = \frac{\vec{v} \cdot \vec{w}}{ \mid \vec{w} \mid }.$$
 
+The thing to notice about this is that we can rewrite every vector $$\vec{v}$$ as a sum of two vectors $$\vec{v} = \vec{P} + \vec{N}$$, where $$\vec{P}$$ is parallel to $$\vec{w}$$ and $$\vec{N}$$ is orthogonal. The parallel part is exactly the orthogonal projection:
+
+$$ \vec{P} = \text{proj}_{\vec{w}}(\vec{v}),$$
+
+and the orthogonal part is going to be the difference:
+
+$$ \vec{N} = \vec{v} - \vec{P}.$$
+
+We should check that this is actually orthogonal to $$\vec{w}$$:
+
+$$ \vec{N} \cdot \vec{w} = \vec{v} \cdot \vec{w} - \left(\frac{\vec{v} \cdot \vec{w}}{\mid \vec{w} \mid^2} \vec{w}\right) \cdot \vec{w} = \vec{v} \cdot \vec{w} - \vec{v} \cdot \vec{w} = 0,$$
+
+here using that $$\vec{v} \cdot \vec{v} = \mid \vec{v} \mid^2.$$
+
 # Examples
 
 **Example:** Let $$\vec{v} = \langle 3, -6 \rangle$$ and $$\vec{w} = \langle 3, 5 \rangle$$. We have
