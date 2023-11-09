@@ -6,7 +6,11 @@ tag: [MA1172]
 
 In this recitation, we covered lines and curves in space as well as calculus with these functions.
 
-# Vector Valued Functions
+# Lines and Curves
+
+This is hopefully a review of the lecture.
+
+## Vector Valued Functions
 
 We're now going to generalize our work in calculus from one dimension to many. To start, we'll consider vector-valued functions as opposed to real-valued functions. A **vector-valued function** is a map
 
@@ -22,7 +26,7 @@ $$\vec{f}(\theta) := \langle r \cos(\theta), r \sin(\theta) \rangle.$$
 
 Plotting this on your favorite calculator for $$r=1$$ gives us the [unit circle](https://www.wolframalpha.com/input?i=plot+%28cos%28t%29%2C+sin%28t%29%29).
 
-# Functions in $$\mathbb{R}^n$$
+## Functions in $$\mathbb{R}^n$$
 
 At this point, there's a slight issue with what your book writes, and it never really discusses it. The output of a vector valued function $$\vec{f}$$ is a vector. This is fine, but in reality we sometimes don't want vectors, we want *points*. A point-valued function $$f : \mathbb{R} \rightarrow \mathbb{R}^n$$ can be written also as
 
@@ -30,7 +34,7 @@ $$ f(t) := (f_1(t), f_2(t), \ldots, f_n(t)),$$
 
 where $$f_i : \mathbb{R} \rightarrow \mathbb{R}$$ is a real-valued function. Functionally, these objects are the same, or at least they look the same, but there's one important difference between the two. We are allowed to do algebra with vectors, while points are just objects in space with no algebraic rules associated to them. To emphasize, **all functions $$\vec{f} : \mathbb{R} \rightarrow \mathbb{R}^n$$ will be vector valued** for us, but sometimes we'll interpret them as points (especially when drawing pictures).
 
-# Lines in $$\mathbb{R}^n$$
+## Lines in $$\mathbb{R}^n$$
 
 Just like in calculus, the building block of everything we want to work with is the line. Given two points $$p = (x_1, \ldots, x_n)$$ and $$q = (y_1, \ldots, y_n)$$ in $$\mathbb{R}^n$$, the **line** connecting these two points is given by
 
@@ -48,7 +52,7 @@ $$ \vec{f}(t) = \vec{q} + t \vec{v}.$$
 
 We'll start to adopt this notation to make our lives easier -- if $$p$$ is a point in $$\mathbb{R}^n$$, then $$\vec{p}$$ is the vector whose tail is $$(0, \ldots, 0)$$ and whose endpoint is $$p$$.
 
-# Parameterizations
+## Parameterizations
 
 Let's go back to our circle example. If I wanted to plot the unit circle in $$\mathbb{R}^2$$, I would look at the curve
 
@@ -60,7 +64,7 @@ $$\vec{g}(\theta) = \langle \cos(2\pi \theta), \sin(2\pi \theta) \rangle,$$
 
 then plotting $$\vec{f}$$ and $$\vec{g}$$ gives me the same picture. In fact, I could put any constant next to $$\theta$$ and get the same picture. If two functions have the same graph, then we say that they **parameterize** the same curve. In fact, given any vector valued function $$\vec{f}(t)$$, if we look at the function $$\vec{f}(C t)$$ for a non-zero constant $$C$$, then we get a new parameterization of the same curve. The way to interpret this is that it's changing the "speed" that we draw the picture (pretending that the $$t$$ variable represents time). While parameterizations give us the same graph at the end of the day, they are different functions.
 
-# Distance Between Points and Line
+## Distance Between Points and Line
 
 Given two vectors $$\vec{v}$$ and $$\vec{w}$$, the distance between their endpoints is given by $$\mid \vec{v} - \vec{w} \mid$$. If we want to find the distance between a vector and a point, we apply the procedure described above to turn a point into a vector, and then calculate the distance between the vectors. The next step in this analysis is to look at the distance between a point and a line. Let $$p$$ be some point in $$\mathbb{R}^n$$, and let $$\vec{f}(t) = \vec{q} + t \vec{v}$$ be a line. We would like to know at point $$t$$ is $$\vec{f}(t)$$ closest to $$p$$. Notice that the distance between the point $$p$$ and $$\vec{f}(t)$$ at a given time $$t$$ is
 
@@ -120,7 +124,7 @@ So rearranging, we have that the distance between the line and the point in $$\m
 
 $$ \frac{\mid \vec{v} \times \vec{w} \mid}{\mid \vec{v} \mid}.$$
 
-# Line on an Embedded Surface
+## Line on an Embedded Surface
 
 Let $$g : \mathbb{R}^3 \rightarrow \mathbb{R}$$ be a function which takes three variables and outputs a real number. For example, we could think of
 
@@ -143,3 +147,175 @@ $$ g(\vec{f}(t)) = 0.$$
 Recall that the function can be written as $$\vec{f}(t) = \langle f_1(t), f_2(t), f_3(t) \rangle,$$ so we can say that the line given by $$\vec{f}(t)$$ lies on the surface if for every $$t$$ we have
 
 $$g(f_1(t), f_2(t), f_3(t)) = 0.$$
+
+# Calculus of Vector Valued Functions
+
+Supposedly this will not be covered in lecture. This is new material that we will talk about in recitation (and may take up all of recitation).
+
+Using our above observation, every vector valued function $$\vec{f}(t)$$ can be written as
+
+$$ \vec{f}(t) = \langle f_1(t), \ldots, f_n(t) \rangle,$$
+
+where $$f_i(t) : \mathbb{R} \rightarrow \mathbb{R}$$ is a real-valued function for $$1 \leq i \leq n$$. Using this, we can define the **limit** of a vector-valued function to be the limit of each of its components:
+
+$$ \lim_{t \rightarrow a} \vec{f}(t) = \langle \lim_{t \rightarrow a} f_1(t), \ldots, \lim_{t \rightarrow a} f_n(t) \rangle.$$
+
+If you wish, you can define one-sided limits using this observation as well. Once we have limits, we can talk about continuity. Recall that a real-valued function $$f$$ is continuous at $$t=a$$ if
+
+$$ \lim_{t \rightarrow a} f(t) = f(a).$$
+
+Similarly, a vector-valued function is **continuous** at $$t=a$$ if
+
+$$ \lim_{t \rightarrow a} \vec{f}(t) = \vec{f}(a).$$
+
+In other words, a vector-valued function is continuous if and only if each of its components are continuous.
+
+Once we have limits, we can also define derivatives using the definition (and using the fact that we can add/subtract/scale vectors). Recall that the derivative at $$t=a$$ of a real-valued function $$f(t)$$ is given by
+
+$$f'(a) = \lim_{h \rightarrow 0} \frac{f(a+h) - f(a)}{h},$$
+
+provided this limit exists. Similarly, the **derivative** of a vector-valued function is given by
+
+$$ \vec{f}'(a) = \lim_{h \rightarrow 0} \frac{\vec{f}(a+h) - \vec{f}(a)}{h} = \langle \lim_{h \rightarrow 0} \frac{f_1(h+a) - f_1(a)}{h}, \ldots,  \lim_{h \rightarrow 0} \frac{f_n(h+a) - f_n(a)}{h} \rangle.$$
+
+We see that a vector-valued function is differentiable if and only if each of its components (the $$f_i$$) are differentiable. We can jump the gun and just write
+
+$$\vec{f}'(a) = \langle f_1'(a), \ldots, f_n'(a) \rangle.$$
+
+Finally, once we have derivatives we can make sense of integrals. Recall that the indefinite integral of a real-valued function $$f$$ is given by
+
+$$ \int f(x)dx = F(x) + C, \text{ where } F'(x) = f(x).$$
+
+Similarly, we can say that the **indefinite integral** of a vector-valued function $$\vec{f}$$ is given by
+
+$$ \int \vec{f}(t) dt = \vec{F}(t) + \vec{C}, \text{ where } \vec{F}'(t) = \vec{f}(t),$$
+
+and $$\vec{C}$$ is a vector of (arbitrary) constants. Using the fundamental theorem of calculus, we can deduce that
+
+$$ \int_a^b \vec{f}(t) dt = \vec{F}(b) - \vec{F}(a), \text{ where } \vec{F}'(t) = \vec{f}(t).$$
+
+Notice that we technically need to check the conditions for the fundamental theorem of calculus before we do this, but I'll leave that to you to think about (open your favorite calculus book and look at the things that come before the conclusion of the fundamental theorem of calculus).
+
+Before finishing this section, let's review a couple properties of the derivative. These mostly arise from the issue that we do *not* have a way to multiply vectors, so there's not really a way to multiply vector-valued functions. Still, we do have some operations that make sense, and these do interact somewhat nicely with the derivative. Throughout, $$\vec{f}, \vec{g} : \mathbb{R} \rightarrow \mathbb{R}^n$$ are vector-valued functions, and $$s : \mathbb{R} \rightarrow \mathbb{R}$$ is a scalar function (or in other words, a real-valued function).
+
+- We have
+
+$$ \frac{d}{dt} \left( \vec{f}(t) \pm \vec{g}(t)\right) = \vec{f}'(t) \pm \vec{g}'(t),$$
+
+since
+
+$$ \vec{f}(t) \pm \vec{g}(t) = \langle f_1(t) \pm g_1(t), \ldots, f_n(t) \pm g_n(t) \rangle,$$
+
+and for each $$1 \leq i \leq n$$ we have (from the properties of derivatives)
+
+$$ \frac{d}{dt}(f_i(t) \pm g_i(t)) = f_i'(t) \pm g_i'(t),$$
+
+so
+
+$$ \frac{d}{dt} \left( \vec{f}(t) \pm \vec{g}(t)\right) = \langle f_1'(t) \pm g_1'(t), \ldots, f_n'(t) \pm g_n'(t) \rangle = \vec{f}'(t) \pm \vec{g}'(t).$$
+
+- Similar to above, for a scalar $$C$$ we have
+
+$$ \frac{d}{dt} ( C \vec{f}(t)) = C \vec{f}'(t).$$
+
+It's the exact same type of argument, so I'll skip it.
+
+- We have
+
+$$ \frac{d}{dt} (s(t) \vec{f}(t)) = s'(t) \vec{f}(t) + s(t) \vec{f}'(t).$$
+
+To check this, notice that
+
+$$ s(t) \vec{f}(t) = \langle s(t) f_1(t), \ldots, s(t) f_n(t) \rangle.$$
+
+Taking the derivative of each component, we have
+
+$$ \frac{d}{dt} (s(t) f_i(t)) = s'(t)f_i(t) + s(t) f_i'(t) \text{ for } 1 \leq i \leq n.$$
+
+So
+
+$$ \frac{d}{dt} (s(t) \vec{f}(t)) = \langle  s'(t)f_1(t) + s(t) f_1'(t), \ldots,  s'(t)f_n(t) + s(t) f_n'(t) \rangle.$$
+
+Now we can split up the right side using properties of vectors:
+
+$$ \langle  s'(t)f_1(t) + s(t) f_1'(t), \ldots,  s'(t)f_n(t) + s(t) f_n'(t) \rangle = \langle s'(t) f_1(t), \ldots, s'(t) f_n(t) \rangle + \langle s(t) f_1'(t), \ldots, s(t) f_n'(t) \rangle = s'(t) \vec{f}(t) + s(t) \vec{f}'(t).$$
+
+The identity holds!
+
+- We have
+
+$$ \frac{d}{dt} (\vec{f}(t) \cdot \vec{g}(t)) = \vec{f}'(t) \cdot \vec{g}(t) + \vec{f}(t) \cdot \vec{g}'(t).$$
+
+This is almost the same kind of argument as in the previous bullet point. Notice
+
+$$\vec{f}(t) \cdot \vec{g}(t) = \sum_{i=1}^n f_i(t)g_i(t).$$
+
+Using product rule and the fact that derivatives split up over sums, we have
+
+$$ \frac{d}{dt} \left( \vec{f}(t) \cdot \vec{g}(t) \right) = \sum_{i=1}^n [f_i'(t) g_i(t) + f_i(t) g_i'(t) ].$$
+
+Now we can split up the sum into two sums:
+
+$$\sum_{i=1}^n [f_i'(t) g_i(t) + f_i(t) g_i'(t) ] = \sum_{i=1}^n f_i'(t) g_i(t) + \sum_{i=1}^n f_i(t) g_i'(t).$$
+
+This just follows from noting that we can add in whatever order we wish. Finally, the first term is exactly the same thing as $$\vec{f}'(t) \cdot \vec{g}(t)$$ and the second one is $$\vec{f}(t) \cdot \vec{g}'(t).$$
+
+- As long as $$n=3$$ (i.e. $$\vec{f}$$ and $$\vec{g}$$ map to three dimensional vectors), we have
+
+$$ \frac{d}{dt} (\vec{f}(t) \times \vec{g}(t)) = \vec{f}'(t) \times \vec{g}(t) + \vec{f}(t) \times \vec{g}'(t).$$
+
+This is just a long calculation in coordinates. Notice
+
+$$ \vec{f}(t) \times \vec{g}(t) = \langle f_2(t) g_3(t) - f_3(t) g_2(t), f_3(t) g_1(t) - f_1(t) g_3(t), f_1(t) g_2(t) - f_2(t) g_1(t) \rangle.$$
+
+Let's study each component individually. The derivative of the first component of the cross product is
+
+$$ \frac{d}{dt} (f_2(t) g_3(t) - f_3(t) g_2(t)) = f_2'(t) g_3(t) + f_2(t) g_3'(t) - f_3'(t) g_2(t) - f_3(t) g_2'(t).$$
+
+Let's group like terms together:
+
+$$ \frac{d}{dt} (f_2(t) g_3(t) - f_3(t) g_2(t)) = (f_2'(t) g_3(t) - f_3'(t)g_2(t)) + (f_2(t) g_3'(t) - f_3(t) g_2'(t)).$$
+
+But this is exactly the same thing as the first component of $$\vec{f}'(t) \times \vec{g}(t) + \vec{f}(t) \times \vec{g}'(t).$$ A similar calculation with the other two components does the trick for us.
+
+- Last but not least, we have
+
+$$ \frac{d}{dt} \vec{f}(s(t)) = \vec{f}'(s(t)) s'(t).$$
+
+Notice
+
+$$\vec{f}(s(t)) = \langle f_1(s(t)), \ldots, f_n(s(t)) \rangle.$$
+
+Now taking the derivative of each component, we have
+
+$$ \frac{d}{dt} f_i(s(t)) = f_i'(s(t)) s'(t), \text{ where } 1 \leq i \leq n.$$
+
+So
+
+$$ \frac{d}{dt} \vec{f}(s(t)) = \langle f_1'(s(t)) s'(t), \ldots, f_n'(s(t)) s'(t) \rangle.$$
+
+Since $$s'(t)$$ is a scalar, we can pull it out to get
+
+$$ \frac{d}{dt} \vec{f}(s(t)) = s'(t) \vec{f}'(s(t)).$$
+
+One fun observation to make now is the following. Notice
+
+$$ \mid \vec{f}(t) \mid = \sqrt{\vec{f}(t) \cdot \vec{f}(t)}.$$
+
+Squaring both sides, we get
+
+$$ \mid \vec{f}(t) \mid^2 = \vec{f}(t) \cdot \vec{f}(t).$$
+
+Now taking the derivative of the left hand side, we have
+
+$$ \frac{d}{dt} \left(\mid \vec{f}(t) \mid^2 \right) = 2 \mid \vec{f}(t) \mid \cdot \frac{d}{dt} (\mid \vec{f}(t) \mid ).$$
+
+Notice I used chain rule here -- ahead of time, I have no idea how the derivative and magnitude work with each other, so I cannot bring the derivative inside. For the left hand side, we just saw
+
+$$ \frac{d}{dt} (\vec{f}(t) \cdot \vec{f}(t)) = 2\vec{f}'(t) \cdot \vec{f}(t).$$
+
+So if we rearrange things, we now get the following nice formula:
+
+$$\frac{d}{dt} (\mid \vec{f}(t) \mid ) = \frac{\vec{f}'(t) \cdot \vec{f}(t)}{\mid \vec{f}(t) \mid}.$$
+
+So we've found out how to take the derivative of the magnitude!
