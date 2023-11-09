@@ -319,3 +319,206 @@ So if we rearrange things, we now get the following nice formula:
 $$\frac{d}{dt} (\mid \vec{f}(t) \mid ) = \frac{\vec{f}'(t) \cdot \vec{f}(t)}{\mid \vec{f}(t) \mid}.$$
 
 So we've found out how to take the derivative of the magnitude!
+
+
+# Example Problems
+
+This seems to be an especially hard section for people, so I will try to include a variety of problems.
+
+## Parameterizations and Lines
+
+**Problem:** Given the point $$(2,3,4)$$ and the vector $$\vec{v} = \langle 3, -1, 2 \rangle$$, find a parameterization of the line that is parallel to $$\vec{v}$$ and passing through $$P$$.
+
+**Solution:** We use our good old fact, which is that such a line is given by
+
+$$ \ell(t) = t\vec{v} + \vec{P} = \langle 3t, -t, 2t \rangle + \langle 2,3,4 \rangle = \langle 3t+2, 3-t, 2t + 4 \rangle.$$
+
+**Problem:** Suppose we have the curve $$y = 2x + 3$$.
+- Find a parameterization of the curve with $$x(t) = t$$.
+- Find a parameterization of the curve with $$y(t) = t$$.
+
+**Solution:** Our parameterization will be given by $$\vec{r}(t) = \langle x(t), y(t) \rangle.$$ If $$x(t) = t$$ and $$\vec{r}$$ must lie on the line, then we get that
+
+$$y(t) = 2x(t) + 3 = 2t + 3.$$s
+
+So the first parameterization is $$\vec{r}(t) = \langle t, 2t+3 \rangle$$. On the other hand, if $$y(t) = t$$, then
+
+$$t = y(t) = 2x(t) + 3 \implies (t-3)/2 = x(t).$$
+
+So the second parameterization is $$\vec{r}(t) = \langle (t-3)/2, t \rangle$$. While these are two different parameterizations, we note that they carve out the same curve.
+
+**Problem:** Suppose you are given the line $$\ell(t) = \langle 5t + 4, 12, 3-2t \rangle$$. Find a vector parallel to the curve.
+
+**Solution:** The line can be written in the form $$\ell(t) = t \vec{v} + \vec{P},$$ where $$P$$ is a point on the line and $$\vec{v}$$ is a vector parallel to the line. To find *a* vector parallel to the line, we just need to look at everything with a $$t$$. This gives us $$\vec{v} = \langle 5, 0, -2 \rangle$$.
+
+**Problem:** Determine if the lines $$\ell_1(t) = \langle 3t + 1, t + 4, 6t + 7 \rangle$$ and $$\ell_2(t) = \langle 6t+4, 2t, 12t + 5 \rangle$$ are intersecting, parallel, or neither.
+
+**Solution:** A vector parallel to the first line is given by $$\vec{v}_1 = \langle 3, 1, 6 \rangle$$, while a vector parallel to the second line is given by $$\vec{v}_2 = \langle 6, 2, 12 \rangle$$. Recall that these vectors are parallel if $$\vec{v}_1 = C \vec{v}_2$$ for some constant $$C$$. This equality is true for $$C = 1/2$$, so the lines are parallel.
+
+**Problem:** Given the lines $$\ell_1(t) = \langle 5t + 1, t, 3t \rangle$$ and $$\ell_2(t) = \langle t + 15, t + 6, t + 10 \rangle$$, determine if they intersect, are parallel, or neither. If they intersect, determine where.
+
+**Solution:** The vector parallel to the first line is $$\vec{v}_1 = \langle 5, 1, 3 \rangle$$, and the vector parallel to the second line is $$\vec{v}_2 \langle 1, 1, 1 \rangle$$. It's easy to see that these are not parallel. To see if the lines intersect, we need to solve
+
+$$\ell_1(t) = \ell_2(s).$$
+
+In other words, we have three equations we need to study:
+
+$$ 5t + 1 = s + 15, \ \ t = s + 6, \ \ 3t = s + 10.$$
+
+If we solve the first one for $$s$$, we have
+
+$$ s = 5t - 14.$$
+
+Plugging this into the second equation gives us
+
+$$t = (5t - 14) + 6 = 5t - 8.$$
+
+Rearranging this,
+
+$$ 0 = 4t - 8 \text{ or } 8 = 4t \text{ or } t = 2.$$
+
+So if the lines intersect, they must intersect when $$s = 5(2) - 14 = -4$$ and $$t = 2$$. We know that this means the first two coordinates agree, so we just have to check the third coordinate is the same. Pugging in $$t = 2$$ and $$s = -4$$, we see
+
+$$ 6 = 3(2) = 3t = s + 10 = (-4) + 10 = 6.$$
+
+So the lines intersect. To determine where they intersect, we can just calculate $$\ell_1(2)$$ or $$\ell_2(-4)$$ (whichever is easier). Solving the first, we have that they intersect at the point
+
+$$ \ell_1(2) = (11, 2, 6).$$
+
+**Problem:** Let $$\vec{v} = \langle 1,1, 0\rangle$$ and $$\vec{w} = \langle 2,0,4 \rangle$$. Find the equation of the line perpendicular to $$\vec{v}$$ and $$\vec{w}$$ passing through the point $$(5,1,0)$$.
+
+**Solution:** Since we are in dimension three, any vector perpendicular to these two vectors will be parallel to the line. We calculate
+
+$$ \vec{v} \times \vec{w} = \langle 4, -4, -2 \rangle.$$
+
+Using our fact, the line passing through the point $$(5,1,0)$$ can be parameterized by
+
+$$ \ell(t) = \langle 4t + 5, 1 - 4t, -2t \rangle.$$
+
+**Problem:** Find the line passing through the point $$(0,0,1)$$ at $$t=0$$ and $$(2,3,5)$$ at $$t=1$$.
+
+**Solution:** We need to find a vector parallel to our line. This will be the vector with tail $$(0,0,1)$$ and tip $$(2,3,5)$$, so $$\vec{v} = \langle 2-0, 3-0, 5-1 \rangle = \langle 2,3,4 \rangle.$$ So the equation will be
+
+$$ \ell(t) = \langle 0,0,1 \rangle + t \langle 2,3,4 \rangle = \langle 2t, 3t, 4t + 1 \rangle.$$  
+
+**Problem** Suppose a bug is walking along the curve $$y = x^3 + 4,$$ and does so with constant velocity in the $$x$$-direction given by $$x'(t) = 5$$. If the bug starts walking at time $$t=0$$ with $$x$$-position $$2$$, find a vector-valued function for the location of the bug at time $$t$$.
+
+**Solution:** As a first step, let's write the function as
+
+$$\vec{r}(t) = \langle x(t), y(t) \rangle.$$
+
+Since it has to lie on the curve, we know that $$y(t) = x(t)^3 + 4,$$ so we can write
+
+$$\vec{r}(t) = \langle x(t), x(t)^3 + 4 \rangle.$$
+
+Next, let's figure out what $$x(t)$$ is. We know that $$x'(t) = 5$$ and $$x(0) = 2$$. Integrating $$x'(t)$$, we have by the fundamental theorem of calculus that
+
+$$ \int_0^t x'(s) ds = x(t) - x(0) = x(t) - 2.$$
+
+On the other hand,
+
+$$ \int_0^t x'(s)ds = \int_0^t 5 ds = 5t.$$
+
+So we get $$x(t) = 5t + 2$$. Plugging this in,
+
+$$ \vec{r}(t) = \langle 5t +2, (5t+2)^3 + 4 \rangle.$$
+
+**Problem:** Suppose the equation for an ellipse is given by $$25x^2 + 16y^2 = 121.$$ Find two parameterizations for the ellipse.
+
+**Solution:** Recall that the equation for an ellipse with width $$2a$$ and height $$2b$$ is given by
+
+$$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1.$$
+
+We can see from this that the "standard" ellipse centered at the origin according to this formula is going to be
+
+$$ \vec{r}(t) = \langle a \cos(t), b \sin(t) \rangle, \text{ where } 0 \leq t \leq 2\pi.$$
+
+So let's try to rearrange our formula to get this. Notice that $$25 = 5^2, 16 = 4^2,$$ and $$121 = 11^2$$. Rewriting:
+
+$$ \frac{x^2}{(11/5)^2} + \frac{y^2}{(11/4)^2} = 1.$$
+
+So the standard ellipse is parameterized by
+
+$$\vec{r}(t) = \langle (11/5) \cos(t), (11/4) \sin(t) \rangle, \text{ where } 0 \leq t \leq 2\pi.$$
+
+For any constant $$C > 0$$, we could also reparamterize this by $$C$$ to get
+
+$$\vec{r}_C(t) = \langle (11/5) \cos(Ct), (11/4) \sin(Ct) \rangle, \text{ where } 0 \leq t \leq (2\pi)/C.$$
+
+For example, moving double speed around the ellipse would be $$C=2$$.
+
+**Problem:** Consider the curve $$C$$ traced out by the function
+
+$$ \vec{r}(t) = \langle t^2, 3t+4, t \rangle.$$
+
+Consider the embedded surface
+
+$$S(\alpha) = \{(x,y,z) \in \mathbb{R}^3 \ | \ 9x - 6y^2 + 4z = \alpha \},$$
+
+where $$\alpha$$ is some constant.
+- For what $$\alpha$$ does $$C$$ never intersect $$S$$?
+- For which $$\alpha$$ does $$C$$ intersect once?
+- For which $$\alpha$$ does $$C$$ intersect twice?
+- For which $$\alpha$$ does $$C$$ intersect more than twice?
+
+**Solution:** Remember that we can write
+
+$$\vec{r}(t) = \langle x(t), y(t), z(t) \rangle.$$
+
+The curve $$\vec{r}(t)$$ intersects the embedded surface when
+
+$$9t^2 - 6(3t+4)^2 + 4t = \alpha.$$
+
+Expanding the left hand side:
+
+$$ -45t^2 - 140t - 96 = \alpha.$$
+
+Finally, let's move $$\alpha$$ to the other side:
+
+$$ -45t^2 - 140t - (96 + \alpha) = 0.$$
+
+The discriminant of this quadratic is
+
+$$ (-140)^2 - 4(-45)(-96 - \alpha) = 2320 - 180\alpha.$$
+
+Notice that $$C$$
+- does not intersect the surface if the discriminant is negative,
+- intersects the surface once if the discriminant is zero, and
+- intersects the surface twice if the discriminant is positive.
+
+So the point when the behavior changes happens when $$2320 - 180 \alpha =0$$, or $$\alpha = 116/9.$$ So $$C$$
+- does not intersect $$S$$ if $$\alpha > 116/9,$$
+- intersects $$S$$ once if $$\alpha = 116/9$$, and
+- intersects the surface twice if $$\alpha < 116/9.$$
+
+We also see from this analysis that the most $$C$$ intersects $$S$$ is twice.
+
+# Calculus
+
+**Problem:** Suppose $$\vec{p}(0) = \langle 1,1 \rangle,$$ \vec{p}'(0) = \langle 1, 0 \rangle$$, $$\vec{q}(0) = \langle 3, 10 \rangle$$, and $$\vec{q}'(0) = \langle 0,2 \rangle$$. Calculate
+
+$$ \frac{d}{dt} (\vec{p}(t) \cdot \vec{q}(t)) \text{ when } t =0.$$
+
+**Solution:** Use our identity above:
+
+$$\frac{d}{dt} (\vec{p}(t) \cdot \vec{q}(t)) = \vec{p}'(t) \cdot \vec{q}(t) + \vec{p}(t) \cdot \vec{q}'(t).$$
+
+Plugging in $$t=0$$, we get
+
+$$ \vec{p}'(0) \cdot \vec{q}(0) + \vec{p}(0) \cdot \vec{q}'(0) = \langle 1,0 \rangle \cdot \langle 3, 10 \rangle + \langle 1,1 \rangle \cdot \langle 0,2 \rangle = 3 + 2 = 5.$$
+
+**Problem:** Let $$\vec{p}(t) = \langle t + 4, 2t^2 + 3t + 1, t + 4 \rangle.$$ Find a $$t$$ so that $$\vec{p}(t)$$ is orthogonal to $$\vec{p}'(t).$$
+
+**Solution:** Remember two vectors are orthogonal if $$\vec{v} \cdot \vec{w} = 0.$$ We calculate
+
+$$\vec{p}'(t) = \langle 1, 4t + 3, 1 \rangle,$$
+
+so we need to solve for the $$t$$ so that
+
+$$\vec{p}'(t) \cdot \vec{p}(t) = 0.$$
+
+Notice
+
+$$\vec{p}'(t) \cdot \vec{p}(t) = (t+4) + (4t+3)(2t^2+3t+1) + (t+4) = 8t^3 + 18t^2 + 15t + 11.$$
+
+This has a very nasty solution that you can only find with a calculator, but it is approximately $$t \approx -1.6163.$$
