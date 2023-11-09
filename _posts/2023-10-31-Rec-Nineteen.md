@@ -105,3 +105,37 @@ $$ \text{proj}_{\vec{w}}(\vec{v}) = \frac{4}{\sqrt{5}} \langle 0, \frac{1}{\sqrt
 $$ \vec{v} \cdot \vec{u} = 0,$$
 
 which implies that the vectors are orthogonal.
+
+**Problem:** Determine necessary and sufficient conditions on vectors $$\vec{u}$$ and $$\vec{v}$$ so that
+
+$$ \text{Proj}_{\vec{v}}(\vec{u}) = \text{Proj}_{\vec{u}}(\vec{v}).$$
+
+**Solution:** First, this is clearly true if they are orthogonal, so assume $$\vec{v} \cdot \vec{u} \neq 0$$ (notice we also are ruling out when they are zero vectors). Let's start by assuming they are both unit vectors. Taking the dot product of both sides with $$\vec{u}$$, we get
+
+$$ \frac{(\vec{v} \cdot \vec{u})^2}{\mid \vec{v} \mid^2} = \vec{v} \cdot \vec{u}.$$
+
+Rearranging, we get
+
+$$ \vec{v} \cdot \vec{u} = \mid \vec{v} \mid = 1.$$
+
+However, remember that the dot product has a geometric interpretation:
+
+$$ \mid \vec{v} \mid \cdot \mid \vec{u} \mid \cdot \cos(\theta) = \mid \vec{v} \mid = 1.$$
+
+Since these are unit vectors, we deduce
+
+$$ \cos(\theta) = 1.$$
+
+This implies that the vectors are parallel, so in particular we can write $$\vec{v} = C \vec{u}$$. We have
+
+$$ \text{Proj}_{\vec{v}}(\vec{u}) = \text{Proj}_{C \vec{u}}(\vec{u}) = \frac{\vec{u} \cdot (C \vec{u}) }{\mid C \vec{u} \mid^2} (C \vec{u}) = 1.$$
+
+On the other hand,
+
+$$ \text{Proj}_{\vec{u}}(\vec{v}) = \text{Proj}_{\vec{u}}(C\vec{u}) = C.$$
+
+We deduce that $$C = 1$$. We deduce the following fact.
+
+**Fact:** If $$ \text{Proj}_{\vec{v}}(\vec{u}) = \text{Proj}_{\vec{u}}(\vec{v}),$$ then one of the following must be true:
+- $$\vec{v} \cdot \vec{u} = 0,$$ or, in other words, they are orthogonal, or
+- $$\vec{v} = \vec{u}.$$
