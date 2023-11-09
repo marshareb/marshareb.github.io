@@ -495,7 +495,7 @@ We also see from this analysis that the most $$C$$ intersects $$S$$ is twice.
 
 # Calculus
 
-**Problem:** Suppose $$\vec{p}(0) = \langle 1,1 \rangle,$$ \vec{p}'(0) = \langle 1, 0 \rangle$$, $$\vec{q}(0) = \langle 3, 10 \rangle$$, and $$\vec{q}'(0) = \langle 0,2 \rangle$$. Calculate
+**Problem:** Suppose $$\vec{p}(0) = \langle 1,1 \rangle,$$ $$\vec{p}'(0) = \langle 1, 0 \rangle$$, $$\vec{q}(0) = \langle 3, 10 \rangle$$, and $$\vec{q}'(0) = \langle 0,2 \rangle$$. Calculate
 
 $$ \frac{d}{dt} (\vec{p}(t) \cdot \vec{q}(t)) \text{ when } t =0.$$
 
