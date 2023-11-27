@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recitation Twenty Three
+title: Recitation Twenty Four
 tag: [MA1172]
 ---
 
