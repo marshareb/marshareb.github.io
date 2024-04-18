@@ -37,10 +37,10 @@ Here are a collection of papers and presentations I've done over the years.
 <h3> Marked Length Spectrum Rigidity [2024] </h3>
 <p> Given at the <a class = "link-style" href="https://math-cal.cloud.science.psu.edu/events/seminar/400%3Cbr%20/2024">Dynamical Systems Working Seminar</a> at Penn State.</p>
 
-<h3> Shrinking Maps [2024] </h3>
+<h3> A counterexample to a marked length spectrum semi-rigidity problem (2) [2024] </h3>
 <p> Given at the <a class = "link-style" href="https://www-math.umd.edu/dynamics-conference.html">semi-annual Workshop on Dynamical Systems and Related Topics</a> at Maryland.</p>
 
-<h3>A counterexample to a marked length spectrum semi-rigidity problem [2024] </h3>
+<h3>A Magnetic Hopf Theorem [2024] </h3>
 <p> Given at the "Dynamics Students Days" workshop in Maryland.</p>
 
 <h3> Geodesic Flows [2024] </h3>
