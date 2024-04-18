@@ -10,13 +10,13 @@ Here are a collection of papers and presentations I've done over the years.
 <h3><a class = "link-style" href="https://arxiv.org/abs/2211.01865">Deformative Magnetic Marked Length Spectrum Rigidity </a> [2022] </h3>
 <p> A generalization of Guillemin-Kazhdan to the setting of magnetic flows. To appear in the Bulletin of the London Mathematical Society. </p>
 
-## Submitted
-
 <h3><a class = "link-style" href="https://arxiv.org/abs/2304.01372"> A positive proportion Livshits theorem (with Caleb Dilsavor)</a> [2023] </h3>
-<p> A generalization of the Livshits theorem using statistical information on orbits. </p>
+<p> A generalization of the Livshits theorem using statistical information on orbits. To appear in the Proceedings of the American Mathematical Society. </p>
 
 <h3> <a class= "link-style" href="https://arxiv.org/abs/2306.07444">Codazzi tensor fields in reductive homogeneous spaces (with Ivo Terek)</a> [2023] </h3>
-<p> An extension of results by d'Atri on Codazzi tensors in the setting of reductive homogeneous spaces. </p>
+<p> An extension of results by d'Atri on Codazzi tensors in the setting of reductive homogeneous spaces. To appear in Results in Mathematics. </p>
+
+## Submitted
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2309.10882"> A counterexample to marked length spectrum semi-rigidity (with Andrey Gogolev)</a> [2023] </h3>
 <p> Given a closed orientable negatively curved Riemannian surface, we show how to construct a perturbation such that each closed geodesic becomes longer, and yet there is no diffeomorphism which contracts every tangent vector. </p>
@@ -34,7 +34,16 @@ Here are a collection of papers and presentations I've done over the years.
 
 ## Presentations
 
-<h3><a class = "link-style" href="">  TBD [2023]</a> </h3>
+<h3><a class = "link-style" href=""> Marked Length Spectrum Rigidity [2024]</a> </h3>
+<p> My presentation for the Dynamical Systems Working Seminar at Penn State.</p>
+
+<h3><a class = "link-style" href=""> Shrinking Maps [2024]</a> </h3>
+<p> My presentation for the Maryland-Penn State Semiannual Workshop on Dynamical Systems and Related Topics.</p>
+
+<h3><a class = "link-style" href=""> A counterexample to a marked length spectrum semi-rigidity problem [2024]</a> </h3>
+<p> My presentation for Dynamics Students Days 2024 in Maryland.</p>
+
+<h3><a class = "link-style" href=""> A counterexample to a marked length spectrum semi-rigidity problem [2023]</a> </h3>
 <p> My presentation for the dynamics seminar at UChicago.</p>
 
 <h3><a class = "link-style" href="/files/Penn_State_Poster-1.pdf">  A counterexample to marked length spectrum semi-rigidity </a> [2023] </h3>
