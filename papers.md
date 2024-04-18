@@ -34,16 +34,16 @@ Here are a collection of papers and presentations I've done over the years.
 
 ## Presentations
 
-<h3><a class = "link-style" href=""> Marked Length Spectrum Rigidity [2024]</a> </h3>
-<p> My presentation for the Dynamical Systems Working Seminar at Penn State.</p>
+<h3> Marked Length Spectrum Rigidity [2024] </h3>
+<p> Given at the <a class = "link-style" href="https://math-cal.cloud.science.psu.edu/events/seminar/400%3Cbr%20/2024">Dynamical Systems Working Seminar</a> at Penn State.</p>
 
-<h3><a class = "link-style" href=""> Shrinking Maps [2024]</a> </h3>
-<p> My presentation for the Maryland-Penn State Semiannual Workshop on Dynamical Systems and Related Topics.</p>
+<h3> Shrinking Maps [2024] </h3>
+<p> Given at the <a class = "link-style" href="https://www-math.umd.edu/dynamics-conference.html">semi-annual Workshop on Dynamical Systems and Related Topics</a> at Maryland.</p>
 
-<h3><a class = "link-style" href=""> A counterexample to a marked length spectrum semi-rigidity problem [2024]</a> </h3>
-<p> My presentation for Dynamics Students Days 2024 in Maryland.</p>
+<h3>A counterexample to a marked length spectrum semi-rigidity problem [2024] </h3>
+<p> Given at the "Dynamics Students Days" workshop in Maryland.</p>
 
-<h3><a class = "link-style" href=""> Geodesic Flows [2024]</a> </h3>
+<h3> Geodesic Flows [2024] </h3>
 <p> A series of talks introducing the geodesic flow. Given at the OSU student dynamics seminar. </p>
 
 <h3><a class = "link-style" href=""> A counterexample to a marked length spectrum semi-rigidity problem [2023]</a> </h3>
