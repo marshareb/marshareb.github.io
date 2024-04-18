@@ -43,6 +43,9 @@ Here are a collection of papers and presentations I've done over the years.
 <h3><a class = "link-style" href=""> A counterexample to a marked length spectrum semi-rigidity problem [2024]</a> </h3>
 <p> My presentation for Dynamics Students Days 2024 in Maryland.</p>
 
+<h3><a class = "link-style" href=""> Geodesic Flows [2024]</a> </h3>
+<p> A series of talks introducing the geodesic flow. Given at the OSU student dynamics seminar. </p>
+
 <h3><a class = "link-style" href=""> A counterexample to a marked length spectrum semi-rigidity problem [2023]</a> </h3>
 <p> My presentation for the dynamics seminar at UChicago.</p>
 
