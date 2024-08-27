@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 ---
 
-<p> This semester I am TAing <a href="https://math.osu.edu/courses/math-1172">MA 1172</a>. Here are a collection of notes on what we talked about during recitation. </p>
+<p> In Fall 2024, I was a TA for <a href="https://math.osu.edu/courses/math-1172">MA 1172</a>. Here are a collection of notes on what we talked about during recitation. </p>
 
 <div class="posts">
   {% for post in site.tags.MA1172 %}
