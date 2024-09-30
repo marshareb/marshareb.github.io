@@ -16,18 +16,19 @@ Here are a collection of papers and presentations I've done over the years.
 <h3> <a class= "link-style" href="https://arxiv.org/abs/2306.07444">Codazzi tensor fields in reductive homogeneous spaces (with Ivo Terek)</a> [2023] </h3>
 <p> An extension of results by d'Atri on Codazzi tensors in the setting of reductive homogeneous spaces. *Results in Mathematics* (4) 79, 137. </p>
 
-## Submitted
-
-<h3><a class = "link-style" href="https://arxiv.org/abs/2406.18735">  Anosov magnetic flows on surfaces (with Yumin Shen)</a> [2023] </h3>
-<p> Using the quotient bundle introduced by Wojtkowski, we give necessary and sufficient conditions for a magnetic flow on a closed, oriented surface to be Anosov. </p>
-
 <h3><a class = "link-style" href="https://arxiv.org/abs/2404.17726"> Magnetic flatness and E. Hopf's theorem for magnetic systems (with Valerio Assenza and Ivo Terek)</a> [2023] </h3>
-<p> Using the notion of magnetic curvature recently introduced by the first author, we extend E. Hopf's theorem to the setting of magnetic systems and study the notion of "magnetic flatness."   </p>
+<p> Using the notion of magnetic curvature recently introduced by the first author, we extend E. Hopf's theorem to the setting of magnetic systems and study the notion of "magnetic flatness." To appear in *Communications in Mathematical Physics*.   </p>
+
+
+## Submitted
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2309.10882"> A counterexample to marked length spectrum semi-rigidity (with Andrey Gogolev)</a> [2023] </h3>
 <p> Given a closed orientable negatively curved Riemannian surface, we show how to construct a perturbation such that each closed geodesic becomes longer, and yet there is no diffeomorphism which contracts every tangent vector. </p>
 
 ## Unpublished
+<h3><a class = "link-style" href="https://arxiv.org/abs/2406.18735">  Anosov magnetic flows on surfaces (with Yumin Shen)</a> [2023] </h3>
+<p> Using the quotient bundle introduced by Wojtkowski, we give necessary and sufficient conditions for a magnetic flow on a closed, oriented surface to be Anosov. </p>
+
 
 <h3> <a class = "link-style" href="/files/writeup.pdf">Mixing Times of Random Walks on Various Combinatorial Objects </a>[2018] </h3>
 <p>A write up for my REU during the summer of 2018.</p>
