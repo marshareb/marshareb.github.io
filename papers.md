@@ -8,13 +8,13 @@ Here are a collection of papers and presentations I've done over the years.
 ## Accepted
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2211.01865">Deformative Magnetic Marked Length Spectrum Rigidity </a> [2022] </h3>
-<p> A generalization of Guillemin-Kazhdan to the setting of magnetic flows. *Bulletin of the London Mathematical Society*, (6) 55, 3077 -- 3096</p>
+<p> A generalization of Guillemin-Kazhdan to the setting of magnetic flows. _Bulletin of the London Mathematical Society_, (6) 55, 3077 -- 3096</p>
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2304.01372"> A positive proportion Livshits theorem (with Caleb Dilsavor)</a> [2023] </h3>
-<p> A generalization of the Livshits theorem using statistical information on orbits. To appear in *Proceedings of the American Mathematical Society*. </p>
+<p> A generalization of the Livshits theorem using statistical information on orbits. To appear in _Proceedings of the American Mathematical Society_. </p>
 
 <h3> <a class= "link-style" href="https://arxiv.org/abs/2306.07444">Codazzi tensor fields in reductive homogeneous spaces (with Ivo Terek)</a> [2023] </h3>
-<p> An extension of results by d'Atri on Codazzi tensors in the setting of reductive homogeneous spaces. *Results in Mathematics* (4) 79, 137. </p>
+<p> An extension of results by d'Atri on Codazzi tensors in the setting of reductive homogeneous spaces. _Results in Mathematics_ (4) 79, 137. </p>
 
 ## Submitted
 
@@ -38,9 +38,9 @@ Here are a collection of papers and presentations I've done over the years.
 <h3> <a class = "link-style" href="https://drive.google.com/file/d/0B7xRmSk2iyheZEhFWFhrZ1V6bEE/view?usp=sharing">A Survey on Continuum Random Trees For Undergraduates </a>[2016]</h3>
 <p>A short survey on the continuum random tree I wrote as a Freshman.</p>
 
-## Presentations
+# Presentations
 
-<h3> TBD [2024] </h3>
+<h3> Marked Length Spectrum Rigidity  [2024] </h3>
 <p> Given at the <a class = "link-style" href="https://u.osu.edu/ergodictheory/">OSU Ergodic Theory Seminar</a>.</p>
 
 <h3> A counterexample to a marked length spectrum semi-rigidity problem (3) [2024] </h3>
