@@ -8,16 +8,16 @@ Here are a collection of papers and presentations I've done over the years.
 ## Accepted
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2211.01865">Deformative Magnetic Marked Length Spectrum Rigidity </a> [2022] </h3>
-<p> A generalization of Guillemin-Kazhdan to the setting of magnetic flows. _Bulletin of the London Mathematical Society_, (6) 55, 3077 -- 3096</p>
+<p> A generalization of Guillemin-Kazhdan to the setting of magnetic flows. <em>Bulletin of the London Mathematical Society</em>, (6) 55, 3077 - 3096</p>
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2304.01372"> A positive proportion Livshits theorem (with Caleb Dilsavor)</a> [2023] </h3>
-<p> A generalization of the Livshits theorem using statistical information on orbits. To appear in _Proceedings of the American Mathematical Society_. </p>
+<p> A generalization of the Livshits theorem using statistical information on orbits. To appear in <em>Proceedings of the American Mathematical Society</em>. </p>
 
 <h3> <a class= "link-style" href="https://arxiv.org/abs/2306.07444">Codazzi tensor fields in reductive homogeneous spaces (with Ivo Terek)</a> [2023] </h3>
-<p> An extension of results by d'Atri on Codazzi tensors in the setting of reductive homogeneous spaces. _Results in Mathematics_ (4) 79, 137. </p>
+<p> An extension of results by d'Atri on Codazzi tensors in the setting of reductive homogeneous spaces. <em>Results in Mathematics</em> (4) 79, 137. </p>
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2404.17726"> Magnetic flatness and E. Hopf's theorem for magnetic systems (with Valerio Assenza and Ivo Terek)</a> [2023] </h3>
-<p> Using the notion of magnetic curvature recently introduced by the first author, we extend E. Hopf's theorem to the setting of magnetic systems and study the notion of "magnetic flatness." To appear in *Communications in Mathematical Physics*.   </p>
+<p> Using the notion of magnetic curvature recently introduced by the first author, we extend E. Hopf's theorem to the setting of magnetic systems and study the notion of "magnetic flatness." To appear in <em>Communications in Mathematical Physics</em>.   </p>
 
 
 ## Submitted
