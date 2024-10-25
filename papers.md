@@ -30,7 +30,7 @@ Here are a collection of papers and presentations I've done over the years.
 TBD
 
 ## Unpublished
-<h3><a class = "link-style" href="https://arxiv.org/abs/2409.20545">Marked length spectrum rigidity for Anosov magnetic surfaces </a> [2024] </h3>
+<h3><a class = "link-style" href="https://arxiv.org/abs/2409.20545">Marked length spectrum rigidity for Anosov magnetic surfaces (with Valerio Assenza, Jacopo de Simoi, and Ivo Terek)</a> [2024] </h3>
 <p> A generalization of Guillarmou, Lefeuvre, and Paternain to the setting of Anosov magnetic flows. </p>
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2406.18735">  Anosov magnetic flows on surfaces (with Yumin Shen)</a> [2023] </h3>
