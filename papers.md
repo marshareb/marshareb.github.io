@@ -20,8 +20,8 @@ Here are a collection of papers and presentations I've done over the years.
 <p> An extension of results by d'Atri on Codazzi tensors in the setting of reductive homogeneous spaces. <em>Results in Mathematics</em> (4) 79, 137. </p>
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2211.01865">Deformative Magnetic Marked Length Spectrum Rigidity </a> [2022] </h3>
-<p> A generalization of Guillemin-Kazhdan to the setting of magnetic flows. <em>Bulletin of the London Mathematical Society</em>, (6) 55, 3077 - 3096 (2023). </p>
-<p> See also <a class = "link-style" href="https://arxiv.org/abs/2211.01865">here</a> for a correction (corrigendum pending).</p>
+<p> A generalization of Guillemin-Kazhdan to the setting of magnetic flows. <em>Bulletin of the London Mathematical Society</em>, (6) 55, 3077 - 3096 (2023).  See also <a class = "link-style" href="https://arxiv.org/abs/2211.01865">here</a> for a correction. </p>
+
 
 
 
