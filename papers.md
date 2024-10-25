@@ -7,28 +7,30 @@ Here are a collection of papers and presentations I've done over the years.
 
 ## Accepted
 
-<h3><a class = "link-style" href="https://arxiv.org/abs/2211.01865">Deformative Magnetic Marked Length Spectrum Rigidity </a> [2022] </h3>
-<p> A generalization of Guillemin-Kazhdan to the setting of magnetic flows. <em>Bulletin of the London Mathematical Society</em>, (6) 55, 3077 - 3096</p>
+<h3><a class = "link-style" href="https://arxiv.org/abs/2309.10882"> A counterexample to marked length spectrum semi-rigidity (with Andrey Gogolev)</a> [2024] </h3>
+<p> Given a closed orientable negatively curved Riemannian surface, we show how to construct a perturbation such that each closed geodesic becomes longer, and yet there is no diffeomorphism which contracts every tangent vector. To appear in <em>Groups, Geometry, and Dynamics</em>.</p>
 
-<h3><a class = "link-style" href="https://arxiv.org/abs/2304.01372"> A positive proportion Livshits theorem (with Caleb Dilsavor)</a> [2023] </h3>
-<p> A generalization of the Livshits theorem using statistical information on orbits. To appear in <em>Proceedings of the American Mathematical Society</em>. </p>
+<h3><a class = "link-style" href="https://arxiv.org/abs/2404.17726"> Magnetic flatness and E. Hopf's theorem for magnetic systems (with Valerio Assenza and Ivo Terek)</a> [2024] </h3>
+<p> Using the notion of magnetic curvature recently introduced by the first author, we extend E. Hopf's theorem to the setting of magnetic systems and study the notion of "magnetic flatness." To appear in <em>Communications in Mathematical Physics</em>.   </p>
+
+<h3><a class = "link-style" href="https://arxiv.org/abs/2304.01372"> A positive proportion Livshits theorem (with Caleb Dilsavor)</a> [2024] </h3>
+<p> A generalization of the Livshits theorem using statistical information on orbits. <em>Proceedings of the American Mathematical Society</em>, (152) 11, Dilsavor, Caleb, and James Marshall Reber. "A positive proportion Livshits theorem." Proceedings of the American Mathematical Society (152) 11 4729 - 4744 (2024). </p>
 
 <h3> <a class= "link-style" href="https://arxiv.org/abs/2306.07444">Codazzi tensor fields in reductive homogeneous spaces (with Ivo Terek)</a> [2023] </h3>
 <p> An extension of results by d'Atri on Codazzi tensors in the setting of reductive homogeneous spaces. <em>Results in Mathematics</em> (4) 79, 137. </p>
 
-<h3><a class = "link-style" href="https://arxiv.org/abs/2404.17726"> Magnetic flatness and E. Hopf's theorem for magnetic systems (with Valerio Assenza and Ivo Terek)</a> [2023] </h3>
-<p> Using the notion of magnetic curvature recently introduced by the first author, we extend E. Hopf's theorem to the setting of magnetic systems and study the notion of "magnetic flatness." To appear in <em>Communications in Mathematical Physics</em>.   </p>
+<h3><a class = "link-style" href="https://arxiv.org/abs/2211.01865">Deformative Magnetic Marked Length Spectrum Rigidity </a> [2022] </h3>
+<p> A generalization of Guillemin-Kazhdan to the setting of magnetic flows. <em>Bulletin of the London Mathematical Society</em>, (6) 55, 3077 - 3096 (2023). </p>
+<p> See also <a class = "link-style" href="https://arxiv.org/abs/2211.01865">here</a> for a correction (corrigendum pending).</p>
+
 
 
 ## Submitted
 
-<h3><a class = "link-style" href="https://arxiv.org/abs/2309.10882"> A counterexample to marked length spectrum semi-rigidity (with Andrey Gogolev)</a> [2023] </h3>
-<p> Given a closed orientable negatively curved Riemannian surface, we show how to construct a perturbation such that each closed geodesic becomes longer, and yet there is no diffeomorphism which contracts every tangent vector. </p>
 
 ## Unpublished
 <h3><a class = "link-style" href="https://arxiv.org/abs/2406.18735">  Anosov magnetic flows on surfaces (with Yumin Shen)</a> [2023] </h3>
-<p> Using the quotient bundle introduced by Wojtkowski, we give necessary and sufficient conditions for a magnetic flow on a closed, oriented surface to be Anosov. </p>
-
+<p> Using the quotient bundle introduced by Wojtkowski, we give necessary and sufficient conditions for a magnetic flow on a closed, oriented surface to be Anosov (part of the OSU Cycle Program). </p>
 
 <h3> <a class = "link-style" href="/files/writeup.pdf">Mixing Times of Random Walks on Various Combinatorial Objects </a>[2018] </h3>
 <p>A write up for my REU during the summer of 2018.</p>
