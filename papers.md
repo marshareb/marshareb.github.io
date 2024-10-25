@@ -20,15 +20,19 @@ Here are a collection of papers and presentations I've done over the years.
 <p> An extension of results by d'Atri on Codazzi tensors in the setting of reductive homogeneous spaces. <em>Results in Mathematics</em> (4) 79, 137. </p>
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2211.01865">Deformative Magnetic Marked Length Spectrum Rigidity </a> [2022] </h3>
-<p> A generalization of Guillemin-Kazhdan to the setting of magnetic flows. <em>Bulletin of the London Mathematical Society</em>, (6) 55, 3077 - 3096 (2023).  See also <a class = "link-style" href="https://arxiv.org/abs/2211.01865">here</a> for a correction. </p>
+<p> A generalization of Guillemin-Kazhdan to the setting of magnetic flows. <em>Bulletin of the London Mathematical Society</em>, (6) 55, 3077 - 3096 (2023).  See the arXiv link above for a correction. </p>
 
 
 
 
 ## Submitted
 
+TBD
 
 ## Unpublished
+<h3><a class = "link-style" href="https://arxiv.org/abs/2409.20545">Marked length spectrum rigidity for Anosov magnetic surfaces </a> [2024] </h3>
+<p> A generalization of Guillarmou, Lefeuvre, and Paternain to the setting of Anosov magnetic flows. </p>
+
 <h3><a class = "link-style" href="https://arxiv.org/abs/2406.18735">  Anosov magnetic flows on surfaces (with Yumin Shen)</a> [2023] </h3>
 <p> Using the quotient bundle introduced by Wojtkowski, we give necessary and sufficient conditions for a magnetic flow on a closed, oriented surface to be Anosov (part of the OSU Cycle Program). </p>
 
