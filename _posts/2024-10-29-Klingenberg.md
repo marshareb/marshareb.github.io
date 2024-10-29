@@ -7,7 +7,7 @@ categories: ["Geometry", "Dynamics"]
 
 In this post, we talk about a new proof of Klingenberg's fact: an Anosov geodesic flow is without conjugate points.
 
-# Introduction
+# Result
 
 I wanted to collect this proof somewhere, as the original paper of Klingenberg (see [here](https://www.jstor.org/stable/1971011)) is somewhat hard to read. The idea is to prove the following using some general facts about geodesic flows (following Mane's work).
 
@@ -28,3 +28,15 @@ Gluing these statements together yields the theorem. The first one is easy. In t
 For the second, we simply need to show that if there are conjugate points, then the Maslov index cannot be exact. Assume we have a closed orbit with conjugate points. Without loss of generality, this implies there is a vector in the unit tangent bundle for which this Lagrangian space is equal to the vertical bundle, say $$v$$. Furthermore, the twist property implies there is an $$\epsilon > 0$$ so that the Lagrangian space at $$v_{\pm} =: g_{\pm \epsilon/2}(v)$$ does not intersect the vertical bundle. If this Lagrangian space depends continuously on $$v$$ (which is certainly the case for Anosov flows), then there is a neighborhood $$U_\pm$$ of $$v_\pm$$ such that for all $$v \in U_\pm$$, we have that the Lagrangian space for vectors in $$g_{\pm \epsilon/2}(U_\pm)$$ also does not intersect the vertical. Notice that $$g_\epsilon(U_-) \cap U_+ \neq \varnothing$$, and take $$\eta$$ in this intersection. Now use Poincare recurrence to get that there is a large $$S > \epsilon$$ so that $$g_S(\eta)$$ is back in the intersection. Let $$T := S - \epsilon > 0$$. Notice that $$g_T(\eta)$$ lies in $$U_-$$. We then form a loop by connecting $$v$$ to $$v_+$$, $$v_+$$ to $$\eta$$, $$\eta$$ to $$g_T(\eta)$$, $$g_T(\eta)$$ to $$v_-$$, and $$v_-$$ to $$v$$. The only thing to note about this loop is that, we connect $$v_+$$ to $$\eta$$ via a curve contained in $$U_+$$, and $$v_-$$ to $$g_T(\eta)$$ via a curve in $$U_-$$; the other components come from the flow. By construction, the Maslov index along this curve will be positive.
 
 A version of this argument can be found in [Paternain's book](https://link.springer.com/book/10.1007/978-1-4612-1600-1).
+
+# Remaining questions
+
+This argument heavily uses the fact that it is contact and that there is recurrence. The contact property is useful for the fact that the flow is homologically full, while the recurrence is important for the last argument. A natural question is whether these are necessary conditions, or if they are just convenient. Of course, one has to be careful about what conjugate points even mean for flows that are not the geodesic flow. In a [recent paper](https://arxiv.org/html/2404.17726v3), Valerio Assenza, Ivo Terek, and I explored the notion of conjugate points for magnetic systems. Once restricted to the appropriate quotient bundle, there is a natural Lagrangian subbundle of interest, and one would like to show that if the magnetic flow is Anosov, then the stable and unstable bundles do not intersect this Lagrangian subbundle. All that needs to be fixed in the above argument is the homologically full portion.
+
+Let $$F$$ be the infinitesimal generator of the magnetic flow. As noted in [Theorem 2.8](https://arxiv.org/pdf/2004.14431), the magnetic flow is homologically full if for every $$[\omega] \in H^1(M,\mathbb{R})$$, we have
+
+$$ \int_M \omega(F)m = 0,$$
+
+where $$m$$ is the volume form. In fact, notice that argument in Theorem 2.8 generalizes to magnetic flows; all that was used was that $$\alpha(F) = 1$$, where $$\alpha$$ is the contact form for the geodesic flow (and this is always true for the magnetic flow). Thus, the above argument *always* works for magnetic flows (once everything is appropriately interpreted).
+
+Finally, it is natural to wonder whether this works for flows that are dissipative, such as generalized thermostats. Without Poincare recurrence, I am not sure how to bypass the last argument.
