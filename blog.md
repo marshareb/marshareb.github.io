@@ -8,7 +8,6 @@ title: Blog
 
 <div class="posts">
   {% for post in site.posts %}
-  {% if post not in site.tags.MA1172 %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -19,6 +18,5 @@ title: Blog
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
-  {% endif %}
   {% endfor %}
 </div>
