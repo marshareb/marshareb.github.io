@@ -5,7 +5,7 @@ tag: geometry, dynamics
 categories: ["Geometry", "Dynamics"]
 ---
 
-In this post, we talk about a new proof of Klingenberg's fact: an Anosov geodesic flow is without conjugate points.
+In this post, we talk about a proof of Klingenberg's fact: an Anosov geodesic flow is without conjugate points.
 
 # Result
 
