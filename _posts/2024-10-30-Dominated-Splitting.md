@@ -19,6 +19,6 @@ It is clear that flows which are Anosov have a dominated splitting, but flows wh
 
 I would wager that the answer to this question is no, but it is entirely possible that I am wrong. We say that the flow has an *exponential dominated splitting* if both bundles exhibit exponential behavior. Notice that this implies that the bundle $$F$$ grows faster than the bundle $$E$$, but it is possible that the bundle $$E$$ is growing or decaying exponentially fast as well. One can easily show using the arguments from [here](http://www.pdmi.ras.ru/~svivanov/papers/bbi-parthyp.pdf) to establish the following:
 
-**Observation:** If the manifold $$M$$ has trivial first homology, then there are no flows on which have an exponential dominated splitting.
+**Observation:** If the manifold $$M$$ has trivial first homology, then there are no flows on $$M$$ which have an exponential dominated splitting.
 
 For example, this says that there are no flows on the unit tangent bundle of the sphere which have an exponential dominated splitting. As a follow up, it is still unclear whether there exists a flow on the unit tangent bundle of the sphere for which one bundle has exponential behavior and the other one has subexponential behavior. It is possible that one can construct this using a thermostat. Furthermore, even assuming that this is impossible, one can imagine a case where the bundles switch behaviors at points; this has to also be ruled out somehow.
