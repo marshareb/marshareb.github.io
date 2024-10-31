@@ -15,7 +15,7 @@ Recall that the *Lyapunov exponent* of a vector $$\xi \in T_vSM$$ is the quantit
 
 $$ \chi(v, \xi) := \limsup_{t \rightarrow \infty} \frac{1}{t} \log \| d_v g_t(\xi)\|.$$
 
-Since the metric is without conjugate points, we can form the so-called *Green bundles.* More precisely, let $$\mathbb{V}(v) := \{\xi \in T_vSM \ | \ d_v\pi(\xi) = 0\}$$. Then it is well-known that the *stable Green bundle* is the limit:
+Since the metric is without conjugate points, we can form the so-called *Green bundles.* More precisely, let $$\mathbb{V}(v) := \{\xi \in T_vSM \ \mid \ d_v\pi(\xi) = 0\}$$. Then it is well-known that the *stable Green bundle* is the limit:
 
 $$ G^s(v) := \lim_{t \rightarrow \infty} d_v g_{-t}(\mathbb{V}(g_t(v))).$$
 
