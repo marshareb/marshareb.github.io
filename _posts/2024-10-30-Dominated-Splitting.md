@@ -17,7 +17,7 @@ It is clear that flows which are Anosov have a dominated splitting, but flows wh
 
 **Question:** Does there exist a flow on the unit tangent bundle of the sphere which has a dominated splitting?
 
-I would wager that the answer to this question is no, but it is entirely possible that I am wrong. We say that the flow has an *exponential dominated splitting* if both bundles exhibit exponential behavior. Notice that this implies that the bundle $$F$$ grows faster than the bundle $$E$$, but it is possible that the bundle $$E$$ is growing or decaying exponentially fast as well. One can easily show using the arguments from [here](http://www.pdmi.ras.ru/~svivanov/papers/bbi-parthyp.pdf) to establish the following:
+I would wager that the answer to this question is no, but it is entirely possible that I am wrong. We say that the flow has an *exponential dominated splitting* if both bundles exhibit exponential behavior. Notice that this implies that the bundle $$F$$ grows faster than the bundle $$E$$, but it is possible that the bundle $$E$$ is growing or decaying exponentially fast as well. One can easily show using the arguments from [here](http://www.pdmi.ras.ru/~svivanov/papers/bbi-parthyp.pdf) the following:
 
 **Observation:** If the manifold $$M$$ has trivial first homology, then there are no flows on $$M$$ which have an exponential dominated splitting.
 
