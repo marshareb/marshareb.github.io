@@ -8,11 +8,13 @@ Here are a collection of papers and presentations I've done over the years.
 
 ## Submitted
 
+<h3><a class = "link-style" href="https://arxiv.org/abs/2501.01923">Thermostats without conjugate points (with Javier Echevarría Cuesta)</a> [2025] </h3>
+<p> We generalize Hopf's theorem to thermostats: the total thermostat curvature of a thermostat without conjugate points is non-positive, and vanishes only if the thermostat curvature is identically zero. We further show that, if the thermostat curvature is zero, then the flow has no conjugate points, and the Green bundles collapse almost everywhere. Given a thermostat without conjugate points, we prove that the Green bundles are transversal everywhere if and only if it admits a dominated splitting. Finally, we provide an example showing that Hopf's rigidity theorem on the 2-torus cannot be extended to thermostats. It is also the first example of a thermostat with a dominated splitting which is not Anosov. </p>
+
+
 <h3><a class = "link-style" href="https://arxiv.org/abs/2409.20545">Marked length spectrum rigidity for Anosov magnetic surfaces (with Valerio Assenza, Jacopo de Simoi, and Ivo Terek)</a> [2024] </h3>
 <p> A generalization of Guillarmou, Lefeuvre, and Paternain to the setting of Anosov magnetic flows. </p>
 
-<h3><a class = "link-style" href="https://arxiv.org/abs/2501.01923">Thermostats without conjugate points (with Javier Echevarría Cuesta)</a> [2025] </h3>
-<p> We generalize Hopf's theorem to thermostats: the total thermostat curvature of a thermostat without conjugate points is non-positive, and vanishes only if the thermostat curvature is identically zero. We further show that, if the thermostat curvature is zero, then the flow has no conjugate points, and the Green bundles collapse almost everywhere. Given a thermostat without conjugate points, we prove that the Green bundles are transversal everywhere if and only if it admits a dominated splitting. Finally, we provide an example showing that Hopf's rigidity theorem on the 2-torus cannot be extended to thermostats. It is also the first example of a thermostat with a dominated splitting which is not Anosov. </p>
 
 ## Accepted
 
