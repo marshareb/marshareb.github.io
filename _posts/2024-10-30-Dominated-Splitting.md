@@ -9,7 +9,7 @@ In this post, we discuss a question about flows with dominated splittings.
 
 # Set up and main question
 
-Let $$M$$ be a smooth manifold. Recall that a flow $$\varphi_t : M \rightarrow M$$ with infinitesimal generator $$X$$ has a *dominated splitting* if there exists constants $C > 0$, $$\rho \in (0,1)$$, and a continuous flow-invariant subbundles $$E,F$$ such that $$TM = E \oplus \mathbb{R} X \oplus  F$$ and such that 
+Let $$M$$ be a smooth manifold. Recall that a flow $$\varphi_t : M \rightarrow M$$ with infinitesimal generator $$X$$ has a *dominated splitting* if there exists constants $C > 0$, $$\rho \in (0,1)$$, and a continuous flow-invariant subbundles $$E,F$$ such that $$TM = E \oplus \mathbb{R} X \oplus  F$$ and such that
 
 $$ \| D \varphi_t |_{E(v)}\| \cdot \| D \varphi_{-t}|_{F(\varphi_t(v))} \| \leq C \lambda^t \text{ for all } v \in M \text{ and } t \geq 0.$$
 
