@@ -57,5 +57,5 @@ Notice that this shows if $$n P(r) \leq T$$, then $$r^n(x) \leq T$$ for all such
 
 ## Follow up remarks
 
-- I suspect there should be a more optimal upper bound involving the entropy.
+- A simpler bound is to simply use the supremum of $$r$$ instead of the pressure (but follow the same logic in the above). In some cases, this bound is better. The real goal at the end is to try to find an optimal bound, which preferably only depends on the dynamics of the flow.
 - Using Markov partitions, the same result should carry over to Anosov flows. Most likely, one does not have to use the coding, and can instead work on the level of the Markov partition and the Poincare map.
