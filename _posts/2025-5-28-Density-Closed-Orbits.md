@@ -43,7 +43,7 @@ We now reduce our study to the collection of points
 
 $$A_T := \{x \in X_A : r^n(x) \leq T \text{ and } \sigma^n(x) = x \text{ for some } n\}.$$
 
-Notice that this is simply the projection of $$\Gamma(T)$$ to the base $$X_A$$ along the flow lines. Since things are isometric in the flow direction, if this set is $$\eta$$-dense in $$X_A$$, then we deduce that $$\Gamma(T)$$ is $$\eta$$-dense in $$X_A^r$$. Recall that the topology of $$X_A$$ is given through cylinders; given an finite sequence $$(x_1, \ldots, x_n)$, we write
+Notice that this is simply the projection of $$\Gamma(T)$$ to the base $$X_A$$ along the flow lines. Since things are isometric in the flow direction, if this set is $$\eta$$-dense in $$X_A$$, then we deduce that $$\Gamma(T)$$ is $$\eta$$-dense in $$X_A^r$$. Recall that the topology of $$X_A$$ is given through cylinders; given an finite sequence $$(x_1, \ldots, x_n)$$, we write
 
 $$[x_1, \ldots, x_n] := \{y \in X_A : y_i = x_i \text{ for } 1 \leq i \leq n\}.$$
 
