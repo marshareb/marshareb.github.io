@@ -59,7 +59,7 @@ Using the variational principle and the fact that orbits have zero entropy, we c
 
 $$P(r) \geq \frac{r^n(x)}{n}.$$
 
-Notice that this shows if $$n P(r) \leq T$$, then $$r^n(x) \leq T$$ for all such $$n$$. Thus, the largest $$n$$ which does the trick satisfies $$n \geq \lfloor T/P(r) \rfloor$$. In particular, this shows that $$A_T$$ is $$e^{-\lfloor T/P(r) \rfloor}$$-dense, and we deduce that $$A_T$$ is $$O(\exp(-T/P(r)))$$-dense, or in other words, $$\eta(T) \leq C\exp(-T/P(r))$$ for some constant $$C > 0$$. $$\qed$$
+Notice that this shows if $$n P(r) \leq T$$, then $$r^n(x) \leq T$$ for all such $$n$$. Thus, the largest $$n$$ which does the trick satisfies $$n \geq \lfloor T/P(r) \rfloor$$. In particular, this shows that $$A_T$$ is $$e^{-\lfloor T/P(r) \rfloor}$$-dense, and we deduce that $$A_T$$ is $$O(\exp(-T/P(r)))$$-dense, or in other words, $$\eta(T) \leq C\exp(-T/P(r))$$ for some constant $$C > 0$$. $$\square$$
 
 
 ## Follow up remarks
