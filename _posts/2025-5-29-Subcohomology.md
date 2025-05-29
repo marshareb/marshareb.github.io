@@ -8,6 +8,7 @@ categories:
 ---
 
 In this post, we discuss some basics on subcohomology by proving a non-positive result by Savchenko, as well as discussing Bousch's realization theorem.
+
 # Set up
 
 ## Main motivation
