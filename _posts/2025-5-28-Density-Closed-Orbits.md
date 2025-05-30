@@ -68,6 +68,7 @@ Let $z = (\vert w_1 \vert, \ldots, \vert w_k \vert)^T$. This shows us that for e
 
 
 $$ \vert \lambda \vert z_i \cdot v_i \leq \sum_{j=1}^k A(i,j) z_j \cdot v_i.$$
+
 Summing over $i$, we get
 
 $$ \vert \lambda \vert v z \leq vAz = \lambda_E vz.$$
