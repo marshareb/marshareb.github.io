@@ -278,7 +278,9 @@ Another interesting corollary is the following.
 
 **Proof:** We use the fundamental observation from that section, which is that we can reduce the study of $P(T)$ to the study of $\Gamma(T)$. Now let $M := \|r\|_\infty$, and notice that if $x \in P(\lfloor T/M \rfloor)$, then for $k$ such that $\sigma^k(x) = x$, we have $r^k(x) \leq k M \leq T$. Thus, $P(\lfloor T/M \rfloor) \subseteq \Gamma(T)$, and from this we can deduce that $\Gamma(T)$ is $\eta$-dense, where $\eta \leq C e^{-(T/M - 1)\delta}$ and $C$ and $\delta$ are from the theorem. The result now follows. $\square$   
 
+Finally, nearly the same argument extends this from the suspension case to the case of Anosov flows.
 ## Follow up remarks
 
+- Since we are using Markov partitions, one could directly jump to Axiom A diffeomorphisms and flows, but for the sake of presentation we don't get into that.
 - It would be interesting to see what an optimal choice of $\delta$ is. For example, using more geometric means, Butt was able to get a similar result for Anosov geodesic flows in [Lemma 2.9](https://arxiv.org/abs/2203.12128).
 - It might be interesting to see how this would follow from an effective equidistribution result (in the vein of Kadyrov in [here](https://arxiv.org/abs/1608.01767), and later improved by O'Hare in [here](https://arxiv.org/abs/2310.20027)). 
