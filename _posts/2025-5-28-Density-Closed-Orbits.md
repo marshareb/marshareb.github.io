@@ -103,7 +103,7 @@ $$ \left\vert \sum_{j=1}^k w_j v_j \right\vert = \lambda_E^{-1} \left\vert \sum_
 
 as desired. This shows that $w$ must lie in $E$, and so $\lambda = \lambda_E$. $\square$
 
-**Remark:** The steps are mostly the same for the non-symmetric case, but one has to take more care in Steps 2 and 3.
+**Remark:** The steps are mostly the same for the non-symmetric case, but one has to take more care in Steps 2, 3, and 4.
 ## Shifts of finite type
 
 We briefly recall the set up for symbolic dynamics and what an SFT is. Many of the details follow the first chapter of [Parry and Pollicott's book](https://www.numdam.org/item/AST_1990__187-188__1_0.pdf) as well as the beautiful notes by [Lalley](https://galton.uchicago.edu/~lalley/Courses/312/MarkovChains.pdf).
@@ -256,7 +256,7 @@ With the preliminaries out of the way, we now dive in to analyzing the density o
 
 The goal of this section is to prove the following.
 
-**Theorem:** Let $\theta \in (0,1)$ and $\sigma : X_A \rightarrow X_A$ be a shift of finite type. There exists constants $C, \delta > 0$ such that for every $n$ large enough, we have $P(n)$ is $\eta$-dense, where $\eta \leq C e^{-n \delta}$. Furthermore, $\delta$ depends only on $\theta$, and $C$ depends only on $\sigma$.
+**Theorem:** Let $\theta \in (0,1)$ and $\sigma : X_A \rightarrow X_A$ be a shift of finite type. There exists constants $C, \delta > 0$ such that for every $n$ large enough, we have $P(n)$ is $\eta$-dense, where $\eta \leq C e^{-n \delta}$. Furthermore, $\delta$ depends only on $\theta$, and $C$ depends on $\sigma$ and $\theta$.
 
 **Proof:** Let $M$ be our specification constant. Supposing that $n$ is large enough, we can use the specification property to show that for any finite admissible sequence $(x_1, \ldots, x_{n-M-1})$,  we can add on more symbols to get a sequence $(x_1, \ldots, x_{n-M}, x_{n-M+1}, \ldots, x_1)$ which is admissible. This shows that for every cylinder in $C \in \mathcal{C}(n-M-1)$, we have $C \cap P(n) \neq \varnothing$. From this, we deduce that for every $x \in X_A$, we have $d_\theta(P(n), x) \leq \theta^{n-M-1} = \theta^{-M-1} e^{n\log(\theta)}.$ Let $\delta := - \log(\theta)$ and $C := \theta^{-M-1}$. $\square$
 
