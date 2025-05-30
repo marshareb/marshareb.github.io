@@ -248,7 +248,7 @@ $$ \pi : X_A \rightarrow M, \quad \pi(x) = \bigcap_{i=-\infty}^\infty f^{-i}(R_{
 3. bounded-to-one, and
 4. $f \circ \pi = \pi \circ \sigma$.
 
-**Remark:** The same thing can be said for Anosov flows, which we will not get into for times' sake. 
+**Remark:** The same thing can be said for Anosov flows, which we will not get into for time's sake. 
 # Main result
 
 With the preliminaries out of the way, we now dive in to analyzing the density of closed orbits with a prescribed length.
