@@ -150,7 +150,7 @@ From now on, given $A$ satisfying our standing assumptions, we say that $\sigma 
 
 $$h := \lim_{n \rightarrow \infty} \frac{1}{n} \log(\# \mathcal{C}(n)).$$
 
-**Remark:** Notice that $\# \mathcal{C}(n) = \sum_{1 \leq i,j \leq k} A^{n-1}(i,j) = 1^T A^{n-1} 1$, where $1$ is the vector of all ones. Using the Perron-Frobenius theorem, we have that $\# \mathcal{C}(n) \sim c \lambda^{n-1}$, where $\lambda$ is the dominant eigenvalue. This shows that this limit exists, and, in fact, the entropy corresponds to the dominant eigenvalue coming from the Perron-Frobenius theorem.  
+**Remark:** Notice that $\vert \mathcal{C}(n)\vert = \sum_{1 \leq i,j \leq k} A^{n-1}(i,j) = 1^T A^{n-1} 1$, where $1$ is the vector of all ones. Using the Perron-Frobenius theorem, we have that $\vert \mathcal{C}(n)\vert \sim c \lambda^{n-1}$, where $\lambda$ is the dominant eigenvalue. This shows that this limit exists, and, in fact, the entropy corresponds to the dominant eigenvalue coming from the Perron-Frobenius theorem.  
 
 Moreover, we will say that a finite sequence $(x_1, \ldots, x_n)$ is *admissible* if $[x_1, \ldots, x_n] \in \mathcal{C}(n)$, or, in other words, $A(x_i, x_{i+1}) = 1$ for all $1 \leq i < n$. 
 
@@ -213,7 +213,7 @@ Similarly, the *local unstable manifold* of radius $\epsilon > 0$ centered at $x
 
 $$ W^{u}_\epsilon(x) := \{y \in M : d(f^{-n}(x), f^{-n}(y)) \leq \epsilon \text{ for all } n \geq 0\}.$$
 
-The *local stable/unstable manifold theorem* says there is a uniform $\epsilon > 0$ such that the sets $W^{s/u}_\epsilon(x)$ are actually $C^\infty$-embedded disks for all $x\in M$ (and hence the "manifold" part of the name is not arbitrary). Also important is the following: There is a uniform $\eta > 0$ such that if $d(x,y) < \eta$, then $\#(W^u_\epsilon(x) \cap W^s_\epsilon(y)) = 1$. We denote this unique intersection point by $[x,y]$, and we call this the *Bowen bracket* of the two points.
+The *local stable/unstable manifold theorem* says there is a uniform $\epsilon > 0$ such that the sets $W^{s/u}_\epsilon(x)$ are actually $C^\infty$-embedded disks for all $x\in M$ (and hence the "manifold" part of the name is not arbitrary). Also important is the following: There is a uniform $\eta > 0$ such that if $d(x,y) < \eta$, then $\vert W^u_\epsilon(x) \cap W^s_\epsilon(y) \vert = 1$. We denote this unique intersection point by $[x,y]$, and we call this the *Bowen bracket* of the two points.
 
 A subset $R \subseteq M$ is a *rectangle* if $x,y \in R$ implies that $[x,y] \in R$. We will be dealing with *proper rectangles*, which just means that $R$ is proper in the topological sense (i.e., it is equal to the closure of its interior). If $R$ is a proper rectangle and $x \in R^\mathrm{o}$, then we write $W^{s/u}(x,R) := W^{s/u}_\epsilon(x) \cap R$. Finally, a *Markov partition* of $M$ is a family of proper rectangles $\mathcal{R} = \{R_1, \ldots, R_k\}$ which satisfies the following:
 1. we have $\bigcup_{i=1}^k R_i = M$,
@@ -268,5 +268,5 @@ Another interesting corollary is the following.
 
 ## Follow up remarks
 
-- It would be interesting to see how optimal $\delta$ can get. For example, using more geometric means, Butt was able to get a similar result for Anosov geodesic flows in [Lemma 2.9](https://arxiv.org/abs/2203.12128), but her rate is more explicit than the one we conjured up.
+- It would be interesting to see what an optimal choice of $\delta$ is. For example, using more geometric means, Butt was able to get a similar result for Anosov geodesic flows in [Lemma 2.9](https://arxiv.org/abs/2203.12128).
 - It might be interesting to see how this would follow from an effective equidistribution result (in the vein of Kadyrov in [here](https://arxiv.org/abs/1608.01767), and later improved by O'Hare in [here](https://arxiv.org/abs/2310.20027)). 
