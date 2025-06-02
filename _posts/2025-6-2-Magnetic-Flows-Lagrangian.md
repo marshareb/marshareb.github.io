@@ -354,7 +354,7 @@ Thus, the energy of the exact magnetic Lagrangian turns out to be
 $$ \mathbb{E}_L(x,v) = \frac{\partial L}{\partial v}(x,v) v - L(x,v) = \frac{\|v\|^2}{2}.$$
 
 As expected, the level sets of the Lagrangian flow will be the *$s$-sphere bundles* given by $\Sigma_s := \{v \in TM \mid \|v\|^2 = s\}$. We then say that the (weakly) exact magnetic system $(g,\sigma)$ is *Anosov at level $k$* if the Lagrangian flow is Anosov on $\mathbb{E}_L^{-1}(k) = \Sigma_{2k}$. 
-## Lagrangian insights to the magnetic flow
+## Lagrangian insights into the magnetic flow
 
 Let's now reap the benefits of this new perspective. First, we see that magnetic flows above the Mane critical value are nearly geodesic flows for Finsler metrics.
 
