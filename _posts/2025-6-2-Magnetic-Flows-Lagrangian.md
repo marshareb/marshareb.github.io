@@ -400,7 +400,7 @@ $$A_\ell(\gamma') = \frac{1}{2} \int_0^T \|\dot{\gamma}(u)\| \, du + \int_0^T \t
 
 Thus, given arbitrary $\gamma$ we may reparameterize it so that it has unit-speed. 
 
-Assume for contradiction that given an arbitrary curve $\gamma$ in the free homotopy class $\alpha$, we have $A_\ell(\gamma) < A_\ell(\gamma_\alpha)$. Reparameterize $\gamma$ so that it has unit-speed. Since $\gamma$ and $\gamma_\alpha$ have unit-speed, we have 
+Assume for contradiction that given an arbitrary curve $\gamma$ in the free homotopy class $\alpha$, we have $A_\ell(\gamma) < A_\ell(\gamma_\alpha)$. Reparameterize $\gamma$ so that it has unit-speed. Since $\gamma$ and $\gamma_\alpha$ have unit-speed, $\|\dot{\gamma}(t)\|^2 = 1 = \|\dot{\gamma}(t)\|$, so 
 
 $$A_L(\gamma) = \frac{1}{2} \int_0^T \|\dot{\gamma}(t)\|^2 \,dt + \int_0^T \theta_{\gamma(t)}(\dot{\gamma}(t)) \,dt = \frac{1}{2} \int_0^T \|\dot{\gamma}(t)\| \,dt + \int_0^T \theta_{\gamma(t)}(\dot{\gamma}(t)) \,dt =  A_\ell(\gamma),$$
 
