@@ -382,7 +382,7 @@ We want to then make one last curious observation about how this statement inter
 - inside every free homotopy class $\alpha \in \pi_1(N)$ there is a unique closed magnetic geodesic $\gamma_\alpha$ with unit-speed, and
 - if $\gamma$ is any other unit-speed curve in the same free homotopy class, then we have that $A_\ell(\gamma_\alpha) \leq A_\ell(\gamma)$. 
 
-**Proof:** First, observe that $A_\ell(\gamma)$ is independent of the parameterization of $\gamma$, provided it is an orientation-preserving reparameterization. Indeed, let $\gamma : [0,T] \rightarrow N$, and let $\phi : [0,T] \rightarrow [0,S]$ be a smooth map, and let $\gamma' : [0,S] \rightarrow N$ be given by $\gamma' = \gamma \circ \phi$. Then
+**Proof:** First, observe that $A_\ell(\gamma)$ is independent of orientation-preserving reparameterizations of $\gamma$. Indeed, let $\gamma : [0,T] \rightarrow N$, let $\phi : [0,T] \rightarrow [0,S]$ be a smooth map, and let $\gamma' : [0,S] \rightarrow N$ be given by $\gamma' = \gamma \circ \phi$. Then
 
 $$A_\ell(\gamma') = \frac{1}{2} \int_0^S \|\dot{\gamma}'(t)\| \,dt + \int_0^S \theta_{\gamma'(t)}(\dot{\gamma}'(t))\,dt. $$
 
