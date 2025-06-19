@@ -133,7 +133,11 @@ Finally, given a Holder potential $\varphi$ on $N$, we define its *metric pressu
 
 $$ \mathcal{P}_X(\varphi, \mu) := h_\mu(X) + \int_N \varphi \,d\mu,$$
 
-and its *topological pressure* by $\mathcal{P}_X(\varphi) := \sup_\mu \mathcal{P}_X(\varphi, \mu)$, where the supremum is over $\mu \in \mathcal{M}(X)$. An amazing fact thanks to Bowen is the following.
+and its *topological pressure* by 
+
+$$\mathcal{P}_X(\varphi) := \sup_\mu \mathcal{P}_X(\varphi, \mu),$$ 
+
+where the supremum is over $\mu \in \mathcal{M}(X)$. An amazing fact thanks to Bowen is the following.
 
 **Theorem:** For every Holder potential $\varphi$, there is a unique measure $\mu_\varphi \in \mathcal{M}(X)$ such that $\mathcal{P}_X(\varphi) = \mathcal{P}_X(\varphi, \mu_\varphi).$ 
 
@@ -177,7 +181,7 @@ which proves the following.
 
 **Claim:** If $X \in \mathfrak{X}(N)$ and $Z$ is a reparameterization of $X$ given by $\varphi$, then $Z = \varphi X$.
 
-From now on, we will write reparameterizations in terms of their vector fields. Notice that if we set $\varphi(x) := \frac{d}{dt}|_{t=0} \Phi(x,t)$, then 
+From now on, we will write reparameterizations in terms of their vector fields. Notice that if we set $\varphi(x)$ to be the $t$-derivative of $\Phi(x,t)$, then 
 
 $$ \int_0^t \varphi(X^\tau(x))\,d\tau = \Phi(x,t). $$
 
@@ -307,12 +311,14 @@ $$ \psi = \iota_X \alpha_Z = C + \iota_X \omega, $$
 and so this is a special reparameterization.
 
 Now assume that $Z$ is a special reparameterization, so $\psi = C + \iota_X \omega$. We claim that the smooth $1$-form $\alpha_Z := C \alpha_X + \omega$ is the canonical $1$-form for $Z$. We break this up into three steps.
-1. To see that $\iota_Z \alpha_Z = 1$, notice that $Z = \varphi X = X/\psi$, so 
+
+Step 1: To see that $\iota_Z \alpha_Z = 1$, notice that $Z = \varphi X = X/\psi$, so 
 
 $$  \iota_Z \alpha_Z = C \iota_Z \alpha_X + \iota_Z \omega = \frac{C + \iota_X\omega}{C + \iota_X \omega} = 1.$$
 
-2. Since $\omega$ is closed, we have $d \alpha_Z = C d\alpha_X$, so $\iota_Z d\alpha_Z = C\varphi \iota_X d\alpha_X = 0.$
-3. We now need to show that $\ker(\alpha_Z)$ is the Anosov structure. Observe that
+Step 2: Since $\omega$ is closed, we have $d \alpha_Z = C d\alpha_X$, so $\iota_Z d\alpha_Z = C\varphi \iota_X d\alpha_X = 0.$
+
+Step 3: We now need to show that $\ker(\alpha_Z)$ is the Anosov structure. Observe that
 
 $$ \mathcal{L}_X \left( -\psi \left(\frac{\omega}{C + \iota_X\omega}\right) \right) = -\mathcal{L}_X(\omega) = \psi^2 d\varphi,$$
 
