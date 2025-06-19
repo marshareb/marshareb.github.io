@@ -28,7 +28,11 @@ Recall that a $3$-form $\mu$ on $N$ is a *volume form* if it is nowhere vanishin
 
 $$ \frac{d}{dt} (X^t)_*(\mu) = \mathcal{L}_X(\mu) = 0,$$
 
-and we denote the collection of volume preserving Anosov flows by $\mathfrak{X}_A^{vol}(N)$. Finally, we refer to the plane field $x \mapsto E^s_X(x) \oplus E^u_X(x)$ as the *Anosov structure*.
+and we denote the collection of volume preserving Anosov flows by $\mathfrak{X}_A^{vol}(N)$. Finally, we refer to the plane field $x \mapsto E^s_X(x) \oplus E^u_X(x)$ as the *Anosov structure*. When we discuss regularity of the Anosov structure, we are discussing the regularity when viewed as a section of the Grassmanian bundle.
+
+It is well-known that this Anosov structure is Holder continuous; this is a standard argument with the Hadamard graph transform method (which can be found in Katok and Hasselblatt's book). In fact, slightly more can be said in the volume preserving case (see [Foulon and Hasselblatt](https://link.springer.com/article/10.1007/BF02783424)) -- a sloppy summary is that if $X \in \mathfrak{X}^{vol}_A(N)$ has $C^1$-Anosov splitting, then it must be either the suspension of an Anosov diffeomorphism or contact. 
+
+Later, [Ghys](https://www.numdam.org/articles/10.24033/asens.1532/) showed that better regularity implies that the flow must come from a Riemannian metric. Again, a sloppy summary is that if $X \in \mathfrak{X}^{vol}_A(N)$ has $C^2$-Anosov structure, then it is smoothly conjugate to the geodesic flow of a negatively curved metric.
 
 ## Contact geometry and dynamics
 
@@ -362,7 +366,8 @@ Using the $\kappa^s$ defined in the Anosov-Sinai theorem, this shows us that $\a
 
 **Remark:** If $Z$ is a special reparameterization of $X$, then we have that 
 
-$$ \mu_Z = \alpha_Z \wedge d\alpha_Z = C^2 \mu_X+ Cd(\omega \wedge \alpha_X).$$
+$$ \mu_Z = \alpha_Z \wedge d\alpha_Z = C^2 \mu_X+ Cd(\omega \wedge \alpha_X). \square$$
+
 
 ## Orbit equivalences
 
