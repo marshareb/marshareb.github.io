@@ -115,7 +115,11 @@ Plante proved the following alternative in [this](https://www.jstor.org/stable/p
 
 **Theorem:** Let $X \in \mathfrak{X}_A^{vol}(N)$. We have that $X$ is not mixing if and only if the Anosov structure is jointly integrable.
 
-Thus, combining the above two theorems, we deduce that every $X \in \mathfrak{X}^{con}_A(N)$ can be realized as the Reeb vector field for a contact form $\alpha_X$ such that $\ker(\alpha_X) = E^s \oplus E^u$. We call this $1$-form the *Anosov form* associated to $X$. 
+Thus, combining the above two theorems, we deduce that every $X \in \mathfrak{X}^{con}_A(N)$ can be realized as the Reeb vector field for a contact form $\alpha_X$ such that $\ker(\alpha_X) = E^s \oplus E^u$. We call this $1$-form the *Anosov form* associated to $X$. Finally, connecting our previous discussion, we observe the following.
+
+**Theorem:** If $X \in \mathfrak{X}^{con}_A(N)$, then its Anosov structure is $C^1$.
+
+**Remark:** In fact, it is $C^{1+Zyg}$ (where Zyg stands for Zygmund), but we won't get into this. $\square$ 
 ## Dynamical invariants
 
 Before moving on, let's recall some dynamical invariants that will be of interest. Throughout, let $X \in \mathfrak{X}_A(N)$, and let $\mathcal{M}(X)$ be the collection of Borel probability measures on $N$ which are invariant under the flow of $X$. 
