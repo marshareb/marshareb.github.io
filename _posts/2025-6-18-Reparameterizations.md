@@ -248,7 +248,7 @@ $$ \kappa(t) = -\int_0^t d_{Z^\tau(x)}\log(\psi)\left(\gamma(\tau) \right)\,d\ta
 
 To finish the proof, we preform a change of variables $s = \Phi_\varphi^X(x,\tau)$, so $ds = \frac{d\tau}{\psi(Z^\tau(x))}$.  This then yields
 
-$$ \kappa(\Phi^X_\varphi(x,t)) = - \int_0^{\Phi^X_\varphi(x,t)} d_x(\psi \circ X^s) \,ds,$$
+$$ \kappa(t) = - \int_0^{\Phi^X_\varphi(x,t)} d_x(\psi \circ X^s) \,ds,$$
 
 as desired. $\square$
 
