@@ -278,7 +278,11 @@ $$ E^s_Z(x) := \{v + \kappa^s(x,v) X(x) \mid v \in E^s_X(x) \}$$
 
 is $Z^t$-invariant. To see that the estimates hold, simply notice that the tails of $\kappa^s(x,v)$ converge to zero exponentially fast. Finally, the same game in reverse time gives the unstable bundle. $\square$
 
-**Remark:** A useful criterion highlighted by de la Llave, Marco, and Moriyon is that the bundle $E^s_Z(x) = \{v + \kappa^s(x,v)X(x) \mid v \in E^s_X(x)\}$ is invariant under the flow of $Z$ if and only if 
+**Remark:** A useful criterion highlighted by de la Llave, Marco, and Moriyon is that the bundle 
+
+$$E^s_Z(x) = \{v + \kappa^s(x,v)X(x) \mid v \in E^s_X(x)\}$$
+
+is invariant under the flow of $Z$ if and only if 
 
 $$ \mathcal{L}_X(\psi \kappa^s(x,v)) = \psi^2 d\varphi. \square$$
 
