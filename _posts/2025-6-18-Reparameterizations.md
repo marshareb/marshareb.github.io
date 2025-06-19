@@ -21,7 +21,9 @@ We say that a nowhere vanishing vector field $X \in \mathfrak{X}(N)$ is *Anosov*
 
 $$ \|d_x X^t(v)\| \leq C e^{-\lambda t} \text{and} \|d_x X^{-t}(w)\| \leq C e^{-\lambda t}.$$
 
-We denote the collection of Anosov vector fields on $N$ by $\mathfrak{X}_A(N)$. Recall that a $3$-form $\mu$ on $N$ is a *volume form* if it is nowhere vanishing, and we denote the collection of volume forms on $N$ by $\Omega_{vol}^3(N)$.  and we say that $X \in \mathfrak{X}(N)$ is *volume preserving* if there exists a $\mu \in \Omega_{vol}^3(N)$ such that 
+We denote the collection of Anosov vector fields on $N$ by $\mathfrak{X}_A(N)$. 
+
+Recall that a $3$-form $\mu$ on $N$ is a *volume form* if it is nowhere vanishing, and we denote the collection of volume forms on $N$ by $\Omega_{vol}^3(N)$.  and we say that $X \in \mathfrak{X}(N)$ is *volume preserving* if there exists a $\mu \in \Omega_{vol}^3(N)$ such that 
 
 $$ \frac{d}{dt} (X^t)_*(\mu) = \mathcal{L}_X(\mu) = 0,$$
 
