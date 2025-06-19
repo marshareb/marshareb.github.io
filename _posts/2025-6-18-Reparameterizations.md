@@ -19,7 +19,7 @@ We start by recalling some of the standard definitions. Throughout this post, $N
 
 We say that a nowhere vanishing vector field $X \in \mathfrak{X}(N)$ is *Anosov* there is a dense orbit for $X^t$ as well as a $dX^t$-invariant splitting $TN = E^s_X \oplus \mathbb{R}X \oplus E^u_X$ and constants $C, \lambda > 0$ such that for all $x \in N$, $v \in E^s_X(x)$, $w \in E^u_X(x)$, and $t \geq 0$, we have
 
-    $$ \|d_x X^t(v)\| \leq C e^{-\lambda t} \quad\text{and}\quad \|d_x X^{-t}(w)\| \leq C e^{-\lambda t}.$$
+$$ \|d_x X^t(v)\| \leq C e^{-\lambda t} \text{and} \|d_x X^{-t}(w)\| \leq C e^{-\lambda t}.$$
 
 We denote the collection of Anosov vector fields on $N$ by $\mathfrak{X}_A(N)$. Recall that a $3$-form $\mu$ on $N$ is a *volume form* if it is nowhere vanishing, and we denote the collection of volume forms on $N$ by $\Omega_{vol}^3(N)$.  and we say that $X \in \mathfrak{X}(N)$ is *volume preserving* if there exists a $\mu \in \Omega_{vol}^3(N)$ such that 
 
@@ -257,6 +257,11 @@ is $Z^t$-invariant. To see that the estimates hold, simply notice that the tails
 
 $$ \mathcal{L}_X(\psi \kappa^s(x,v)) = \psi^2 d\varphi. \square$$
 
+### Dynamical invariants under reparameterizations
+
+
+### The contact setting
+
 Now let $X \in \mathfrak{X}^{con}_A(N)$. We say that $Z = \varphi X$ is a *special time change* of $X$ if $\varphi$ is of the form
 
 $$ \varphi(x) = \frac{1}{C + \iota_X \omega}, $$
@@ -321,7 +326,7 @@ $$ \mu_Z = \alpha_Z \wedge d\alpha_Z = C^2 \mu_X+ Cd(\omega \wedge \alpha_X).$$
 
 ## Orbit equivalences
 
-Given $X,Y \in \mathfrak{X}(N)$, we say that they are *orbit equivalent* if there is a positive continuous potential and a homeomorphism  such that 
+We'll now stick with the Anosov setting. Given $X,Y \in \mathfrak{X}_A(N)$, we say that they are *orbit equivalent* if there is a positive continuous potential and a homeomorphism  such that 
 
 $$ h \circ Y^t(x) = X^{\Phi_\varphi^X(x,t)} \circ h(x).$$
 
@@ -343,4 +348,4 @@ We say that a continuous potential $\varphi$ is a *coboundary* if there is a con
 
 **Claim:** If $Z = \varphi X$ is a reparameterization of $X$ and $\varphi$ is cohomologous to $1$, then $X$ and $Z$ are conjugate.
 
-**Remark:** Our definition of coboundary and cohomologous is a little strong for arbitrary dynamical systems, but for Anosov systems these are fine definitions to take.
+
