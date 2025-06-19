@@ -31,7 +31,7 @@ and we denote the collection of volume preserving Anosov flows by $\mathfrak{X}_
 
 ## Contact geometry and dynamics
 
-Let $\Omega^1(N)$ be the collection of $1$-forms on $N$. We say that $\alpha \in \Omega^1(N)$ is a *contact form* if $\alpha \wedge d\alpha \in \Omega^3_{vol}(N)$, and we denote the collection of contact forms by $\Omega^1_{con}(N)$. 
+Let $\Omega^1(N)$ be the collection of $1$-forms on $N$. We say that $\alpha \in \Omega^1(N)$ is a *contact form* if $\alpha \wedge d\alpha$ is a volume form, and we denote the collection of contact forms by $\Omega^1_{con}(N)$. 
 
 The *contact structure* associated to the contact form is $\xi := \ker(\alpha)$. We say that a vector field $X \in \mathfrak{X}(N)$ is a *contact flow* if there exists $\alpha \in \Omega^1_{con}(N)$ such that $\mathcal{L}_X(\alpha) = 0$, and we denote the collection of contact flows by $\mathfrak{X}^{con}(N)$. 
 
