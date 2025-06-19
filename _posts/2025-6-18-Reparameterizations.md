@@ -31,7 +31,9 @@ and we denote the collection of volume preserving Anosov flows by $\mathfrak{X}_
 
 ## Contact geometry and dynamics
 
-Let $\Omega^1(N)$ be the collection of $1$-forms on $N$. We say that $\alpha \in \Omega^1(N)$ is a *contact form* if $\alpha \wedge d\alpha \in \Omega^3_{vol}(N)$, and we denote the collection of contact forms by $\Omega^1_{con}(N)$. The *contact structure* associated to the contact form is $\xi := \ker(\alpha)$. We say that a vector field $X \in \mathfrak{X}(N)$ is a *contact flow* if there exists $\alpha \in \Omega^1_{con}(N)$ such that $\mathcal{L}_X(\alpha) = 0$, and we denote the collection of contact flows by $\mathfrak{X}^{con}(N)$. Furthermore, given a contact form $\alpha \in \Omega^1_{con}(N)$, if $X \in \mathfrak{X}(N)$ is such that $\iota_X \alpha = 1$ and $\iota_X d\alpha = 0$, then we refer to $X$ as a *Reeb vector field*. 
+Let $\Omega^1(N)$ be the collection of $1$-forms on $N$. We say that $\alpha \in \Omega^1(N)$ is a *contact form* if $\alpha \wedge d\alpha \in \Omega^3_{vol}(N)$, and we denote the collection of contact forms by $\Omega^1_{con}(N)$. 
+
+The *contact structure* associated to the contact form is $\xi := \ker(\alpha)$. We say that a vector field $X \in \mathfrak{X}(N)$ is a *contact flow* if there exists $\alpha \in \Omega^1_{con}(N)$ such that $\mathcal{L}_X(\alpha) = 0$, and we denote the collection of contact flows by $\mathfrak{X}^{con}(N)$. Furthermore, given a contact form $\alpha \in \Omega^1_{con}(N)$, if $X \in \mathfrak{X}(N)$ is such that $\iota_X \alpha = 1$ and $\iota_X d\alpha = 0$, then we refer to $X$ as a *Reeb vector field*. 
 
 As an easy warm up, let's observe the following.
 
