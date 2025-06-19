@@ -139,7 +139,7 @@ $$\mathcal{P}_X(\varphi) := \sup_\mu \mathcal{P}_X(\varphi, \mu),$$
 
 where the supremum is over $\mu \in \mathcal{M}(X)$. An amazing fact thanks to Bowen is the following.
 
-**Theorem:** For every Holder potential $\varphi$, there is a unique measure $\mu_\varphi \in \mathcal{M}(X)$ such that $\mathcal{P}_X(\varphi) = \mathcal{P}_X(\varphi, \mu_\varphi).$ 
+**Theorem:** For every Holder potential $\varphi$, there is a unique measure $\mu_\varphi \in \mathcal{M}(X)$ which realizes the topological pressure. 
 
 We call this measure the *equilibrium state* of the potential. Finally, recall that a measure $\mu \in \mathcal{M}(X)$ is *ergodic* if $X^{t}(A) = A$ for all $t \in \mathbb{R}$ implies that $\mu(A) \in \{0,1\}$, and let $\mathcal{M}_e(X) \subseteq \mathcal{M}(X)$ be those measures which are ergodic. Then the supremum in both of the above definitions can be taken over $\mathcal{M}_e(X)$ instead of $\mathcal{M}(X)$, and every equilibrium state.
 ### Lyapunov exponents
