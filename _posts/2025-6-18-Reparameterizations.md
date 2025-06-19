@@ -33,7 +33,7 @@ and we denote the collection of volume preserving Anosov flows by $\mathfrak{X}_
 
 Let $\Omega^1(N)$ be the collection of $1$-forms on $N$. We say that $\alpha \in \Omega^1(N)$ is a *contact form* if $\alpha \wedge d\alpha$ is a volume form, and we denote the collection of contact forms by $\Omega^1_{con}(N)$. 
 
-The *contact structure* associated to the contact form is $\xi := \ker(\alpha)$. We say that a vector field $X \in \mathfrak{X}(N)$ is a *contact flow* if there exists $\alpha \in \Omega^1_{con}(N)$ such that $\mathcal{L}_X(\alpha) = 0$, and we denote the collection of contact flows by $\mathfrak{X}^{con}(N)$. 
+The *contact structure* associated to the contact form is $\xi := \ker(\alpha)$. We say that a vector field $X$ is *contact* if there exists a contact form $\alpha$ which is invariant under the flow, and we denote the collection of contact flows by $\mathfrak{X}^{con}(N)$. 
 
 Given a contact form $\alpha \in \Omega^1_{con}(N)$, if $X \in \mathfrak{X}(N)$ is such that $\iota_X \alpha = 1$ and $\iota_X d\alpha = 0$, then we refer to $X$ as a *Reeb vector field*. 
 
@@ -41,7 +41,7 @@ As an easy warm up, let's observe the following.
 
 **Claim:** We have $\mathfrak{X}^{con}_A(N) \subseteq \mathfrak{X}^{vol}_A(N)$.
 
-**Proof:** Let $X \in \mathfrak{X}^{con}_A(N)$, and let $\alpha \in \Omega^1_{con}(N)$ be the $1$-form it preserves. Defining $\mu := \alpha \wedge d\alpha$, observe 
+**Proof:** Let $X \in \mathfrak{X}^{con}_A(N)$, and let $\alpha$ be the contact $1$-form it preserves. Defining $\mu := \alpha \wedge d\alpha$, observe 
 
 $$ \mathcal{L}_X(\mu) = \mathcal{L}_X(\alpha) \wedge d\alpha + \alpha \wedge \mathcal{L}_X(d\alpha) = \alpha \wedge (d(\iota_X d\alpha)).$$
 
@@ -101,7 +101,7 @@ It is easy to see that the last claim can be upgraded to an if and only if, so R
 
 We will mostly be interested in those contact flows which are also Anosov; we denote the collection of corresponding vector fields by $\mathfrak{X}_A^{con}(N)$. In light of the above observations, we deduce the following.
 
-**Theorem:** Let $X \in \mathfrak{X}^{con}_A(N)$. If the Anosov structure is non-integrable, then $X$ is the Reeb vector field for a contact form $\alpha_X \in \Omega^1_{con}(N)$.
+**Theorem:** Let $X \in \mathfrak{X}^{con}_A(N)$. If the Anosov structure is non-integrable, then $X$ is the Reeb vector field for a contact form $\alpha_X$.
 
 Recall that $X \in \mathfrak{X}(N)$ is *mixing* if for any two non-empty open sets $U,V \subseteq N$, there exists a $T_0 > 0$ such that for all $t \geq T_0$, we have $X^t(U) \cap V \neq \varnothing$. The following is straightforward.
 
@@ -111,7 +111,7 @@ Plante proved the following alternative in [this](https://www.jstor.org/stable/p
 
 **Theorem:** Let $X \in \mathfrak{X}_A^{vol}(N)$. We have that $X$ is not mixing if and only if the Anosov structure is jointly integrable.
 
-Thus, combining the above two theorems, we deduce that every $X \in \mathfrak{X}^{con}_A(N)$ can be realized as the Reeb vector field for a contact form $\alpha_X \in \Omega^1_{con}(N)$ such that $\ker(\alpha_X) = E^s \oplus E^u$. We call this $1$-form the *Anosov form* associated to $X$. 
+Thus, combining the above two theorems, we deduce that every $X \in \mathfrak{X}^{con}_A(N)$ can be realized as the Reeb vector field for a contact form $\alpha_X$ such that $\ker(\alpha_X) = E^s \oplus E^u$. We call this $1$-form the *Anosov form* associated to $X$. 
 
 ## Dynamical invariants
 
