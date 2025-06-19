@@ -11,7 +11,8 @@ categories:
 
 In this post, we survey results on reparameterizations of contact flows on 3-manifolds.
 
-**Warning:** This is still a work in progress!
+The aim of this post is to collect some known results on reparameterizations and orbit equivalences into one spot. We mostly focus on the case of contact flows on $3$-manifolds, but many of these results extend to higher dimensions (and the arguments are essentially the same).
+
 # Preliminaries
 
 We start by recalling some of the standard definitions. Throughout this post, $N$ will denote an oriented closed $3$-manifold, and $\mathfrak{X}(N)$ will denote the collection of smooth vector fields on $N$ which are nowhere vanishing. Given $X \in \mathfrak{X}(N)$, we will use $X^t : N \rightarrow N$ to denote its corresponding smooth flow. We will also equip $N$ with some Riemannian metric $\|\cdot\|$.
@@ -158,7 +159,17 @@ In the setting where the flow is Anosov, we do not have to restrict down to this
 
 $$ \chi^u_X(x) := \lim_{t \rightarrow \infty} \frac{1}{t} \log \|d_xX^t|_{E^u(x)}\|,$$
 
-and similarly with the stable. Furthermore, we have $\chi^s_X < 0 < \chi^u_X$.
+and similarly with the stable. Furthermore, we have $\chi^s_X < 0 < \chi^u_X$. Also notice that Lyapunov exponents are invariant under the flow, and so it makes sense to study the Lyapunov exponents of closed orbits. Given a closed orbit $\gamma$ of $P_X$, we write $\chi^u_X(\gamma)$ for the unstable Lyapunov exponent of any point along the orbit.
+
+Finally, if $X$ is volume preserving, say it preserves $\mu$, then we define its *volume entropy* to be $h_\mu(X)$. The *geometric potential* for $X$ is the function 
+
+$$ \varphi^u_X(x) := - \frac{d}{dt}\Big|_{t=0} \log \|\det(X^t|_{E^u(x)})\|,$$
+
+and it is well-known this is Holder continuous. It can be shown that the equilibrium state for this potential is the volume measure, and furthermore we have the following:
+
+**Theorem:** We have
+
+$$ h_\mu(X) = - \int_N \varphi^u_X d\mu = \int_N \chi^u_X d\mu.$$
 
 # Reparameterizations and orbit equivalences
 
@@ -269,8 +280,25 @@ $$ \mathcal{L}_X(\psi \kappa^s(x,v)) = \psi^2 d\varphi. \square$$
 
 ### Dynamical invariants under reparameterizations
 
+Following [Gelfert and Motter](https://arxiv.org/pdf/1010.1791), we will be interested in how dynamical quantities vary under reparameterizations. Let's assume that $X \in \mathfrak{X}_A(N)$. The following relates how the geometric potentials relate under $C^1$-reparameterizations, and was proven by [Parry](https://link.springer.com/article/10.1007/BF01454975). 
 
-### The contact setting
+**Theorem:** Let $Z = \varphi X$ be a $C^1$-reparameterization of $X$. There exists a continuous potential $\beta$ such that for every $t \in \mathbb{R}$ and $x \in N$, we have
+
+$$ \int_0^t \varphi^u_Z( Z^\tau(x)) \,d\tau = \int_0^{\Phi_\varphi^X(x,t)} \varphi^u_X(X^\tau(x)) \,d\tau + \beta(Z^t(x)) - \beta(x).$$
+
+Gelfert and Motter pushed this further in their paper with the following.
+
+**Theorem:** Let $Z = \varphi X$ be a continuous reparameterization of $X$. For every continuous potential $\xi$, we have 
+
+$$ \mathcal{P}_Z \left( \varphi(\xi - \mathcal{P}_X(\xi)) \right) = 0.$$
+
+A similar result was also given by Gogolev and Rodriguez Hertz in Proposition 4.3 of [this](https://arxiv.org/pdf/2004.14431) paper. In fact, we can deduce the following from a similar argument.
+
+**Theorem:** Let $Z = \varphi X$ be a continuous reparameterization of $X$, and suppose they are both Anosov. For every closed orbit $\gamma$  
+
+$$ \chi^u_Z(\gamma) = \frac{\int_\gamma \psi}{\ell(\gamma)} \chi^u_X(\gamma). $$
+
+### Reparameterizations of contact flows
 
 Now let $X \in \mathfrak{X}^{con}_A(N)$. We say that $Z = \varphi X$ is a *special time change* of $X$ if $\varphi$ is of the form
 
