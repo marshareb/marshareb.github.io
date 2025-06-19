@@ -18,13 +18,13 @@ The aim of this post is to collect some known results on reparameterizations and
 We start by recalling some of the standard definitions. Throughout this post, $N$ will denote an oriented closed $3$-manifold, and $\mathfrak{X}(N)$ will denote the collection of smooth vector fields on $N$ which are nowhere vanishing. Given $X \in \mathfrak{X}(N)$, we will use $X^t : N \rightarrow N$ to denote its corresponding smooth flow. We will also equip $N$ with some Riemannian metric $\|\cdot\|$.
 ## Anosov flows
 
-We say that a nowhere vanishing vector field $X \in \mathfrak{X}(N)$ is *Anosov* there is a dense orbit for $X^t$ as well as a $dX^t$-invariant splitting $TN = E^s_X \oplus \mathbb{R}X \oplus E^u_X$ and constants $C, \lambda > 0$ such that for all $x \in N$, $v \in E^s_X(x)$, $w \in E^u_X(x)$, and $t \geq 0$, we have
+We say that a nowhere vanishing vector field $X \in \mathfrak{X}(N)$ is *Anosov* if there is a dense orbit for $X^t$ as well as a $dX^t$-invariant splitting $TN = E^s_X \oplus \mathbb{R}X \oplus E^u_X$ and constants $C, \lambda > 0$ such that for all $x \in N$, $v \in E^s_X(x)$, $w \in E^u_X(x)$, and $t \geq 0$, we have
 
 $$ \|d_x X^t(v)\| \leq C e^{-\lambda t} \text{and} \|d_x X^{-t}(w)\| \leq C e^{-\lambda t}.$$
 
 We denote the collection of Anosov vector fields on $N$ by $\mathfrak{X}_A(N)$. 
 
-Recall that a $3$-form $\mu$ on $N$ is a *volume form* if it is nowhere vanishing, and we denote the collection of volume forms on $N$ by $\Omega_{vol}^3(N)$.  and we say that $X \in \mathfrak{X}(N)$ is *volume preserving* if there exists a $\mu \in \Omega_{vol}^3(N)$ such that 
+Recall that a $3$-form $\mu$ on $N$ is a *volume form* if it is nowhere vanishing, and we denote the collection of volume forms on $N$ by $\Omega_{vol}^3(N)$.  We say that $X \in \mathfrak{X}(N)$ is *volume preserving* if there exists a $\mu \in \Omega_{vol}^3(N)$ such that 
 
 $$ \frac{d}{dt} (X^t)_*(\mu) = \mathcal{L}_X(\mu) = 0,$$
 
@@ -73,7 +73,7 @@ Now, an interesting question is when we can go from a contact structure to a con
 
 We now make a few easy observations. First, let's show there is always a unique Reeb vector field.
 
-**Claim:** If $\alpha \in \Omega^1_{con}(N)$, then there there exists a unique Reeb vector field.
+**Claim:** If $\alpha \in \Omega^1_{con}(N)$, then there exists a unique Reeb vector field.
 
 **Proof:** First, define 
 
@@ -107,7 +107,7 @@ We will mostly be interested in those contact flows which are also Anosov; we de
 
 **Theorem:** Let $X \in \mathfrak{X}^{con}_A(N)$. If the Anosov structure is non-integrable, then $X$ is the Reeb vector field for a contact form $\alpha_X$.
 
-Recall that $X \in \mathfrak{X}(N)$ is *mixing* if for any two non-empty open sets $U,V \subseteq N$, there exists a $T_0 > 0$ such that for all $t \geq T_0$, we have $X^t(U) \cap V \neq \varnothing$. The following is straightforward.
+Recall that $X \in \mathfrak{X}(N)$ is *mixing* if for any two non-empty open sets $U,V \subseteq N$, there exists a $T_0 > 0$ such that for all $t \geq T_0$, we have $X^t(U) \cap V \neq \varnothing$. It turns out that every contact Anosov flow is mixing.
 
 **Theorem:** Every $X \in \mathfrak{X}^{con}_A(N)$ is mixing.
 
@@ -371,7 +371,7 @@ Using the $\kappa^s$ defined in the Anosov-Sinai theorem, this shows us that $\a
 $$ \mu_Z = \alpha_Z \wedge d\alpha_Z = C^2 \mu_X+ Cd(\omega \wedge \alpha_X). \square$$
 
 
-## Orbit equivalences
+## Orbit equivalences and Conjugacies
 
 We'll now stick with the Anosov setting. Given $X,Y \in \mathfrak{X}_A(N)$, we say that they are *orbit equivalent* if there is a positive continuous potential and a homeomorphism  such that 
 
