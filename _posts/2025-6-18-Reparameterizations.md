@@ -33,7 +33,6 @@ and we denote the collection of volume preserving Anosov flows by $\mathfrak{X}_
 It is well-known that this Anosov structure is Holder continuous; this is a standard argument with the Hadamard graph transform method (which can be found in Katok and Hasselblatt's book). In fact, slightly more can be said in the volume preserving case (see [Foulon and Hasselblatt](https://link.springer.com/article/10.1007/BF02783424)) -- a sloppy summary is that if $X \in \mathfrak{X}^{vol}_A(N)$ has $C^1$-Anosov splitting, then it must be either the suspension of an Anosov diffeomorphism or contact. 
 
 Later, [Ghys](https://www.numdam.org/articles/10.24033/asens.1532/) showed that better regularity implies that the flow must come from a Riemannian metric. Again, a sloppy summary is that if $X \in \mathfrak{X}^{vol}_A(N)$ has $C^2$-Anosov structure, then it is smoothly conjugate to the geodesic flow of a negatively curved metric.
-
 ## Contact geometry and dynamics
 
 Let $\Omega^1(N)$ be the collection of $1$-forms on $N$. We say that $\alpha \in \Omega^1(N)$ is a *contact form* if $\alpha \wedge d\alpha$ is a volume form, and we denote the collection of contact forms by $\Omega^1_{con}(N)$. 
@@ -117,7 +116,6 @@ Plante proved the following alternative in [this](https://www.jstor.org/stable/p
 **Theorem:** Let $X \in \mathfrak{X}_A^{vol}(N)$. We have that $X$ is not mixing if and only if the Anosov structure is jointly integrable.
 
 Thus, combining the above two theorems, we deduce that every $X \in \mathfrak{X}^{con}_A(N)$ can be realized as the Reeb vector field for a contact form $\alpha_X$ such that $\ker(\alpha_X) = E^s \oplus E^u$. We call this $1$-form the *Anosov form* associated to $X$. 
-
 ## Dynamical invariants
 
 Before moving on, let's recall some dynamical invariants that will be of interest. Throughout, let $X \in \mathfrak{X}_A(N)$, and let $\mathcal{M}(X)$ be the collection of Borel probability measures on $N$ which are invariant under the flow of $X$. 
@@ -169,7 +167,7 @@ Finally, if $X$ is volume preserving, say it preserves $\mu$, then we define its
 
 $$ \varphi^u_X(x) := - \frac{d}{dt}\Big|_{t=0} \log \|\det(X^t|_{E^u(x)})\|,$$
 
-and it is well-known this is Holder continuous. It can be shown that the equilibrium state for this potential is the volume measure, and furthermore we have the following:
+and it is well-known this is Holder continuous. In fact, the regularity of this potential matches the regularity of the Anosov splitting. It can be shown that the equilibrium state for this potential is the volume measure, and furthermore we have the following:
 
 **Theorem:** We have
 
@@ -294,7 +292,7 @@ Following [Gelfert and Motter](https://arxiv.org/pdf/1010.1791), we will be inte
 
 $$ \int_0^t \varphi^u_Z( Z^\tau(x)) \,d\tau = \int_0^{\Phi_\varphi^X(x,t)} \varphi^u_X(X^\tau(x)) \,d\tau + \beta(Z^t(x)) - \beta(x).$$
 
-Gelfert and Motter pushed this further in their paper with the following.
+In fact, this potential $\beta$ is precisely the obstruction to a $C^1$-reparameterization preserving any smooth structures for the Anosov splittings. Gelfert and Motter pushed this further in their paper with the following.
 
 **Theorem:** Let $Z = \varphi X$ be a continuous reparameterization of $X$. For every continuous potential $\xi$, we have 
 
