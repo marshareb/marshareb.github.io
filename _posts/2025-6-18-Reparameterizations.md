@@ -33,7 +33,9 @@ and we denote the collection of volume preserving Anosov flows by $\mathfrak{X}_
 
 Let $\Omega^1(N)$ be the collection of $1$-forms on $N$. We say that $\alpha \in \Omega^1(N)$ is a *contact form* if $\alpha \wedge d\alpha \in \Omega^3_{vol}(N)$, and we denote the collection of contact forms by $\Omega^1_{con}(N)$. 
 
-The *contact structure* associated to the contact form is $\xi := \ker(\alpha)$. We say that a vector field $X \in \mathfrak{X}(N)$ is a *contact flow* if there exists $\alpha \in \Omega^1_{con}(N)$ such that $\mathcal{L}_X(\alpha) = 0$, and we denote the collection of contact flows by $\mathfrak{X}^{con}(N)$. Furthermore, given a contact form $\alpha \in \Omega^1_{con}(N)$, if $X \in \mathfrak{X}(N)$ is such that $\iota_X \alpha = 1$ and $\iota_X d\alpha = 0$, then we refer to $X$ as a *Reeb vector field*. 
+The *contact structure* associated to the contact form is $\xi := \ker(\alpha)$. We say that a vector field $X \in \mathfrak{X}(N)$ is a *contact flow* if there exists $\alpha \in \Omega^1_{con}(N)$ such that $\mathcal{L}_X(\alpha) = 0$, and we denote the collection of contact flows by $\mathfrak{X}^{con}(N)$. 
+
+Given a contact form $\alpha \in \Omega^1_{con}(N)$, if $X \in \mathfrak{X}(N)$ is such that $\iota_X \alpha = 1$ and $\iota_X d\alpha = 0$, then we refer to $X$ as a *Reeb vector field*. 
 
 As an easy warm up, let's observe the following.
 
@@ -83,7 +85,7 @@ Next, let's show that a Reeb vector field is a contact vector field.
 
 Finally, let's show that every contact flow is the Reeb vector field of some contact form.
 
-**Claim:** If $X \in \mathfrak{X}^{con}(N)$ is such that $\mathcal{L}_X(\theta) = 0$ for some $\theta \in \Omega^1_{con}(N)$ and $X$ is nowhere tangent to $\ker(\theta)$, then there exists $\alpha \in \Omega^1_{con}(N)$ such that $X$ is the Reeb vector field of $\alpha$.
+**Claim:** If $X \in \mathfrak{X}^{con}(N)$ is such that there is a contact from $\theta$ which is invariant under the flow of $X$ and $X$ is nowhere tangent to $\ker(\theta)$, then there exists a contact form $\alpha$ such that $X$ is the Reeb vector field of $\alpha$.
 
 **Proof:** Consider $\alpha := \theta/\theta(X)$. Observe that $\alpha \wedge d\alpha = (1/\theta(X))^2 \theta \wedge d\theta$, so $\alpha$ is a contact form. Furthermore, the contact structure for $\alpha$ and $\theta$ are the same, so we have $\mathcal{L}_X(\alpha) = \phi \alpha$ for a smooth potential $\phi$. Finally, notice that 
 
