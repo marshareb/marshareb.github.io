@@ -11,7 +11,7 @@ categories:
 
 In this post, we survey results on reparameterizations of contact flows on 3-manifolds.
 
-The aim of this post is to collect some known results on reparameterizations and orbit equivalences into one spot. We mostly focus on the case of contact flows on $3$-manifolds, but many of these results extend to higher dimensions (and the arguments are essentially the same).
+The aim of this post is to collect some known results on reparameterizations and orbit equivalences into one spot. We mostly focus on the case of contact flows on $3$-manifolds, but many of these results extend to higher dimensions (and the arguments are essentially the same). 
 
 # Preliminaries
 
@@ -30,9 +30,9 @@ $$ \frac{d}{dt} (X^t)_*(\mu) = \mathcal{L}_X(\mu) = 0,$$
 
 and we denote the collection of volume preserving Anosov flows by $\mathfrak{X}_A^{vol}(N)$. Finally, we refer to the plane field $x \mapsto E^s_X(x) \oplus E^u_X(x)$ as the *Anosov structure*. When we discuss regularity of the Anosov structure, we are discussing the regularity when viewed as a section of the Grassmanian bundle.
 
-It is well-known that this Anosov structure is Holder continuous; this is a standard argument with the Hadamard graph transform method (which can be found in Katok and Hasselblatt's book). In fact, slightly more can be said in the volume preserving case (see [Foulon and Hasselblatt](https://link.springer.com/article/10.1007/BF02783424)) -- a sloppy summary is that if $X \in \mathfrak{X}^{vol}_A(N)$ has $C^1$-Anosov splitting, then it must be either the suspension of an Anosov diffeomorphism or contact. 
+It is well-known that this Anosov structure is Holder continuous; this is a standard argument with the Hadamard graph transform method (which can be found in Katok and Hasselblatt's book). In fact, slightly more can be said in the volume preserving case (see [Foulon and Hasselblatt](https://link.springer.com/article/10.1007/BF02783424)) -- a brief summary is that if $X \in \mathfrak{X}^{vol}_A(N)$ has $C^1$-Anosov splitting, then it must be either the suspension of an Anosov diffeomorphism or contact. 
 
-Later, [Ghys](https://www.numdam.org/articles/10.24033/asens.1532/) showed that better regularity implies that the flow must come from a Riemannian metric. Again, a sloppy summary is that if $X \in \mathfrak{X}^{vol}_A(N)$ has $C^2$-Anosov structure, then it is smoothly conjugate to the geodesic flow of a negatively curved metric.
+Later, [Ghys](https://www.numdam.org/articles/10.24033/asens.1532/) showed that better regularity implies that the flow must come from a Riemannian metric. Again, a brief summary is that if $X \in \mathfrak{X}^{vol}_A(N)$ has $C^2$-Anosov structure, then it is smoothly conjugate to the geodesic flow of a negatively curved metric.
 ## Contact geometry and dynamics
 
 Let $\Omega^1(N)$ be the collection of $1$-forms on $N$. We say that $\alpha \in \Omega^1(N)$ is a *contact form* if $\alpha \wedge d\alpha$ is a volume form, and we denote the collection of contact forms by $\Omega^1_{con}(N)$. 
@@ -190,7 +190,7 @@ Furthermore, we will assume that $\Phi(x,t) >0$ if $t > 0$, and that $\Phi(x,t)$
 
 $$ Z^t(x) = X^{\Phi(x,t)}(x),$$
 
-where $\Phi$ is a cocycle over $X$. Let $\varphi(x) := \frac{d}{dt} \Big|_{t=0} \Phi(x,t)$. Notice that 
+where $\Phi$ is a cocycle over $X$. Let $\varphi(x) := \frac{d}{dt} |_{t=0} \Phi(x,t)$. Notice that 
 
 $$ Z(x) = \frac{d}{dt}\Big|_{t=0} Z^t(x) = \frac{d}{dt} \Big|_{t=0} X^{\Phi_\varphi^X(x,t)}(x) = \varphi(x) X(x),$$
 
@@ -296,17 +296,17 @@ Following [Gelfert and Motter](https://arxiv.org/pdf/1010.1791), we will be inte
 
 $$ \int_0^t \varphi^u_Z( Z^\tau(x)) \,d\tau = \int_0^{\Phi_\varphi^X(x,t)} \varphi^u_X(X^\tau(x)) \,d\tau + \beta(Z^t(x)) - \beta(x).$$
 
-In fact, this potential $\beta$ is precisely the obstruction to a $C^1$-reparameterization preserving any smooth structures for the Anosov splittings. Gelfert and Motter pushed this further in their paper with the following.
+In fact, this potential $\beta$ is precisely the obstruction to a $C^1$-reparameterization preserving any smooth structures for the Anosov splittings. Gelfert and Motter pushed this further in their paper with the following (see [Theorem 2](https://arxiv.org/pdf/1010.1791)).
 
 **Theorem:** Let $Z = \varphi X$ be a continuous reparameterization of $X$. For every continuous potential $\xi$, we have 
 
 $$ \mathcal{P}_Z \left( \varphi(\xi - \mathcal{P}_X(\xi)) \right) = 0.$$
 
-A similar result was also given by Gogolev and Rodriguez Hertz in Proposition 4.3 of [this](https://arxiv.org/pdf/2004.14431) paper. In fact, we can deduce the following from a similar argument.
+A similar result was also given by Gogolev and Rodriguez Hertz in Proposition 4.3 of [this](https://arxiv.org/pdf/2004.14431) paper. In fact, we can deduce the following from the same kind of argument.
 
-**Theorem:** Let $Z = \varphi X$ be a continuous reparameterization of $X$, and suppose they are both Anosov. For every closed orbit $\gamma$  
+**Theorem:** Let $Z = \varphi X$ be a continuous reparameterization of $X$, and suppose that $X$ is Anosov. For every closed orbit $\gamma$, we have
 
-$$ \chi^u_Z(\gamma) = \frac{\int_\gamma \psi}{\ell(\gamma)} \chi^u_X(\gamma). $$
+$$ \chi^u_Z(\gamma) = \frac{\int_\gamma \varphi}{\ell(\gamma)} \chi^u_X(\gamma). $$
 
 ### Reparameterizations of contact flows
 
@@ -314,7 +314,7 @@ Now let $X \in \mathfrak{X}^{con}_A(N)$. We say that $Z = \varphi X$ is a *speci
 
 $$ \varphi(x) = \frac{1}{C + \iota_X \omega}, $$
 
-where $\omega$ is a closed $1$-form on $N$ and $C \in \mathbb{R}$. This definition is motivated by the following (see also Lemma 2.1 in [Fang's paper](https://arxiv.org/pdf/math/0503191)).
+where $\omega$ is a closed $1$-form on $N$ and $C \in \mathbb{R}$. This definition is motivated by the following, which we refer to as Fang's criteria (see also Lemma 2.1 in [Fang's paper](https://arxiv.org/pdf/math/0503191)).
 
 **Proposition:** Let $X \in \mathcal{X}^{con}_A(N)$ and let $Z = \varphi X$ be a smooth reparameterization. We have that $Z \in \mathfrak{X}^{con}_A(N)$ if and only if $Z$ is a special reparameterization.
 
@@ -350,13 +350,13 @@ and so this is a special reparameterization.
 
 Now assume that $Z$ is a special reparameterization, so $\psi = C + \iota_X \omega$. We claim that the smooth $1$-form $\alpha_Z := C \alpha_X + \omega$ is the canonical $1$-form for $Z$. We break this up into three steps.
 
-Step 1: To see that $\iota_Z \alpha_Z = 1$, notice that $Z = \varphi X = X/\psi$, so 
+**Step 1:** To see that $\iota_Z \alpha_Z = 1$, notice that $Z = \varphi X = X/\psi$, so 
 
 $$  \iota_Z \alpha_Z = C \iota_Z \alpha_X + \iota_Z \omega = \frac{C + \iota_X\omega}{C + \iota_X \omega} = 1.$$
 
-Step 2: Since $\omega$ is closed, we have $d \alpha_Z = C d\alpha_X$, so $\iota_Z d\alpha_Z = C\varphi \iota_X d\alpha_X = 0.$
+**Step 2:** Since $\omega$ is closed, we have $d \alpha_Z = C d\alpha_X$, so $\iota_Z d\alpha_Z = C\varphi \iota_X d\alpha_X = 0.$
 
-Step 3: We now need to show that $\ker(\alpha_Z)$ is the Anosov structure. Observe that
+**Step 3:** We now need to show that $\ker(\alpha_Z)$ is the Anosov structure. Observe that
 
 $$ \mathcal{L}_X \left( -\psi \left(\frac{\omega}{C + \iota_X\omega}\right) \right) = -\mathcal{L}_X(\omega) = \psi^2 d\varphi,$$
 
@@ -372,12 +372,11 @@ Using the $\kappa^s$ defined in the Anosov-Sinai theorem, this shows us that $\a
 
 **Remark:** If $Z$ is a special reparameterization of $X$, then we have that 
 
-$$ \mu_Z = \alpha_Z \wedge d\alpha_Z = C^2 \mu_X+ Cd(\omega \wedge \alpha_X). \square$$
+$$ \mu_Z = \alpha_Z \wedge d\alpha_Z = C^2 \mu_X+ Cd(\omega \wedge \alpha_X).  \square$$
 
+## Orbit equivalences, conjugacies, and cohomology
 
-## Orbit equivalences and Conjugacies
-
-We'll now stick with the Anosov setting. Given $X,Y \in \mathfrak{X}_A(N)$, we say that they are *orbit equivalent* if there is a positive continuous potential and a homeomorphism  such that 
+We now stick with the Anosov setting. Given $X,Y \in \mathfrak{X}_A(N)$, we say that they are *orbit equivalent* if there is a positive continuous potential and a homeomorphism  such that 
 
 $$ h \circ Y^t(x) = X^{\Phi_\varphi^X(x,t)} \circ h(x).$$
 
@@ -399,4 +398,26 @@ We say that a continuous potential $\varphi$ is a *coboundary* if there is a con
 
 **Claim:** If $Z = \varphi X$ is a reparameterization of $X$ and $\varphi$ is cohomologous to $1$, then $X$ and $Z$ are conjugate.
 
+Observe that if $\varphi$ and $\psi$ are two continuous potentials which are cohomologous, then for every measure $\mu \in \mathcal{M}(X)$, we have 
 
+$$\int_N \varphi d\mu = \int_N \psi d\mu. $$
+
+Remarkably, in the Holder setting, it not only turns out that this is a sufficient condition, but it turns out that one can check this condition on just the orbital measures. This is the content of the [Livshits theorem](https://iopscience.iop.org/article/10.1070/IM1972v006n06ABEH001919) (see also [Vaughn's post](https://vaughnclimenhaga.wordpress.com/2018/10/02/cohomologous-functions-and-the-livsic-theorem/)).
+
+**Theorem:** If $\varphi$ and $\psi$ are two Holder continuous potentials such that for every closed orbit $\gamma$ of $X^t$ we have
+
+$$ \int_\gamma \varphi = \int_\gamma \psi, $$
+
+then $\varphi$ and $\psi$ are cohomologous.
+
+As a consequence of this theorem, we have Katok's criteria for upgrading an orbit equivalence to a conjugacy.
+
+**Theorem:** Let $X^t$ and $Y^t$ be two Anosov flows which are orbit equivalent. If the periods of corresponding closed orbits are the same, then the two flows are conjugate.
+
+We are now interested in the regularity of this conjugacy. Using a modification of the Livshits theorem by [Dilsavor and I](https://arxiv.org/pdf/2304.01372), we have the [Gogolev and Rodriguez Hertz alternative](https://arxiv.org/pdf/2210.02295). 
+
+**Theorem:** Let $X, Y \in \mathfrak{X}_A^{vol}(N)$ generate flows which are conjugate via $H$. Then one of the following is true.
+1) The conjugacy $H$ is smooth.
+2) The flows are constant roof suspensions of Anosov diffeomorphisms.
+
+An immediate corollary of this theorem is that if $X,Y \in \mathfrak{X}^{con}_A(N)$ and they are conjugate, then they are smoothly conjugate. However, a remaining interesting question is what happens if they are only assumed to be orbit equivalent. In an upcoming paper, Leguil, Gogolev, and Rodriguez Hertz will address this question in full generality.
