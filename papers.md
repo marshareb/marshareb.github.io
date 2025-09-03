@@ -8,6 +8,9 @@ Here are a collection of papers and presentations I've done over the years.
 
 ## Submitted
 
+<h3><a class = "link-style" href="https://arxiv.org/abs/2504.17153">On the creation of conjugate points for thermostats  (with Javier Echevarría Cuesta)</a> [2025] </h3>
+<p> We show that, on a closed Riemannian surface, the interior in a fine topology of the set of smooth functions on the unit tangent bundle for which the corresponding thermostat has no conjugate points is a subset of those functions for which the thermostat is projectively Anosov. Moreover, we prove that if a reversible thermostat is projectively Anosov, then its non-wandering set contains no conjugate points. </p>
+
 <h3><a class = "link-style" href="https://arxiv.org/abs/2501.01923">Thermostats without conjugate points (with Javier Echevarría Cuesta)</a> [2025] </h3>
 <p> We generalize Hopf's theorem to thermostats: the total thermostat curvature of a thermostat without conjugate points is non-positive, and vanishes only if the thermostat curvature is identically zero. We further show that, if the thermostat curvature is zero, then the flow has no conjugate points, and the Green bundles collapse almost everywhere. Given a thermostat without conjugate points, we prove that the Green bundles are transversal everywhere if and only if it admits a dominated splitting. Finally, we provide an example showing that Hopf's rigidity theorem on the 2-torus cannot be extended to thermostats. It is also the first example of a thermostat with a dominated splitting which is not Anosov. </p>
 
@@ -16,7 +19,7 @@ Here are a collection of papers and presentations I've done over the years.
 <p> A generalization of Guillarmou, Lefeuvre, and Paternain to the setting of Anosov magnetic flows. </p>
 
 
-## Accepted
+## Accepted/Published
 
 <h3><a class = "link-style" href="https://arxiv.org/abs/2309.10882"> A counterexample to marked length spectrum semi-rigidity (with Andrey Gogolev)</a> [2024] </h3>
 <p> Given a closed orientable negatively curved Riemannian surface, we show how to construct a perturbation such that each closed geodesic becomes longer, and yet there is no diffeomorphism which contracts every tangent vector. To appear in <em>Groups, Geometry, and Dynamics</em>.</p>
