@@ -187,9 +187,15 @@ Given a $\theta$-Lipschitz map $r$, which we will call the *roof function*, we c
 
 $$X_A^r := \{(x,t) : x \in X_A, 0 \leq t \leq r(x)\}/\sim$$
 
-where $(x, r(x)) \sim (\sigma(x), 0)$. We equip this space with the metric
+where $(x, r(x)) \sim (\sigma(x), 0)$. One may be tempted to equip this space with the usual quotient metric (and for the purposes of this note, it is probably sufficient). However, there is another metric due to [Bowen and Walters](https://www.sciencedirect.com/science/article/pii/0022039672900137) which is slightly more convenient. We briefly recall its construction, following [this](https://arxiv.org/abs/1606.06253) paper. For two points $(x,s), (y,s) \in X^r_A$, we define the *horizontal distance* (with respect to the $\theta$-metric) between them by 
 
-$$ d_\theta((x,t),(y,s)) := d_\theta(x,t) + \vert t-s \vert.$$
+$$ d_H((x,s), (y,s)) = (1-s) d_\theta(x,y) + s d_\theta(x,y).$$
+
+Similarly, for two points $(x,s), (x,t) \in X^r_A$, we define the *vertical distance* between them by 
+
+$$ d_V((x,s), (x,t)) = \vert s-t \vert.$$
+
+The distance between two points with respect to the *Bowen-Walters metric* is then defined to be the infimum over all lengths of chains of horizontal and vertical paths connecting two points, where the length is calculated with respect to the above two distances. The advantage of this metric over the usual quotient metric is that the suspension flow is Holder continuous with respect to the Bowen-Walters metric, while it is not continuous with respect to the quotient metric.
 
 The *suspension flow* is then the flow on $X_A^r$ with corresponding vector field $\partial/\partial t$. However, we can state it more precisely -- it is the flow $\sigma^t : X_A^r \rightarrow X_A^r$ given by $\sigma^t(x,s) := (x, s+t)$ for small $t$. A *closed orbit* for the suspension flow is then a curve $\gamma(t) := \sigma^t(x,s)$ such that $\gamma(0) = \gamma(T)$ for some $T > 0$. The smallest such $T$ is the *period* of the flow. 
 
