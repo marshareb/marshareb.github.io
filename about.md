@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a sixth year mathematics graduate student at Ohio State University. My advisor is [Andrey Gogolev](https://people.math.osu.edu/gogolyev.1/). I am currently on the job market.
+I am an L.E. Dickson Instructor and NSF Postdoc in the Department of Mathematics at the University of Chicago. I completed my Ph.D. in 2025 at OSU, and my advisor was <a href="https://people.math.osu.edu/gogolyev.1/">Andrey Gogolev</a>.
 
 ### Research Interests
 
