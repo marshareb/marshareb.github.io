@@ -18,9 +18,9 @@ Let $X^t : M \rightarrow M$ be a transitive Anosov flow, let $\theta$ be any $1$
 
 $$ \mathcal{L}_X\theta = du.$$
 
-One interesting question is whether this implies that $u$ has to be a coboundary. Recall that $u$ is a *dynamical coboundary* if there is a smooth function $w$ such that $\mathcal{L}_X w = u$. 
+One interesting question is whether this implies that $u$ has to be a coboundary (such a question arose from discussions with Andrey Gogolev). Recall that $u$ is a *dynamical coboundary* if there is a smooth function $w$ such that $\mathcal{L}_X w = u$.
 
-We have the following as a preliminary observation.
+We have the following as a preliminary observation (which arose from discussions with Simion Filip).
 
 **Claim:** We have $\iota_X d\theta = 0$.
 
@@ -44,7 +44,7 @@ Now apply the exterior derivative to both sides:
 
 $$ d \theta_X = d \iota_X \theta = du = \iota_X d\theta + d \iota_X \theta.$$
 
-After rearranging, the result follows. $\square$
+After rearranging, the result follows.  $\square$
 
 This is reminiscent of a Reeb like property. In light of this, we construct two counterexamples.
 
