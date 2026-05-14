@@ -23,6 +23,7 @@ One interesting question is whether this implies that $u$ has to be a coboundary
 We have the following as a preliminary observation.
 
 **Claim:** We have $\iota_X d\theta = 0$.
+
 **Proof:** Using Cartan's magic formula, recall
 $$ \iota_X d \theta + d \iota_X \theta = du.$$
 Let $\theta_X := \iota_X \theta$ be a smooth function on $M$. Contracting both sides with $X$ yields
