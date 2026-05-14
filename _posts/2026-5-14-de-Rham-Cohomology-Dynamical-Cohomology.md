@@ -25,7 +25,7 @@ We have the following as a preliminary observation.
 **Claim:** We have $\iota_X d\theta = 0$.
 **Proof:** Using Cartan's magic formula, recall
 $$ \iota_X d \theta + d \iota_X \theta = du.$$
-Let $\theta_X \coloneq \iota_X \theta$ be a smooth function on $M$. Contracting both sides with $X$ yields
+Let $\theta_X := \iota_X \theta$ be a smooth function on $M$. Contracting both sides with $X$ yields
 $$ \mathcal{L}_X \theta_X = \mathcal{L}_Xu \implies \mathcal{L}_X(\theta_X - u) = 0.$$
 Since $X^t$ is transitive, let $x \in M$ have a dense orbit. Observe that for all $T \geq 0$, 
 $$  0 = \int_0^T \mathcal{L}_X(\theta_X - u)(X^t(x))\,dt = (\theta_X - u)(X^T(x)) - (\theta_X - u)(x).$$
@@ -41,7 +41,7 @@ This is reminiscent of a Reeb like property. In light of this, we construct two 
 
 **Proof:** The first example is the trivial one. Simply take $\theta = 0$, and note that any constant function does the trick. One may suspect that $u$ has to be an *almost coboundary* from this, i.e., there exists a smooth function $w$ such that $\mathcal{L}_X w = u + C$ for some $C \in \mathbb{R}$. The next example shows that this is also not the case.
 
-Now, assume that $X^t$ is a Reeb flow associated to a contact form $\theta$, let $\beta$ be any closed $1$-form on $M$, and define $u \coloneq \iota_X \beta.$ We see that 
+Now, assume that $X^t$ is a Reeb flow associated to a contact form $\theta$, let $\beta$ be any closed $1$-form on $M$, and define $u := \iota_X \beta.$ We see that 
 $$ \mathcal{L}_X(\theta + \beta) = d \iota_X \beta = du.$$
 Notice that for all closed orbits $\gamma$, we have
 $$ \int_\gamma u = \int_\gamma \iota_X \beta. $$
