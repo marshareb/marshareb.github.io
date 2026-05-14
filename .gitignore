@@ -21,3 +21,7 @@ _posts/.obsidian/themes/Royal Velvet/theme.css
 _posts/.obsidian/themes/Royal Velvet/manifest.json
 _posts/.obsidian/themes/Minimal/theme.css
 _posts/.obsidian/themes/Minimal/manifest.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+.obsidian/workspace.json
