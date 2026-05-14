@@ -89,7 +89,7 @@ Next, let's show that a Reeb vector field is a contact vector field.
 
 Finally, let's show that every contact flow is the Reeb vector field of some contact form.
 
-**Claim:** If $X \in \mathfrak{X}^{con}(N)$ is such that there is a contact from $\theta$ which is invariant under the flow of $X$ and $X$ is nowhere tangent to $\ker(\theta)$, then there exists a contact form $\alpha$ such that $X$ is the Reeb vector field of $\alpha$.
+**Claim:** If $X \in \mathfrak{X}^{con}(N)$ is such that there is a contact form $\theta$ which is invariant under the flow of $X$ and $X$ is nowhere tangent to $\ker(\theta)$, then there exists a contact form $\alpha$ such that $X$ is the Reeb vector field of $\alpha$.
 
 **Proof:** Consider $\alpha := \theta/\theta(X)$. Observe that $\alpha \wedge d\alpha = (1/\theta(X))^2 \theta \wedge d\theta$, so $\alpha$ is a contact form. Furthermore, the contact structure for $\alpha$ and $\theta$ are the same, so we have $\mathcal{L}_X(\alpha) = \phi \alpha$ for a smooth potential $\phi$. Finally, notice that 
 
@@ -148,7 +148,7 @@ where the supremum is over $\mu \in \mathcal{M}(X)$. An amazing fact thanks to B
 
 **Theorem:** For every Holder potential $\varphi$, there is a unique measure $\mu_\varphi \in \mathcal{M}(X)$ which realizes the topological pressure. 
 
-We call this measure the *equilibrium state* of the potential. Finally, recall that a measure $\mu \in \mathcal{M}(X)$ is *ergodic* if $X^{t}(A) = A$ for all $t \in \mathbb{R}$ implies that $\mu(A) \in \{0,1\}$, and let $\mathcal{M}_e(X) \subseteq \mathcal{M}(X)$ be those measures which are ergodic. Then the supremum in both of the above definitions can be taken over $\mathcal{M}_e(X)$ instead of $\mathcal{M}(X)$, and every equilibrium state.
+We call this measure the *equilibrium state* of the potential. Finally, recall that a measure $\mu \in \mathcal{M}(X)$ is *ergodic* if $X^{t}(A) = A$ for all $t \in \mathbb{R}$ implies that $\mu(A) \in \{0,1\}$, and let $\mathcal{M}_e(X) \subseteq \mathcal{M}(X)$ be those measures which are ergodic. Then the supremum in both of the above definitions can be taken over $\mathcal{M}_e(X)$ instead of $\mathcal{M}(X)$, and every equilibrium state is ergodic.
 ### Lyapunov exponents
 
 The idea behind Lyapunov exponents is that they give quantitative estimates on how fast the system is expanding or contracting on an exponential level. We now switch perspectives back to $X \in \mathfrak{X}(N)$. Oseledet's multiplicative ergodic theorem tells us that for $\mu \in \mathcal{M}_e(X)$, the limit
@@ -206,7 +206,7 @@ We call $\varphi$ the *generator* of the cocycle. Since our cocycles are differe
 
 $$ \Phi_\varphi^X(x,t) := \int_0^t \varphi(X^\tau(x))\,d\tau.$$
 
-Since this is a strictly monotone function in $t$, it's inverse is well-defined. In this case, it arises very naturally through the flow $Z^t$. For convenience, let $\psi(x) := 1/\varphi(x)$.
+Since this is a strictly monotone function in $t$, its inverse is well-defined. In this case, it arises very naturally through the flow $Z^t$. For convenience, let $\psi(x) := 1/\varphi(x)$.
 
 **Claim:** We have $\Phi_\varphi^X(x, \Phi^Z_\psi(x,t)) = t = \Phi_\psi^Z(x, \Phi^X_\varphi(x,t)).$ Moreover, we have $\varphi(X^{\Phi_\psi^Z(x,t)}(x)) = 1/\psi(Z^t(x)).$ 
 
@@ -248,7 +248,7 @@ Since $\kappa(0) = 0$, we can integrate this to get
 
 $$ \kappa(t) = -\int_0^t d_{Z^\tau(x)}\log(\psi)\left(\gamma(\tau) \right)\,d\tau$$
 
-To finish the proof, we preform a change of variables $s = \Phi_\varphi^X(x,\tau)$, so $ds = \frac{d\tau}{\psi(Z^\tau(x))}$.  This then yields
+To finish the proof, we perform a change of variables $s = \Phi_\varphi^X(x,\tau)$, so $ds = \frac{d\tau}{\psi(Z^\tau(x))}$.  This then yields
 
 $$ \kappa(t) = - \int_0^{\Phi^X_\varphi(x,t)} d_x(\psi \circ X^s) \,ds,$$
 
@@ -414,7 +414,7 @@ As a consequence of this theorem, we have Katok's criteria for upgrading an orbi
 
 **Theorem:** Let $X^t$ and $Y^t$ be two Anosov flows which are orbit equivalent. If the periods of corresponding closed orbits are the same, then the two flows are conjugate.
 
-We are now interested in the regularity of this conjugacy. Using a modification of the Livshits theorem by [Dilsavor and I](https://arxiv.org/pdf/2304.01372), we have the [Gogolev and Rodriguez Hertz alternative](https://arxiv.org/pdf/2210.02295). 
+We are now interested in the regularity of this conjugacy. Using a modification of the Livshits theorem by [Dilsavor and me](https://arxiv.org/pdf/2304.01372), we have the [Gogolev and Rodriguez Hertz alternative](https://arxiv.org/pdf/2210.02295). 
 
 **Theorem:** Let $X, Y \in \mathfrak{X}_A^{vol}(N)$ generate flows which are conjugate via $H$. Then one of the following is true.
 1) The conjugacy $H$ is smooth.
